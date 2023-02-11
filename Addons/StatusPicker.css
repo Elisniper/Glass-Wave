@@ -26,9 +26,7 @@
     width: 232px;
     left: 22px;
     box-shadow: none;
-}
-.accountProfilePopoutWrapper-3GskID .userPopoutInner-1hXSeY.userProfileInner-3F03PX.userProfileInnerUnthemed-1XxIZu.userProfileInnerWithBanner-3CJ1Og, .accountProfilePopoutWrapper-3GskID .userProfileInnerNonPremium-1XjSjn, .accountProfilePopoutWrapper-3GskID .userProfileInnerPremiumWithoutBanner-37uB4Q {
-    background: var(--mbd-black4);
+    top: 10px;
 }
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi {
     background: transparent;
