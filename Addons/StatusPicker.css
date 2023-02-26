@@ -18,6 +18,7 @@
     position: relative;
     width: 240px;
     left: 22px;
+    bottom: -7px;
     background: transparent;
     box-shadow: none;
 }
