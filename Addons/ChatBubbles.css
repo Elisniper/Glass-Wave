@@ -4,7 +4,7 @@
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
     padding-bottom: 3px;
-    background-color: var(--va-black1);
+    background-color: var(--var-black1);
     border-bottom: none !important;
     overflow: visible !important;
 }
@@ -18,7 +18,7 @@
     margin: -6px 0 0 0;
     border: 6px solid transparent;
     border-color: transparent;
-    border-right-color: var(--va-black1);
+    border-right-color: var(--var-black1);
     pointer-events: none;
     transform: rotate(135deg);
 }
@@ -46,11 +46,11 @@
     background-color: var(--background-mentioned) !important;
 }
 .message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
-    background-color: var(--va-black1);
+    background-color: var(--var-black1);
 }
 .message-2CShn3:not(.groupStart-3Mlgv1) {
     margin: 0 5px 0 70px;
-    background: var(--va-black1);
+    background: var(--var-black1);
     overflow: visible;
 }
 .message-2CShn3:not(.groupStart-3Mlgv1):before {
@@ -63,27 +63,27 @@
     left: -65px;
 }
 .embedFull-1HGV2S {
-    border-left: 4px solid var(--va-black2);
+    border-left: 4px solid var(--var-black2);
 }
 .embedFull-1HGV2S {
-    background: var(--va-black2) !important;
+    background: var(--var-black2) !important;
 }
 .attachment-1PZZB2 {
-    border-color: var(--va-black1) !important;
-    background-color: var(--va-black1) !important;
+    border-color: var(--var-black1) !important;
+    background-color: var(--var-black1) !important;
 }
 .hljs {
-    background: var(--va-black2);
+    background: var(--var-black2);
 }
 .markup-eYLPri code {
-    background: var(--va-black2) !important;
+    background: var(--var-black2) !important;
 }
 .jumpToPresentBar-1cEnH0 {
-    background-color: var(--va-black2) !important;
+    background-color: var(--var-black2) !important;
 }
 .textContainer-36wgKK, .footer-GXWBBp, .modalTextContainer-1FUO2W {
-    background-color: var(--va-black2) !important;
-    border: 1px solid var(--va-black2) !important;
+    background-color: var(--var-black2) !important;
+    border: 1px solid var(--var-black2) !important;
 }
 .mentioned-Tre-dv.message-2CShn3.groupStart-3Mlgv1 {
     background-color: var(--background-mentioned) !important;
@@ -123,31 +123,31 @@
     left: 6px;
 }
 .theme-dark .scroller-2GkvCq {
-    background: var(--va-black2);
+    background: var(--var-black2);
 }
 .theme-dark .container-KM8BU6, .theme-dark .reactors-1VXca7 {
-    background-color: var(--va-black1);
+    background-color: var(--var-black1);
 }
 .button-3bklZh.dangerous-Y36ifs {
-    color: var(--va-notification);
+    color: var(--var-notification);
 }
 /* Automod Messages */
 .embedCard-bDyD5S {
-    background-color: var(--va-black2);
+    background-color: var(--var-black2);
 }
 .iconContainer-3WHKMP {
     left: -76px;
     top: 0;
 }
 .automodMessage-265YwJ:before, .shieldIcon-2QHlhC {
-    background-color: var(--va-notification);
+    background-color: var(--var-notification);
 }
 .embedCard-bDyD5S .cozy-VmLDNB.wrapper-30-Nkg {
     position: relative;
     margin-left: 50px;
     padding-left: 10px;
     padding-bottom: 3px;
-    background-color: var(--va-black1);
+    background-color: var(--var-black1);
     border-bottom: none !important;
     overflow: visible !important;
 }
