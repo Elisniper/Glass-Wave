@@ -1,6 +1,6 @@
-@import url(https://elisniper.github.io/Volcanic-Arc/Addons/StatusPicker.css);
-@import url(https://elisniper.github.io/Volcanic-Arc/Addons/ChatBubbles.css);
-@import url(https://elisniper.github.io/Volcanic-Arc/Addons/Icons.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/StatusPicker.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/ChatBubbles.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Icons.css);
 
 
 :root {
@@ -9,13 +9,6 @@
     --var-black1: rgb(0 0 0 / 55%);
     --var-black2: rgb(0 0 0 / 65%);
     --var-notification: #B00020;
-}
-.bd-addon-list.bd-grid-view #Volcanic\ Arc-card {
-    background-image: var(--var-background);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: 0;
 }
 /* Theme info and version */
 .info-3pQQBb:after {
