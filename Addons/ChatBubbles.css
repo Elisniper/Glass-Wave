@@ -37,6 +37,9 @@
     top: 0px;
     left: 20px;
 }
+.preview-3k9WhO .avatar-2e8lTP {
+    left: -55px;
+}
 .message-2CShn3:not(.groupStart-3Mlgv1).cozy-VmLDNB.wrapper-30-Nkg {
     padding-left: 10px;
     padding-top: 1px;
@@ -73,18 +76,18 @@
     background-color: var(--var-black1) !important;
 }
 .hljs {
-    background: var(--var-black2);
+    background: rgb(181 181 181 / 20%);
 }
 .markup-eYLPri code {
-    background: var(--var-black2) !important;
+    background: var(--var-black1) !important;
 }
 .jumpToPresentBar-1cEnH0 {
-    background-color: rgb(27 79 88);
+    background-color: rgb(10 66 83);
     bottom: 8px;
 }
 .textContainer-36wgKK, .footer-GXWBBp, .modalTextContainer-1FUO2W {
-    background-color: var(--var-black2) !important;
-    border: 1px solid var(--var-black2) !important;
+    background-color: var(--var-black1) !important;
+    border: 1px solid var(--var-black1) !important;
 }
 .mentioned-Tre-dv.message-2CShn3.groupStart-3Mlgv1 {
     background-color: var(--background-mentioned) !important;
