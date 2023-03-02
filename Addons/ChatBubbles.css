@@ -79,7 +79,8 @@
     background: var(--var-black2) !important;
 }
 .jumpToPresentBar-1cEnH0 {
-    background-color: var(--var-black2) !important;
+    background-color: rgb(27 79 88);
+    bottom: 8px;
 }
 .textContainer-36wgKK, .footer-GXWBBp, .modalTextContainer-1FUO2W {
     background-color: var(--var-black2) !important;
@@ -125,7 +126,7 @@
     border-bottom: none !important;
     overflow: visible !important;
 }
-.recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg:after {
+.recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg:after, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg:after {
     border-right-color: rgb(181 181 181 / 20%);
 }
 .recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg .avatar-2e8lTP, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg .avatar-2e8lTP {
