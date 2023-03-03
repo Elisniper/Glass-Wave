@@ -117,7 +117,7 @@
     top: 0;
 }
 .button-3bklZh:hover, .wrapper-2vIMkT {
-    background-color: transparent;
+    background-color: rgb(10 20 20);
     border-radius: 0;
 }
 .recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg {
@@ -128,6 +128,15 @@
     background-color: rgb(181 181 181 / 20%);
     border-bottom: none !important;
     overflow: visible !important;
+}
+.recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg:not(.groupStart-3Mlgv1) {
+    margin: 0 0 0 60px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+.recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg:not(.groupStart-3Mlgv1):after {
+    border-right-color: transparent;
 }
 .recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg:after, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg:after {
     border-right-color: rgb(181 181 181 / 20%);
