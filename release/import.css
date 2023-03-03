@@ -155,7 +155,7 @@
 .button-1kija8:hover, .perks-2IIbWQ, .quickswitcher-pKcM9U .input-3r5zZY, .result-u66Ywh[aria-selected=true], .header-1ffhsl .container-1SX9VC, .note-6O4w9y textarea:focus,
 .colorable-3rVGna.primaryDark-2UJt1G, .container-3a5mk-, .activityTag-3C3YK5, .scrollTierBackgroundUpsell-2oh_9T, .scrollTierBackground-BnWR8k, .root-1BPI9i,
 .note-3TX9O7 textarea:focus, .upload-vLbqu-, .reaction-3vwAF2, .wrapper-NhbLHG:hover .content-1gYQeQ, .profileBadges-31rDHI, .cardPrimary-pAe8Ed, .memberRow-1FhJgR:hover,
-.sidebar-3K3Z4C .list-1AJFv_ .themed-qqoYp3.item-2GWPIy:hover, .winButtonMinMax-3RsPUg:hover {
+.sidebar-3K3Z4C .list-1AJFv_ .themed-qqoYp3.item-2GWPIy:hover, .winButtonMinMax-3RsPUg:hover, .theme-dark .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover {
     background-color: rgb(181 181 181 / 20%);
 }
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
@@ -169,7 +169,8 @@
 .menu-1QACrS, .header-11eigE, .emojiPicker-6YCk8a, .contentWrapper-3vHNP2, .wrapper-2SplAX, .theme-dark .customColorPicker-C_jddW, .messageContainer-3VTXBC, .footer-5ji8u1,
 .popout-15UxD6, .container-3YcgdM, .divider-AZrXIA, .menu-2TXYjN, .wrapper-1HIH0j, .resultsList-2Bp-2_, .popout-TdhJ6Z, .theme-dark .tierMarkerBackground-G8FoN4, 
 .quickswitcher-pKcM9U, .noiseCancellationPopout-2-e5Xz, .container-1jQZ2U, .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX, .button-3bklZh:hover,
-.folder-241Joy, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT, .childWrapper-1j_1ub, .container-18GwIk {
+.folder-241Joy, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT, .childWrapper-1j_1ub, .container-18GwIk, .theme-dark .streamPreview-I7itZ6, 
+.scroller-3b1p7z {
     background-color: rgb(10 20 20);
 }
 .legacySession-UoUT_h .sessionIcon-2fwSzb {
@@ -237,6 +238,9 @@
 }
 .checkbox-1LuCGM[style*="border-color: var(--control-brand-foreground);"] path {
     fill: #FFF;
+}
+.liveQualityIndicator-2GyS_e[style="background-color: rgb(78, 80, 88);"] {
+    background-color: var(--var-accent) !important;
 }
 .backgroundOptionRing-1vvQ0C {
     border: 2px solid var(--var-accent);
