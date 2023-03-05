@@ -273,6 +273,9 @@
 .placeholderCard-3eGmb3 {
     border: 1px dashed var(--var-black1);
 }
+.divider-2rZFJK.isUnread-3Lojb- {
+    border-top: 1px solid var(--var-notification);
+}
 .lookOutlined-3RTC7c.colorPrimary-2-Lusz {
     border-color: var(--var-accent);
 }
