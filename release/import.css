@@ -47,7 +47,7 @@
 .previewMessage-2g_aBv, .theme-dark .notches-2w7UZJ.gray-3wP137, .content-2eQb8J, .theme-dark .directoryModal-YJsOMv, .container-AxP_J8, .groupContainer-JYaEbn,
 .collapseable-1FiLab.toggled-SfZPpc:active, .searchableSelect-S6iCGx .option-Uc12mm .selectedIcon-122rMx, .overlayBackground-1KgwVi .menu-KSaHL1, .theme-dark .perksModal-CLcR1c,
 .tierMarker-Vw1C95[style*="background: rgb(30, 31, 34);"], .content-1OG56Q .input-m1-Y7Q, .loadingPopout-1tyQMM, .scroller-2qwVWY, .attachedBars-2BCP3l,
-.theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .callContainer-HtHELf {
+.theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .callContainer-HtHELf, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S {
     background-color: transparent;
 }
 .bg-1QIAus {
@@ -156,7 +156,7 @@
 .colorable-3rVGna.primaryDark-2UJt1G, .container-3a5mk-, .activityTag-3C3YK5, .scrollTierBackgroundUpsell-2oh_9T, .scrollTierBackground-BnWR8k, .root-1BPI9i,
 .note-3TX9O7 textarea:focus, .upload-vLbqu-, .reaction-3vwAF2, .wrapper-NhbLHG:hover .content-1gYQeQ, .profileBadges-31rDHI, .cardPrimary-pAe8Ed, .memberRow-1FhJgR:hover,
 .sidebar-3K3Z4C .list-1AJFv_ .themed-qqoYp3.item-2GWPIy:hover, .winButtonMinMax-3RsPUg:hover, .theme-dark .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover,
-.theme-dark .quickSelectPopoutOption-2E2UmS:hover {
+.theme-dark .quickSelectPopoutOption-2E2UmS:hover, .searchHeader-1r_ZSh .searchHeaderTabList-3CZMQB .item-2GWPIy.selected-1sf9UK.themed-qqoYp3, .option-ayUoaq:hover {
     background-color: rgb(181 181 181 / 20%);
 }
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
@@ -171,7 +171,7 @@
 .popout-15UxD6, .container-3YcgdM, .divider-AZrXIA, .menu-2TXYjN, .wrapper-1HIH0j, .resultsList-2Bp-2_, .popout-TdhJ6Z, .theme-dark .tierMarkerBackground-G8FoN4, 
 .quickswitcher-pKcM9U, .noiseCancellationPopout-2-e5Xz, .container-1jQZ2U, .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX, .button-3bklZh:hover,
 .folder-241Joy, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT, .childWrapper-1j_1ub, .container-18GwIk, .theme-dark .streamPreview-I7itZ6, 
-.scroller-3b1p7z, .wrapper-1gVUIN, .theme-dark .quickSelectPopout-2F0PXw {
+.scroller-3b1p7z, .wrapper-1gVUIN, .theme-dark .quickSelectPopout-2F0PXw, .container-2McqkF {
     background-color: rgb(10 20 20);
 }
 .legacySession-UoUT_h .sessionIcon-2fwSzb {
@@ -421,6 +421,10 @@
 }
 .loadingPopout-1feYe_ {
     background-color: transparent;
+}
+.searchHeader-1r_ZSh .inner-MGEKwh:not(.pulsingEllipsis-3YiXRF) {
+    width: 8px;
+    height: 8px;
 }
 /* loading circle END*/
 
