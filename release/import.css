@@ -492,14 +492,14 @@
     height: 100%;
 }
 .wrapper-1gVUIN.noChat-2UYgeE {
-    height: 98.5%;
+    height: 100%;
     margin-bottom: 20px;
 }
 .callContainer-HtHELf, .wrapper-1gVUIN {
     border-radius: 10px 0 0 10px;
 }
 .container-3XgAHv {
-    height: 98.5%;
+    height: 100%;
 }
 .bar-2MWHzg {
     background-color: var(--var-black1);
@@ -507,16 +507,19 @@
 }
 .form-3gdLxP .base-3bcbY3 {
     position: absolute;
-    bottom: -3px;
+    bottom: -4px;
     left: 10px;
 }
 .platform-win .sidebar-1tnWFu {
     border-radius: 10px;
     margin-right: 5px;
-    height: 98.5%;
+    height: 100%;
+}
+.container-1eFtFS {
+    height: 98.6%;
 }
 .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN {
-    height: 98.5%;
+    height: 100%;
 }
 .sidebar-1tnWFu .panels-3wFtMD {
     margin-top: 10px;
@@ -528,13 +531,13 @@
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 10px 10px 10px 10px;
-    height: 98.5%;
+    height: 100%;
 }
 .form-3gdLxP {
     padding-left: 0;
 }
 .channelTextArea-1FufC0, .wrapper-2SplAX {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 .jump-1vIlrw {
     top: 5px;
@@ -595,11 +598,11 @@
 .container-3wLKDe {
     overflow: visible;
     background: transparent;
-    height: 98.5%;
+    height: 100%;
 }
 .profilePanel-2PWEok {
     width: 240px;
-    height: 98.5%;
+    height: 100%;
     background: transparent;
 }
 .container-2o3qEW .membersWrap-3NUR2t, .member-48YF_l, .members-3WRCEx, .membersWrap-3NUR2t .members-3WRCEx {
@@ -608,19 +611,19 @@
 .membersWrap-3NUR2t {
     background: var(--var-black1);
     border-radius: 0 0 0 10px;
-    height: 98.5%;
+    height: 100%;
 }
 .profilePanel-2PWEok .userPanelOuter-xc-WYi {
     background: var(--var-black1);
     border-radius: 0 0 0 10px;
 }
 .membersWrap-3NUR2t .members-3WRCEx, .container-2o3qEW {
-    height: 98.5%;
+    height: 100%;
     border-radius: 0 0 0 10px;
 }
 .searchResultsWrap-5RVOkx {
     background-color: var(--var-black1);
-    height: 98.5%;
+    height: 100%;
     border-radius: 0 0 0 10px;
     overflow: visible;
 }
