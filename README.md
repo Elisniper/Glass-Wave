@@ -6,6 +6,10 @@ Glass Wave is a transparent theme for Discord. Glass Wave tries to stay as low a
 
 I will try and provide Updates/Bug fixes as soon as possible when discord updates occur.
 
+The background color can be customised using the below code. (Copy it into custom css and alter the RGBA values to change the color).
+
+:root {--var-background: linear-gradient(138deg, rgba(162,247,220,1) 0%, rgba(18,145,187,1) 80%, rgba(35,108,179,1) 100%);;}
+
 # Installation
 
 1. Download the theme [here](https://github.com/Elisniper/Glass-Wave)
