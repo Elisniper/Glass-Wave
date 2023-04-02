@@ -106,7 +106,7 @@
 .noItemsCard-5EOcCl, .promotionCard-mo7ClH, .theme-dark .paymentPane-ut5qKZ, .theme-dark .codeRedemptionRedirect-2hYMSQ, .theme-dark .defaultIndicator-2ndWks, .container--8P6Tr,
 .contentCircle-15IFyT, .container-2cd8Mz .themed-Hp1KC_, .theme-dark .headerBar-1dSpQr, .container-2o3qEW, .searchResult-O9NDji, .header-1w9Q93, 
 .card-2guEcY:not(.outline-3kFzf8), .emptyCard-KDifrB, .mainCard-3KBsBI, .matchingPostsRow-2IiEQ1, .pill-3pRQlO, .bigPerkCard-1uwmWV, .smallPerkCard-2sX_--, 
-.children-2C96Ex .input-3O04eu, .theme-dark .expandedInfo-1W31i3, .premiumFeatureBorder-1i95si, .theme-dark .progress-1S-TDF, .avatarUploaderInnerSquareDisabled-3M9eJS,
+.children-2C96Ex .input-3O04eu, .theme-dark .expandedInfo-1W31i3, .theme-dark .progress-1S-TDF, .avatarUploaderInnerSquareDisabled-3M9eJS,
 .container-3EtAkD, .primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX, .container-3EtAkD:hover .icon-2DGsye, .theme-dark .default-1Tkeeg, 
 .theme-dark .tierHeaderUnlocked-1OpOLf, .theme-dark .tierHeaderLocked-30MLlO, .descriptionBox-SKGNgB, .marginBottom4-1fdMNe .input-3O04eu, .cardHeader-3d6H8N, .role-2TIOKu,
 .container-29HCg7 .search-2RHhW6, .category-2OvQ93, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .category-qFAw-K.activeCategory-1iqXig, .theme-dark .searchBox-pyIJJj,
@@ -421,6 +421,12 @@
 .checkbox-3gI2WR.selected-3KWlIC {
     background-color: var(--var-accent);
     border: 2px solid var(--var-accent);
+}
+.header-16U6Vf {
+    background: center 15%/90% auto url(/assets/69dacfb….svg) no-repeat;
+}
+.premiumBackground-34OIdE, .premiumFeatureBorder-1i95si {
+    background: var(--var-black1);
 }
 /* Coloring END */
 
