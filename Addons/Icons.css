@@ -249,6 +249,7 @@ background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcm
     background-repeat: no-repeat;
     background-size: 28px;
     background-position: center;
+    margin-top: -4px;
 }
 .icon-Lf4Ztd path {
     display: none;

@@ -4,9 +4,10 @@
     margin: 16px 5px 0 70px;
     padding: 8px 10px;
     padding-bottom: 3px;
-    background-color: var(--var-black1);
+    background: linear-gradient(135deg, rgb(24 44 43) 0%, rgb(11 35 40) 50%, rgb(5 30 38) 100%);
     border-bottom: none !important;
     overflow: visible !important;
+    border-radius: 0 5px 5px 5px;
 }
 .cozy-VmLDNB.wrapper-30-Nkg:after, .previewMessage-2g_aBv .message-2CShn3:not(.groupStart-3Mlgv1):before {
     content: '';
@@ -18,12 +19,15 @@
     margin: -6px 0 0 0;
     border: 6px solid transparent;
     border-color: transparent;
-    border-right-color: var(--var-black1);
+    border-right-color: rgb(24 44 43);
     pointer-events: none;
     transform: rotate(135deg);
 }
 .message-2CShn3.systemMessage-1H1Z20.groupStart-3Mlgv1:after, .message-2CShn3:not(.groupStart-3Mlgv1):after {
     display: none;
+}
+.message-2CShn3.systemMessage-1H1Z20.groupStart-3Mlgv1 {
+    border-radius: 5px;
 }
 .message-2CShn3.groupStart-3Mlgv1 .avatar-2e8lTP, .systemMessage-1H1Z20.message-2CShn3:not(.groupStart-3Mlgv1) .avatar-2e8lTP {
     top: 0px;
@@ -44,6 +48,8 @@
     padding-left: 10px;
     padding-top: 1px;
     padding-bottom: 3px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -3px;
 }
 .message-2CShn3:not(.groupStart-3Mlgv1).mentioned-Tre-dv {
     background-color: var(--background-mentioned) !important;
@@ -53,7 +59,7 @@
 }
 .message-2CShn3:not(.groupStart-3Mlgv1) {
     margin: 0 5px 0 70px;
-    background: var(--var-black1);
+    background: linear-gradient(135deg, rgb(24 44 43) 0%, rgb(11 35 40) 50%, rgb(5 30 38) 100%);
     overflow: visible;
 }
 .message-2CShn3:not(.groupStart-3Mlgv1):before {
@@ -90,7 +96,7 @@
     border: 1px solid var(--var-black1) !important;
 }
 .mentioned-Tre-dv.message-2CShn3.groupStart-3Mlgv1 {
-    background-color: var(--background-mentioned) !important;
+    background: var(--background-mentioned) !important;
 }
 .button-3bklZh {
     height: 18px;
@@ -152,6 +158,9 @@
 }
 .button-3bklZh.dangerous-Y36ifs {
     color: var(--var-notification);
+}
+.reactions-3ryImn {
+    margin-top: 5px;
 }
 /* Automod Messages */
 .embedCard-bDyD5S {
