@@ -784,6 +784,15 @@
 .theme-dark .game-2f2vPC {
     box-shadow: none;
 }
+/* Full screen FIX */
+.layer-86YKbF:has(.hidden-10MsGQ) {
+    top: -22px;
+    left: -15px;
+    bottom: -15px;
+}
+.layer-86YKbF:has(.hidden-10MsGQ) .wrapper-1gVUIN {
+    border-radius: 0;
+}
 /* Friends, Nitro and Public server buttons start */
 .container-32HW5s[aria-posinset="1"], .container-32HW5s[aria-posinset="2"] {
     display: inline-block;
