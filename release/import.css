@@ -58,7 +58,7 @@
 .scroller-RfJjkV, .wrapper-1NNaWG, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .theme-dark .paginator-1eqD2g, .theme-dark .payment-2bOh4k, .applicationStore-2nk7Lo,
 .scroller-29cQFV, .panels-3wFtMD, .selectedBackground-1t6xXq, .chat-2ZfjoI .themed-Hp1KC_, .searchHeader-1r_ZSh, .messageGroupWrapper-1jf_7C, 
 .theme-dark .themed-Hp1KC_, .chatContent-3KubbW, .container-JhuCwn .input-3O04eu, .content-1OG56Q .multiInput-1VARjC .input-3O04eu, .phoneField-3NAPDv .inputField-1iYysB,
-.previewMessage-2g_aBv, .theme-dark .notches-2w7UZJ.gray-3wP137, .content-2eQb8J, .theme-dark .directoryModal-YJsOMv, .container-AxP_J8, .groupContainer-JYaEbn,
+.previewMessage-2g_aBv, .theme-dark .notches-2w7UZJ.gray-3wP137, .content-2eQb8J, .container-AxP_J8, .groupContainer-JYaEbn,
 .collapseable-1FiLab.toggled-SfZPpc:active, .searchableSelect-S6iCGx .option-Uc12mm .selectedIcon-122rMx, .overlayBackground-1KgwVi .menu-KSaHL1, .theme-dark .perksModal-CLcR1c,
 .tierMarker-Vw1C95[style*="background: rgb(30, 31, 34);"], .content-1OG56Q .input-m1-Y7Q, .loadingPopout-1tyQMM, .scroller-2qwVWY, .attachedBars-2BCP3l,
 .theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .callContainer-HtHELf, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S, .spinner-3QeLKO,
@@ -97,7 +97,7 @@
 .theme-dark .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn, .theme-dark .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe, .theme-light .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe,
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .iconWrapper-3plkqh, .theme-dark .footer-1hTRRZ, .checkmark-1RtODZ, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill-3RgCsY, .container-ZSFRqx, .pillItemSelected-1o_C0R,
-.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3 {
+.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .directoryModal-YJsOMv {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper-kkoSV9:focus-within, .wrapper-SdcMKg {
@@ -129,7 +129,7 @@
 .groupCollapsedContainer-2z4Vrr, .pointer-3ErAGc, .editCard-K9Q9mb, .actionContainer-2krsiT, .editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV, .richTag-20_n21,
 .keywordListContainer-9ux8nU, .collapseable-1FiLab .keywordTextArea-c8D0xP, .theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj, .theme-dark .headerExpanded-1-zwDr,
 .upsellContainer-2a5eMP, .upsellFooter-3M1V33, .backgroundAccent-1MMH1o, .developerPortalCtaWrapper-2PniQs, .featureCard-3XHbjy, .checklistContainer-12xGp5, .checklistHeader-3liG7E,
-.header-Wl8ec-, .container-13pE3E, .exampleContainer-hz7EUM, .card-ErWTld, .howItWorksContainer-3ZDRIG, .creatorBenefitCard-174D7Q, .guildCard-1jXMTG, .ctaBar-Nhk8yY, 
+.header-Wl8ec-, .container-13pE3E, .exampleContainer-hz7EUM, .card-ErWTld, .howItWorksImageContainer-3U9Rdq, .creatorBenefitCard-174D7Q, .guildCard-1jXMTG, .ctaBar-Nhk8yY, 
 .theme-dark .tierBody-3ju-rc, .theme-dark .barBackground-unEPDT, .tierMarkerLabelText-1wk8KK:not(.isAccomplished-2NcqRT):hover, .stageUpsell-hekoJb, .theme-dark .perk-19D_HN,
 .theme-dark .bd-server-card, .bd-pagination button:hover, .bd-pagination button:active, .container-x8Y1ix, .role-23oyrw, .theme-dark .notDetected-M3Ghh2, 
 .theme-light .notDetected-M3Ghh2, .tag-15zcD_, .userPopoutInner-nv9Y92 .overlayBackground-2aa7wt, .activityItem-1Z9CTr, .participantsButton-1WBdFP,
@@ -138,7 +138,7 @@
 .testimonialHeroContainer-18HL2a, .previewListItem-2VAZ-Y, .progressBarCurrent-ea4YDg, .channelList-3INSQO, .header-1ug_s9, .channelRow-3V1FiH, .channelCoverage-Ix9axP,
 .channelCoverageDetails-3JBcxT, .container-3cFp_V, .pillContainer-2LYUah, .badExampleIcon-33kC6N, .actionItem-2aVT03, .resourceChannel-26Ed-C, .addActionItem-2IwCLo:hover,
 .addActionItem-2IwCLo:active, .onboardingStepContainer-a8QN2X, .theme-dark .headerArtPlaceholder-2sMMA0, .sidebarCardWrapper-34oCuK, .chatHeaderBar-31g1mU, 
-.channelRow-4X_3fi:hover:not(.disabled-3cfocy), .upsellPreview-zfsyzm, .container-3arpDl, .divider-2bkesd {
+.channelRow-4X_3fi:hover:not(.disabled-3cfocy), .upsellPreview-zfsyzm, .container-3arpDl, .divider-2bkesd, .changelog-2zmJ4c, .safetyChecklist-3kgSZf, .simpleItemWrapper-1Zwc4I {
     background-color: var(--var-black1);
 }
 /* Black 2 */
@@ -185,7 +185,7 @@
 .progressBarTrack-1JMWIp, .progressBarMarker-2dy17R, .action-3oG-si, .previewListItem-2VAZ-Y.selected-3KWlIC, .channelAndRoleContainer-2-YAvB .container-1SX9VC.medium-13kyaW,
 .channelRowLabel-3Y_t3O, .example-1aGQB0, .channelPill-3Sqy1k, .progressBar-2ULTnj, .actionItemEmojiWrapper-1B2uqj, .resourceChannelIcon-EreZiJ, .channelRow-4X_3fi,
 .separator-2N511j, .userProfileInnerThemedNonPremium-2AJg-H .note-3M15gE textarea:focus, .userProfileInnerThemedNonPremium-2AJg-H .note-1NN2aP textarea:focus, 
-.theme-dark .focused-2FU0YH, .theme-dark.navRow-dG-XX8, .loginForm-3gN0jt .input-3O04eu, .descriptionContainer-2ylKGk {
+.theme-dark .focused-2FU0YH, .theme-dark.navRow-dG-XX8, .loginForm-3gN0jt .input-3O04eu, .descriptionContainer-2ylKGk, .avatarCard-1N47yx {
     background-color: rgb(181 181 181 / 20%);
 }
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
