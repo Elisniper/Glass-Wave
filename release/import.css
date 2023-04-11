@@ -141,13 +141,16 @@
 .channelRow-4X_3fi:hover:not(.disabled-3cfocy), .upsellPreview-zfsyzm, .container-3arpDl, .divider-2bkesd, .changelog-2zmJ4c, .safetyChecklist-3kgSZf, .simpleItemWrapper-1Zwc4I {
     background-color: var(--var-black1);
 }
+.upsellOverlayContainer-3NMgTS {
+    background: var(--var-black1);
+}
 /* Black 2 */
 .accountProfileCard-lbN7n-, .theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover, .flexChild-3PzYmX .disabled-3S7pz8 .layout-1XOMLV,
 .flexChild-3PzYmX .itemFilled-2Fo7lr:hover:not([aria-checked=true]):not(.disabled-WBmOu_), .option-1QI4c9, .container-3tKtM_:hover,
 .theme-dark .card-2TuZPZ:hover, .theme-dark .card-2TuZPZ:hover .iconMask-2fMR98, .theme-dark .iconMask-2fMR98:hover, .theme-dark .iconMask-2fMR98:hover .iconMask-2fMR98,
 .cardPrimary-3qRT__, .guildSubscriptionSlots-1i_C21, .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-editor .margin,
 .option-1QI4c9:hover, .theme-dark .tierBody-1d3UiS, .actionContainer-EzNGrb, .theme-dark .tierHeaderLocked-3ItHYn, .activityItem-1Z9CTr:hover, 
-.channelRow-3V1FiH:hover:not(.disabled-47pull), .reviewHeader-SY3Ueh {
+.channelRow-3V1FiH:hover:not(.disabled-47pull), .reviewHeader-SY3Ueh, .itemFilled-2Fo7lr:active:not([aria-checked=true]):not(.disabled-WBmOu_) {
     background-color: var(--var-black2);
 }
 /* Notification */
@@ -446,6 +449,9 @@
 }
 .theme-dark .combo-3PNrpQ .key-RP8gj3 {
     box-shadow: inset 0 -4px 0 var(--var-black1);
+}
+.theme-dark .notches-2w7UZJ.gray-3wP137 rect {
+    fill: transparent;
 }
 /* Coloring END */
 
@@ -948,19 +954,16 @@
     background-color: transparent;
 }
 /* Sliders */
-.container-1QtPKm.default-colors {
+.container-1QtPKm:not(.checked-16gMAN) {
     /*full off*/
     background-color: rgb(181 181 181 / 20%) !important;
 }
-.container-1QtPKm.default-colors.checked-16gMAN{
+.container-1QtPKm.checked-16gMAN {
     /*full on*/
-    background-color: #27693c !important;
+    background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 30%) !important;
 }
-.slider-HJFN2i path {
-    fill: transparent;
-}
-.itemFilled-2Fo7lr:active:not([aria-checked=true]):not(.disabled-WBmOu_) {
-    background-color: rgb(50 50 50);
+.slider-HJFN2i path, .bd-switch .bd-switch-symbol path {
+    fill: transparent !important;
 }
 /* BD Sliders */
 .bd-switch-body {
