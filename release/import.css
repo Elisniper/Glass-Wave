@@ -63,7 +63,7 @@
 .tierMarker-Vw1C95[style*="background: rgb(30, 31, 34);"], .content-1OG56Q .input-m1-Y7Q, .loadingPopout-1tyQMM, .scroller-2qwVWY, .attachedBars-2BCP3l,
 .theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .callContainer-HtHELf, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S, .spinner-3QeLKO,
 .theme-dark .notches-2w7UZJ.gray-3wP137, .scroller-36O4Tg, .header-16U6Vf, .container-mJQ_O9, .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9, 
-.theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq {
+.theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq, .topicFormItem-2-pw4u .textInput-3g8y92 {
     background-color: transparent;
 }
 .bg-1QIAus {
@@ -74,6 +74,9 @@
     background-repeat: no-repeat;
     filter: brightness(100%) contrast(100%) blur(0px) saturate(100%);
     z-index: -5;
+}
+.theme-dark .directoryModal-YJsOMv {
+    background-color: var(--var-background);
 }
 .scroller-kQBbkU::-webkit-scrollbar-track, .auto-2TJ1RH::-webkit-scrollbar-track, .thin-RnSY0a::-webkit-scrollbar-thumb, .scroller-2qwVWY::-webkit-scrollbar-track {
     background-color: transparent !important;
@@ -90,14 +93,14 @@
 .modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ, .bd-button, .itemFilled-2Fo7lr[aria-checked=true], .selected-18Wszc.option-1QI4c9, 
 .notice-12Koq-, .button-3_1yil:hover, .colorDefault-CDqZdO.focused-3qFvc8, .wrapper-22rqw6, .inspector-DFKXwB, .optionBox-1UOevl, #bd-editor-controls,
 .channelHeader-DFRX8q, .wrapper-1ZcZW-, .buttonColor-1u-3JF, .questionMark-3V9mGJ,.colorDefault-2_rLdz:active:not(.hideInteraction-1vQrZJ), .lookFilled-1H2Jvj.colorBrandNew-abZT3v,
-.selectedIcon-122rMx, .newMessagesBar-1hF-9G, .botTagRegular-kpctgU, .searchBox-pyIJJj:focus, .searchBox-pyIJJj:focus-within, .backgroundModifierContainer-WjXgb2.selected-2f8_FP,
+.selectedIcon-122rMx, .newMessagesBar-1hF-9G, .botTagRegular-kpctgU, .searchBox-pyIJJj:focus, .backgroundModifierContainer-WjXgb2.selected-2f8_FP,
 .ruleIconContainer-dXW56-, .stepCountIcon-1A2Rxd, .selectedBrand-1IePZM, .featureIcon-2sTnDK, .viewServerButton-29xbQE,
 .mediaBarGrabber-FvJKJg, .mediaBarProgress-38I317, .mediaBarProgress-38I317:after, .mediaBarProgress-38I317:before, .mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg,
 .interactive:hover, .row-1qtctT:hover, .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4, .bd-server-tag, .selectorButtonSelected-3cQUnj,
 .theme-dark .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn, .theme-dark .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe, .theme-light .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe,
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .iconWrapper-3plkqh, .theme-dark .footer-1hTRRZ, .checkmark-1RtODZ, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill-3RgCsY, .container-ZSFRqx, .pillItemSelected-1o_C0R,
-.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .directoryModal-YJsOMv {
+.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9 {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper-kkoSV9:focus-within, .wrapper-SdcMKg {
@@ -123,7 +126,7 @@
 .children-2C96Ex .input-3O04eu, .theme-dark .expandedInfo-1W31i3, .theme-dark .progress-1S-TDF, .avatarUploaderInnerSquareDisabled-3M9eJS,
 .container-3EtAkD, .primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX, .container-3EtAkD:hover .icon-2DGsye, .theme-dark .default-1Tkeeg, 
 .theme-dark .tierHeaderUnlocked-1OpOLf, .theme-dark .tierHeaderLocked-30MLlO, .descriptionBox-SKGNgB, .marginBottom4-1fdMNe .input-3O04eu, .cardHeader-3d6H8N, .member-2cj2PI .role-2TIOKu,
-.container-29HCg7 .search-2RHhW6, .category-2OvQ93, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .category-qFAw-K.activeCategory-1iqXig, .theme-dark .searchBox-pyIJJj,
+.category-2OvQ93, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .category-qFAw-K.activeCategory-1iqXig, .theme-dark .searchBox-pyIJJj,
 .clickable-WBCFI5:hover, .theme-dark .activeButton-2K2Fwx, .theme-dark .activeButton-2K2Fwx:hover, .theme-light .activeButton-2K2Fwx, .theme-light .activeButton-2K2Fwx:hover,
 .pageButton-uta6J3:hover, .list-3ykg7W, .intentsContainer-FHJBSg, .category-3LanTP, .card-sX105p, .exampleContainer-3KBk_U, .clickableContainer-3YtEIY, 
 .groupCollapsedContainer-2z4Vrr, .pointer-3ErAGc, .editCard-K9Q9mb, .actionContainer-2krsiT, .editCard-K9Q9mb.toggled-35JcVc.active-Xi2rnV, .richTag-20_n21,
@@ -138,7 +141,10 @@
 .previewListItem-2VAZ-Y, .progressBarCurrent-ea4YDg, .channelList-3INSQO, .header-1ug_s9, .channelRow-3V1FiH, .channelCoverage-Ix9axP, .channelCoverageDetails-3JBcxT, 
 .container-3cFp_V, .pillContainer-2LYUah, .badExampleIcon-33kC6N, .actionItem-2aVT03, .resourceChannel-26Ed-C, .addActionItem-2IwCLo:hover, .addActionItem-2IwCLo:active, 
 .onboardingStepContainer-a8QN2X, .theme-dark .headerArtPlaceholder-2sMMA0, .sidebarCardWrapper-34oCuK, .chatHeaderBar-31g1mU,  .channelRow-4X_3fi:hover:not(.disabled-3cfocy), 
-.upsellPreview-zfsyzm, .container-3arpDl, .divider-2bkesd, .changelog-2zmJ4c, .safetyChecklist-3kgSZf, .simpleItemWrapper-1Zwc4I {
+.upsellPreview-zfsyzm, .container-3arpDl, .divider-2bkesd, .changelog-2zmJ4c, .safetyChecklist-3kgSZf, .simpleItemWrapper-1Zwc4I, .theme-dark .container-2IKOsH, 
+.theme-dark .header-3xB4vB, .list-1bztb-, .commandName-SDgdgz, .wrapper-1ReDXd, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled, 
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, 
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
@@ -189,7 +195,8 @@
 .channelRowLabel-3Y_t3O, .example-1aGQB0, .channelPill-3Sqy1k, .progressBar-2ULTnj, .actionItemEmojiWrapper-1B2uqj, .resourceChannelIcon-EreZiJ, .channelRow-4X_3fi,
 .separator-2N511j, .userProfileInnerThemedNonPremium-2AJg-H .note-3M15gE textarea:focus, .userProfileInnerThemedNonPremium-2AJg-H .note-1NN2aP textarea:focus, 
 .theme-dark .focused-2FU0YH, .theme-dark.navRow-dG-XX8, .loginForm-3gN0jt .input-3O04eu, .descriptionContainer-2ylKGk, .avatarCard-1N47yx, 
-.inputForm-3RoxXV .inputWrapper-2K8ds1.input-m1-Y7Q, .nameInput-ph8KMi .inputWrapper-2K8ds1 {
+.inputForm-3RoxXV .inputWrapper-2K8ds1.input-m1-Y7Q, .nameInput-ph8KMi .inputWrapper-2K8ds1, .input-3O04eu, 
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover, .container-3zZkKh {
     background-color: rgb(181 181 181 / 20%);
 }
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
@@ -197,7 +204,7 @@
 .container-2qVG6q:hover, .theme-dark .container-2qVG6q.isOpen-2OXbFs, .lookFilled-1H2Jvj.colorBrandNew-abZT3v:active, .container-3EtAkD:active,
 .backgroundModifierContainer-WjXgb2:active:not(.disabled-3Q7kTN):not(.noAction-3PygTY), .collapseable-1FiLab:active, .clickable-vvKY2q .header-3OsQeK:hover, 
 .selected-1GtAC5 .header-3OsQeK, .rowContainer-3t7486:hover, .rowContainer-3t7486:active, .listRow-Y5zoF8:hover, .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, 
-.colorable-3rVGna.primaryDark-2UJt1G:hover, .theme-dark .override-1sK4r0:hover {
+.colorable-3rVGna.primaryDark-2UJt1G:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after {
     background-color: rgb(181 181 181 / 25%);
 }
 .menu-1QACrS, .header-11eigE, .emojiPicker-6YCk8a, .contentWrapper-3vHNP2, .wrapper-2SplAX, .theme-dark .customColorPicker-C_jddW, .messageContainer-3VTXBC, .footer-5ji8u1,
@@ -250,6 +257,12 @@
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
     color: var(--var-notification);
     border-color: var(--var-notification);
+}
+.searchBarContainer-1d8do3 .search-2RHhW6, .content-19Pm_9 .search-2RHhW6 {
+    background-color: var(--var-black1) !important;
+}
+.searchBox-pyIJJj:focus-within {
+    border-color: var(--var-black2);
 }
 .lookOutlined-3yKVGo.colorRed-rQXKgM:hover {
     background-color: var(--var-notification);
@@ -436,9 +449,8 @@
 .addActionItem-2IwCLo {
     border: 2px dashed var(--var-black1);
 }
-.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
-    background-color: var(--var-black1);
-    border-radius: 0 0 0 10px;
+.header-3xB4vB {
+    border-radius: 10px 0 0 0;
 }
 .checkbox-3gI2WR.selected-3KWlIC {
     background-color: var(--var-accent);
@@ -455,6 +467,10 @@
 }
 .theme-dark .notches-2w7UZJ.gray-3wP137 rect {
     fill: transparent;
+}
+.calendarPicker-sDhzdi .react-datepicker__day {
+    border-top: 1px solid var(--var-black1);
+    border-left: 1px solid var(--var-black1);
 }
 /* Coloring END */
 
