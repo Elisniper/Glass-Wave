@@ -59,7 +59,7 @@
     background-color: var(--background-mentioned) !important;
 }
 .message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
-    background-color: var(--var-black1);
+    background-color: var(--var-chat-bubbles-background);
 }
 .message-2CShn3:not(.groupStart-3Mlgv1) {
     margin: 0 5px 0 70px;

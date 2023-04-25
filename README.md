@@ -13,8 +13,8 @@ Use the bellow code in your custom css tab to change the color of the chat bubbl
 NOTE: For chat bubbles use only solid colors without transparency.
 
 :root{
-    --var-bubbles-background: Custom color ;
-    --var-bubbles-edge-background: Custom color ;
+    --var-chat-bubbles-background: Custom color ;
+    --var-chat-bubbles-edge-background: Custom color ;
     --var-background: url(Custom image) ;
 }
 
