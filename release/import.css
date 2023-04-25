@@ -37,7 +37,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles use only solid colors without transparency.";
+    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-accent: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles use only solid colors without transparency.";
     position: relative;
     display: flex;
     width: 100%;
@@ -63,7 +63,7 @@
 .tierMarker-Vw1C95[style*="background: rgb(30, 31, 34);"], .content-1OG56Q .input-m1-Y7Q, .loadingPopout-1tyQMM, .scroller-2qwVWY, .attachedBars-2BCP3l,
 .theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .callContainer-HtHELf, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S, .spinner-3QeLKO,
 .theme-dark .notches-2w7UZJ.gray-3wP137, .scroller-36O4Tg, .header-16U6Vf, .container-mJQ_O9, .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9, 
-.theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq, .topicFormItem-2-pw4u .textInput-3g8y92 {
+.theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq, .topicFormItem-2-pw4u .textInput-3g8y92, .userProfileInner-1ngKnf:before {
     background-color: transparent;
 }
 .bg-1QIAus {
@@ -741,6 +741,9 @@
 }
 .profilePanel-2VBkh8 .userProfileOuterUnthemed-11rPfA {
     background: var(--var-black1);
+    border-radius: 0 0 0 10px;
+}
+.profilePanel-2VBkh8 .userProfileOuterThemed-2BgJCM, .profilePanel-2VBkh8 .userPanelInnerThemed-3YO1BB {
     border-radius: 0 0 0 10px;
 }
 .membersWrap-3NUR2t .members-3WRCEx, .container-2o3qEW {
