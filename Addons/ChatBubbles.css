@@ -1,6 +1,7 @@
 :root {
     --var-chat-bubbles-background: linear-gradient(135deg, rgb(24 44 43) 0%, rgb(11 35 40) 50%, rgb(5 30 38) 100%);
     --var-chat-bubbles-edge-background: rgb(24 44 43); 
+    --var-chat-mentioned: rgb(59 89 74);
 }
 /*Chat bubbles START */
 .message-2CShn3.groupStart-3Mlgv1 {
@@ -56,7 +57,7 @@
     margin-top: -3px;
 }
 .message-2CShn3:not(.groupStart-3Mlgv1).mentioned-Tre-dv {
-    background-color: var(--background-mentioned) !important;
+    background: var(--var-chat-mentioned) !important;
 }
 .message-2CShn3.selected-2LX7Jy, .mouse-mode.full-motion .message-2CShn3:hover {
     background-color: var(--var-chat-bubbles-background);
@@ -100,7 +101,7 @@
     border: 1px solid var(--var-black1) !important;
 }
 .mentioned-Tre-dv.message-2CShn3.groupStart-3Mlgv1 {
-    background: var(--background-mentioned) !important;
+    background: var(--var-chat-mentioned) !important;
 }
 .button-3bklZh {
     height: 18px;

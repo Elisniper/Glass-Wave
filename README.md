@@ -10,12 +10,13 @@ Theme customisations:
 
 Use the bellow code in your custom css tab to change the color of the chat bubbles and the background image.
 
-NOTE: For chat bubbles use only solid colors without transparency.
+NOTE: For chat bubbles/mentioned use only solid colors without transparency.
 
 :root{
     --var-accent: Custom color ;
     --var-chat-bubbles-background: Custom color ;
     --var-chat-bubbles-edge-background: Custom color ;
+    --var-chat-mentioned: Custom color ;
     --var-background: url(Custom image) ;
 }
 

@@ -37,7 +37,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-accent: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles use only solid colors without transparency.";
+    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-accent: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-chat-mentioned: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles/mentioned use only solid colors without transparency.";
     position: relative;
     display: flex;
     width: 100%;
