@@ -101,7 +101,7 @@
 .theme-dark .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn, .theme-dark .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe, .theme-light .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe,
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .iconWrapper-3plkqh, .theme-dark .footer-1hTRRZ, .checkmark-1RtODZ, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill-3RgCsY, .container-ZSFRqx, .pillItemSelected-1o_C0R,
-.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9 {
+.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9,.activityCardTag-glB7qz {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper-kkoSV9:focus-within, .wrapper-SdcMKg {
@@ -145,7 +145,8 @@
 .upsellPreview-zfsyzm, .container-3arpDl, .divider-2bkesd, .changelog-2zmJ4c, .safetyChecklist-3kgSZf, .simpleItemWrapper-1Zwc4I, .theme-dark .container-2IKOsH, 
 .theme-dark .header-3xB4vB, .list-1bztb-, .commandName-SDgdgz, .wrapper-1ReDXd, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled, 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker-sDhzdi .react-datepicker__header {
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
+.activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
