@@ -64,7 +64,7 @@
 .theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S, .spinner-3QeLKO,
 .theme-dark .notches-2w7UZJ.gray-3wP137, .scroller-36O4Tg, .header-16U6Vf, .container-mJQ_O9, .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9, 
 .theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq, .topicFormItem-2-pw4u .textInput-3g8y92, .userProfileInner-1ngKnf:before, .wrapper-1gVUIN,
-.outerContainer-2qLQSo {
+.outerContainer-2qLQSo, .contentContainer-BWAau5 {
     background-color: transparent;
 }
 .bg-1QIAus {
@@ -159,7 +159,8 @@
 .theme-dark .card-2TuZPZ:hover, .theme-dark .card-2TuZPZ:hover .iconMask-2fMR98, .theme-dark .iconMask-2fMR98:hover, .theme-dark .iconMask-2fMR98:hover .iconMask-2fMR98,
 .cardPrimary-3qRT__, .guildSubscriptionSlots-1i_C21, .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-editor .margin,
 .option-1QI4c9:hover, .theme-dark .tierBody-1d3UiS, .actionContainer-EzNGrb, .theme-dark .tierHeaderLocked-3ItHYn, .activityItem-1Z9CTr:hover, 
-.channelRow-3V1FiH:hover:not(.disabled-47pull), .reviewHeader-SY3Ueh, .itemFilled-2Fo7lr:active:not([aria-checked=true]):not(.disabled-WBmOu_) {
+.channelRow-3V1FiH:hover:not(.disabled-47pull), .reviewHeader-SY3Ueh, .itemFilled-2Fo7lr:active:not([aria-checked=true]):not(.disabled-WBmOu_), .rsvpCount-iCkObl, .timestamp-6-ptG3,
+.total-1c5KCN {
     background-color: var(--var-black2);
 }
 /* Notification */
@@ -200,9 +201,13 @@
 .theme-dark .focused-2FU0YH, .theme-dark.navRow-dG-XX8, .loginForm-3gN0jt .input-3O04eu, .descriptionContainer-2ylKGk, .avatarCard-1N47yx, 
 .inputForm-3RoxXV .inputWrapper-2K8ds1.input-m1-Y7Q, .nameInput-ph8KMi .inputWrapper-2K8ds1, .input-3O04eu, 
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover, .container-3zZkKh,
-.integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover {
+.integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover, .header-1sd0RU, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn {
     background-color: rgb(181 181 181 / 20%);
 }
+.card-8UsK4b:hover {
+    background-color: rgb(181 181 181 / 22%);
+}
+
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l, .side-1lrxIh .themed-qqoYp3.item-2GWPIy:active:not(.disabled-2G98Nl), .option-Uc12mm.focused-10mbp-, .option-Uc12mm:focus, .option-Uc12mm:hover,
 .container-2qVG6q:hover, .theme-dark .container-2qVG6q.isOpen-2OXbFs, .lookFilled-1H2Jvj.colorBrandNew-abZT3v:active, .container-3EtAkD:active,
@@ -228,6 +233,9 @@
 .sessionIcon-2fwSzb {
     background-color: rgb(181 181 181 / 80%);
 }
+.eventStatusBrand-3D-ae6 {
+    color: rgb(181 181 181 / 80%);
+}
 .title-1_TkpU, .subtitle-3m-md1, .text-PdAsFQ, .optionHeader-27AHfD, .footerTitle-3Bslxi, .subtitle-1cc8Nz, .title-OdeD-o, .skip-2hTIXL, 
 .footerSeparator-3U8YsT .button-ejjZWC .contents-3NembX, .subtitle-bIoUVX, .title-2Giw-4, .guidelines-FvqqF2, .createGuild-2m1V10 .input-3O04eu, .uploadIcon-2wV7s_, 
 .uploadIcon-2wV7s_, .header-oub2Vc .text-sm-normal-AEQz4v, .formTitle-2YQyhj, .sampleLink-5BWNy9, .title-1LqMUp, .rowText-3MQqQi, 
@@ -242,6 +250,9 @@
 }
 .emojiPicker-6YCk8a {
     border-radius: 0;
+}
+.total-1c5KCN:after {
+    border-right-color: rgb(6 13 14);
 }
 .tabBar-3DfKkN .disabled-2G98Nl.item-2GWPIy, .tabBar-3DfKkN .disabled-2G98Nl.item-2GWPIy:hover {
     color: #b0b4ba8c;
