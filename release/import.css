@@ -9,6 +9,7 @@
     --var-black1: rgb(0 0 0 / 55%);
     --var-black2: rgb(0 0 0 / 65%);
     --var-notification: #B00020;
+    --var-popout-color: rgb(10 20 20);
 }
 /* Theme info and version */
 .info-3pQQBb:after {
@@ -37,7 +38,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-accent: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-chat-mentioned: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles/mentioned use only solid colors without transparency.";
+    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-accent: Custom color ;\a --var-popout-color: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-chat-mentioned: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles/mentioned use only solid colors without transparency.";
     position: relative;
     display: flex;
     width: 100%;
@@ -64,7 +65,7 @@
 .theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S, .spinner-3QeLKO,
 .theme-dark .notches-2w7UZJ.gray-3wP137, .scroller-36O4Tg, .header-16U6Vf, .container-mJQ_O9, .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9, 
 .theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq, .topicFormItem-2-pw4u .textInput-3g8y92, .userProfileInner-1ngKnf:before, .wrapper-1gVUIN,
-.outerContainer-2qLQSo, .contentContainer-BWAau5 {
+.outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav-3qiKqP {
     background-color: transparent;
 }
 .bg-1QIAus {
@@ -101,7 +102,8 @@
 .theme-dark .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn, .theme-dark .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe, .theme-light .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe,
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .iconWrapper-3plkqh, .theme-dark .footer-1hTRRZ, .checkmark-1RtODZ, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill-3RgCsY, .container-ZSFRqx, .pillItemSelected-1o_C0R,
-.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9,.activityCardTag-glB7qz {
+.checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9,.activityCardTag-glB7qz,
+.childWrapper-1j_1ub, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper-kkoSV9:focus-within, .wrapper-SdcMKg {
@@ -147,7 +149,7 @@
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer-o60hpj, .wrapper-3htY7x,
-.wave-2xQAXR {
+.wave-2xQAXR, .container-2WMFjc, .container-jV-A82, .container-1iKw09, .row-XYkFDK, .box-3QCU9H, .stepNumber-1OYCPJ, .enableCard-707m1C, .containerSidenav-3qiKqP .themed-Hp1KC_ {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
@@ -190,7 +192,7 @@
 .theme-dark .bd-server-card:hover, .theme-dark .bd-server-card:focus, .container-x8Y1ix:hover, .rowContainer-3t7486, .colorDefault-2_rLdz.focused-3LIdPu, .role-1adzi2:hover,
 .button-1kija8:hover, .perks-2IIbWQ, .quickswitcher-pKcM9U .input-3r5zZY, .result-u66Ywh[aria-selected=true], .header-1ffhsl .container-1SX9VC, .note-6O4w9y textarea:focus,
 .colorable-3rVGna.primaryDark-2UJt1G, .container-3a5mk-, .activityTag-3C3YK5, .scrollTierBackgroundUpsell-2oh_9T, .scrollTierBackground-BnWR8k, .root-1BPI9i,
-.note-3TX9O7 textarea:focus, .upload-vLbqu-, .reaction-3vwAF2, .wrapper-NhbLHG:hover .link-1_kTxV, .profileBadges-2pItdR, .cardPrimary-pAe8Ed, .memberRow-1FhJgR:hover,
+.note-3TX9O7 textarea:focus, .upload-vLbqu-, .reaction-3vwAF2, .profileBadges-2pItdR, .cardPrimary-pAe8Ed, .memberRow-1FhJgR:hover,
 .sidebar-3K3Z4C .list-1AJFv_ .themed-qqoYp3.item-2GWPIy:hover, .winButtonMinMax-3RsPUg:hover, .theme-dark .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover,
 .theme-dark .quickSelectPopoutOption-2E2UmS:hover, .searchHeader-1r_ZSh .searchHeaderTabList-3CZMQB .item-2GWPIy.selected-1sf9UK.themed-qqoYp3, .option-ayUoaq:hover,
 .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0, .selectable-fgiA2c:hover, 
@@ -201,7 +203,8 @@
 .theme-dark .focused-2FU0YH, .theme-dark.navRow-dG-XX8, .loginForm-3gN0jt .input-3O04eu, .descriptionContainer-2ylKGk, .avatarCard-1N47yx, 
 .inputForm-3RoxXV .inputWrapper-2K8ds1.input-m1-Y7Q, .nameInput-ph8KMi .inputWrapper-2K8ds1, .input-3O04eu, 
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover, .container-3zZkKh,
-.integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover, .header-1sd0RU, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn {
+.integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover, .header-1sd0RU, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive-26HRN_:hover,
+.wrapper-NhbLHG:hover .link-1_kTxV {
     background-color: rgb(181 181 181 / 20%);
 }
 .card-8UsK4b:hover {
@@ -210,19 +213,20 @@
 
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l, .side-1lrxIh .themed-qqoYp3.item-2GWPIy:active:not(.disabled-2G98Nl), .option-Uc12mm.focused-10mbp-, .option-Uc12mm:focus, .option-Uc12mm:hover,
-.container-2qVG6q:hover, .theme-dark .container-2qVG6q.isOpen-2OXbFs, .lookFilled-1H2Jvj.colorBrandNew-abZT3v:active, .container-3EtAkD:active,
+.container-q2_DnH:hover, .theme-dark .container-q2_DnH.isOpen-2Gyel_, .lookFilled-1H2Jvj.colorBrandNew-abZT3v:active, .container-3EtAkD:active,
 .backgroundModifierContainer-WjXgb2:active:not(.disabled-3Q7kTN):not(.noAction-3PygTY), .collapseable-1FiLab:active, .clickable-vvKY2q .header-3OsQeK:hover, 
 .selected-1GtAC5 .header-3OsQeK, .rowContainer-3t7486:hover, .rowContainer-3t7486:active, .listRow-Y5zoF8:hover, .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, 
-.colorable-3rVGna.primaryDark-2UJt1G:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after {
+.colorable-3rVGna.primaryDark-2UJt1G:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
+.interactive-26HRN_:active, .wrapper-NhbLHG:active .link-1_kTxV {
     background-color: rgb(181 181 181 / 25%);
 }
 .menu-1QACrS, .header-11eigE, .emojiPicker-6YCk8a, .contentWrapper-3vHNP2, .wrapper-2SplAX, .theme-dark .customColorPicker-C_jddW, .messageContainer-3VTXBC, .footer-5ji8u1,
 .popout-15UxD6, .container-3YcgdM, .divider-AZrXIA, .menu-2TXYjN, .wrapper-1HIH0j, .resultsList-2Bp-2_, .popout-TdhJ6Z, .theme-dark .tierMarkerBackground-G8FoN4, 
 .quickswitcher-pKcM9U, .noiseCancellationPopout-2-e5Xz, .container-1jQZ2U, .accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf, .button-3bklZh:hover,
-.folder-241Joy, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT, .childWrapper-1j_1ub, .container-18GwIk, .theme-dark .streamPreview-I7itZ6, 
-.scroller-3b1p7z, .theme-dark .quickSelectPopout-2F0PXw, .container-2McqkF, .theme-dark .autocomplete-3NRXG8, .body-2qXItL, .wrapper-wOVKdL,
-.premiumSkuSelect-2K_31N, .container-3kfp0r, .wrapper-1gVUIN.minimum-fXpVNc, .innerWrapper-MqFL7z, .resultsList-2tyWrf, .theme-dark.authBox-1HR6Ha, .callContainer-HtHELf {
-    background-color: rgb(10 20 20);
+.container-18GwIk, .theme-dark .streamPreview-I7itZ6, .scroller-3b1p7z, .theme-dark .quickSelectPopout-2F0PXw, .container-2McqkF, .theme-dark .autocomplete-3NRXG8, 
+.body-2qXItL, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container-3kfp0r, .wrapper-1gVUIN.minimum-fXpVNc, .innerWrapper-MqFL7z, .resultsList-2tyWrf, 
+.theme-dark.authBox-1HR6Ha, .callContainer-HtHELf, .contentWrapper-2f9yME {
+    background-color: var(--var-popout-color);
 }
 .legacySession-UoUT_h .sessionIcon-2fwSzb {
     background-color: rgb(181 181 181 / 50%);
@@ -372,8 +376,8 @@
     color: var(--var-accent);
 }
 .container-2kTWmC {
-    background-color: rgb(10 20 20);
-    border: 1px solid rgb(10 20 20);
+    background-color: var(--var-popout-color);
+    border: 1px solid var(--var-popout-color);
 }
 .theme-dark .pill-3pRQlO.selected-24z1Ou {
     border-color: var(--var-accent);
@@ -445,7 +449,7 @@
     border-color: var(--var-black1);
 }
 .theme-dark .root-1CAIjD, .container-_dQaft, .container-2ebMPP, .messagesPopoutWrap-3zryHW {
-    background-color: rgb(10 20 20);
+    background-color: var(--var-popout-color);
     border-radius: 10px;
 }
 .friendRequestsButton-77veU7 .numberBadge-37OJ3S {
@@ -609,8 +613,11 @@
     margin-left: 6px;
     background-color: var(--var-black1);
 }
-.container-2cd8Mz .themed-Hp1KC_ {
+.container-2cd8Mz .themed-Hp1KC_, .containerSidenav-3qiKqP .themed-Hp1KC_ {
     border-radius: 10px 0px 0px 10px;
+}
+.containerSidenav-3qiKqP {
+    border-radius: 0;
 }
 .clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK, .header-3OsQeK {
     border-radius: 10px 10px 0px 0px;
@@ -626,7 +633,7 @@
     margin-left: -15px;
     padding: 60px 12px 16px;
     margin-right: -15px;
-    background-color: rgb(10 20 20);
+    background-color: var(--var-popout-color);
     border-radius: 10px;
 }
 .wrapper-1gVUIN.noChat-2UYgeE .callContainer-HtHELf {
@@ -1093,7 +1100,7 @@
     background-color: rgb(181 181 181 / 20%);
 }
 .userProfileInnerThemedNonPremium-2AJg-H {
-    background: rgb(10 20 20);
+    background: var(--var-popout-color);
 }
 .userProfileInnerThemedNonPremium-2AJg-H .overlayBackground-2aa7wt {
     background-color: var(--var-black1);

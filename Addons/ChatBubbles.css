@@ -128,7 +128,7 @@
     top: 0;
 }
 .button-3bklZh:hover, .wrapper-2vIMkT {
-    background-color: rgb(10 20 20);
+    background-color: var(--var-popout-color);
     border-radius: 0;
 }
 .recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg {
