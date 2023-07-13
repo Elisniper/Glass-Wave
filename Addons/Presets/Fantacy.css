@@ -1,0 +1,14 @@
+/* Fantacy Preset */
+:root {
+    --var-background: url(https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Fantacy.jpg?raw=true);
+    --var-accent: #3e2e22;
+    --var-black1: rgb(0 0 0 / 55%);
+    --var-black2: rgb(0 0 0 / 65%);
+    --var-notification: #B00020;
+    --var-popout-color: rgb(19 17 18);
+
+    /* Chat */
+    --var-chat-bubbles-background: rgb(22 22 22);
+    --var-chat-bubbles-edge-background: rgb(22 22 22);
+    --var-chat-mentioned: rgb(100 75 0);
+}
