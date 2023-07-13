@@ -6,19 +6,27 @@ Glass Wave is a transparent theme for Discord. Glass Wave tries to stay as low a
 
 I will try and provide Updates/Bug fixes as soon as possible when discord updates occur.
 
-Theme customisations: 
+Glass Wave customisations: 
 
-Use the bellow code in your custom css tab to change the color of the chat bubbles and the background image.
+Use the bellow code in your custom css tab to customise the theme.
 
 NOTE: For chat bubbles/mentioned use only solid colors without transparency.
 
-:root{
-    --var-accent: Custom color ;
-    --var-chat-bubbles-background: Custom color ;
-    --var-chat-bubbles-edge-background: Custom color ;
-    --var-chat-mentioned: Custom color ;
-    --var-background: url(Custom image) ;
-}
+:root{ --var-accent: Custom color ; 
+--var-popout-color: Custom color ; 
+--var-chat-bubbles-background: Custom color ;  
+--var-chat-bubbles-edge-background: Custom color ;  
+--var-chat-mentioned: Custom color ;
+--var-background: url(Custom image);
+};
+
+Theme Presets:
+
+Use the bellow @imports to apply pre-made customisation presets for Gass Wave.
+
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);
 
 # Installation
 
