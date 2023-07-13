@@ -38,7 +38,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Theme customisations: \a\a Use the bellow code in your custom css tab to change the color of the chat bubbles and the \a background image. \a\a :root{ \a --var-accent: Custom color ;\a --var-popout-color: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-chat-mentioned: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a  NOTE: For chat bubbles/mentioned use only solid colors without transparency.";
+    content: "Glass Wave customisations: \a\a Use the bellow code in your custom css tab to customise the theme. \a\a NOTE: For chat bubbles/mentioned use only solid colors without transparency.\a\a :root{ \a --var-accent: Custom color ;\a --var-popout-color: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-chat-mentioned: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a Theme Presets: \a\a Use the bellow @imports to apply pre-made customisation presets for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);";
     position: relative;
     display: flex;
     width: 100%;
