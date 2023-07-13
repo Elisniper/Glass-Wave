@@ -24,9 +24,9 @@ Theme Presets:
 
 Use the bellow @imports to apply pre-made customisation presets for Gass Wave.
 
-\a@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css);
-\a@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css);
-\a@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css);
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);
 
 # Installation
 
