@@ -54,3 +54,13 @@ Glass Wave does not actively support all plugins and does not seek out theme fix
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Image%206.PNG?raw=true)
 ## User Setting 2
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Image%207.PNG?raw=true)
+
+## River Preset
+![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/River%20Preview%201.PNG?raw=true)
+![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/River%20Preview%202.PNG?raw=true)
+## Space Preset
+![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/Space%20Preview%201.PNG?raw=true)
+![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/Space%20Preview%202.PNG?raw=true)
+## Fantacy Preset
+![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/Fantacy%20Preview%201.PNG?raw=true)
+![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/Fantacy%20Preview%202.PNG?raw=true)
