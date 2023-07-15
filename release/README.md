@@ -31,7 +31,7 @@ Use the bellow @imports to apply pre-made customisation presets for Gass Wave.
 
 # Installation
 
-1. Download the theme [here](https://github.com/Elisniper/Glass-Wave)
+1. Download the theme [here](https://betterdiscord.app/Download?id=929)
 2. Place the 'Glass Wave.theme.css' file into the BetterDiscord themes folder.
 3. Enable the theme in the themes tab.
 
