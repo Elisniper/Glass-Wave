@@ -94,7 +94,17 @@
 }
 .jumpToPresentBar-1cEnH0 {
     background-color: rgb(10 66 83);
-    bottom: 8px;
+    filter: drop-shadow(0px 0px 1px black);
+    bottom: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    right: 25px;
+    opacity: 1;
+}
+.jumpToPresentBar-1cEnH0 .barButtonMain-2GIx4o {
+    display: none;
 }
 .textContainer-36wgKK, .footer-GXWBBp, .modalTextContainer-1FUO2W {
     background-color: var(--var-black1) !important;
@@ -169,7 +179,7 @@
 }
 /* Automod Messages */
 .embedCard-bDyD5S {
-    background-color: var(--var-black2);
+    background-color: var(--var-black1);
 }
 .iconContainer-3WHKMP {
     left: -76px;
@@ -183,7 +193,7 @@
     margin-left: 50px;
     padding-left: 10px;
     padding-bottom: 3px;
-    background-color: var(--var-black1);
+    background: var(--var-chat-bubbles-background);
     border-bottom: none !important;
     overflow: visible !important;
 }
@@ -211,12 +221,12 @@
     margin-left: 50px;
     padding-left: 10px;
     padding-bottom: 3px;
-    background-color: rgb(40 40 40 / 80%);
+    background-color: rgb(181 181 181 / 25%);
     border-bottom: none !important;
     overflow: visible !important;
 }
 .message-G6O-Wv .cozy-VmLDNB.wrapper-30-Nkg:after {
-    border-right-color: rgb(40 40 40 / 80%);
+    border-right-color: rgb(181 181 181 / 25%);
 }
 .theme-dark .message-G6O-Wv {
     background-color: transparent;
