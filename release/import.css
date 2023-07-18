@@ -103,7 +103,7 @@
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .iconWrapper-3plkqh, .theme-dark .footer-1hTRRZ, .checkmark-1RtODZ, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill-3RgCsY, .container-ZSFRqx, .pillItemSelected-1o_C0R,
 .checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9,.activityCardTag-glB7qz,
-.childWrapper-1j_1ub, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT {
+.childWrapper-1j_1ub, .expandedFolderBackground-1kSAf6, .folder-241Joy.hover-3m7-WT, .folder-241Joy[aria-expanded=true] {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper-kkoSV9:focus-within, .wrapper-SdcMKg {
@@ -673,8 +673,8 @@
 }
 .form-3gdLxP .base-3bcbY3 {
     position: absolute;
-    bottom: 50px;
     left: 10px;
+    top: -22px;
 }
 .platform-win .sidebar-1tnWFu {
     border-radius: 10px;
@@ -735,8 +735,8 @@
 .notice-2HEN-u .button-29sJG8.backButton-3I5R-E.button-ejjZWC.lookOutlined-3RTC7c.colorWhite-Eshn2o.grow-2T4nbg {
     left: 8px;
 }
-.sansAttachButton-1ERHue {
-    padding-left: 12px;
+.channelTextArea-1FufC0 .scrollableContainer-15eg7h {
+    scrollbar-width: none;
     padding-top: 4px;
     padding-bottom: 4px;
 }
