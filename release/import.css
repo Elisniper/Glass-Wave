@@ -204,7 +204,7 @@
 .inputForm-3RoxXV .inputWrapper-2K8ds1.input-m1-Y7Q, .nameInput-ph8KMi .inputWrapper-2K8ds1, .input-3O04eu, 
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover, .container-3zZkKh,
 .integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover, .header-1sd0RU, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive-26HRN_:hover,
-.wrapper-NhbLHG:hover .link-1_kTxV {
+.wrapper-NhbLHG:hover .link-1_kTxV, .header-uVCAlo .container-1SX9VC {
     background-color: rgb(181 181 181 / 20%);
 }
 .card-8UsK4b:hover {
@@ -631,10 +631,25 @@
 }
 .header-JUTO-g {
     margin-left: -15px;
-    padding: 60px 12px 16px;
+    padding: 20px 12px 16px;
     margin-right: -15px;
     background-color: var(--var-popout-color);
     border-radius: 10px;
+}
+.previewContainer-1xQAsw .theme-dark .messageContainer-3a6gLR {
+    background-color: var(--var-accent);
+}
+.previewContainer-1xQAsw .theme-light .messageContainer-3a6gLR {
+    background-color: rgb(181 181 181 / 20%);
+}
+.previewContainer-1xQAsw .theme-light .markup-eYLPri {
+    color: rgb(193 198 201);
+}
+.contentContainer-3hXFtK {
+    margin-top: 45px;
+}
+.previewContainer-1xQAsw {
+    border: 1px solid var(--var-black1);
 }
 .wrapper-1gVUIN.noChat-2UYgeE .callContainer-HtHELf {
     height: 100%;
@@ -658,7 +673,7 @@
 }
 .form-3gdLxP .base-3bcbY3 {
     position: absolute;
-    bottom: -4px;
+    bottom: 50px;
     left: 10px;
 }
 .platform-win .sidebar-1tnWFu {
@@ -725,8 +740,11 @@
     padding-top: 4px;
     padding-bottom: 4px;
 }
+.scrollerSpacer-3AqkT9 {
+    height: 15px;
+}
 .scroller-kQBbkU {
-    bottom: 15px;
+    bottom: 30px;
 }
 .content-1jQy2l {
     gap: 5px;
