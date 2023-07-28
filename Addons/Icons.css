@@ -154,6 +154,38 @@
 [aria-label="사용자 설정"]) .item-2GWPIy:nth-child(4):before {
     background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRo%0D%0APSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAg%0D%0AMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTggOGgtMVY2YzAtMi43Ni0y%0D%0ALjI0LTUtNS01UzcgMy4yNCA3IDZ2Mkg2Yy0xLjEgMC0yIC45LTIgMnYxMGMwIDEuMS45IDIgMiAy%0D%0AaDEyYzEuMSAwIDItLjkgMi0yVjEwYzAtMS4xLS45LTItMi0yem0tNiA5Yy0xLjEgMC0yLS45LTIt%0D%0AMnMuOS0yIDItMiAyIC45IDIgMi0uOSAyLTIgMnptMy4xLTlIOC45VjZjMC0xLjcxIDEuMzktMy4x%0D%0AIDMuMS0zLjEgMS43MSAwIDMuMSAxLjM5IDMuMSAzLjF2MnoiLz48L3N2Zz4=);
 }
+/* Family Center */
+.side-1lrxIh:is([aria-label="Brugerindstillinger"],
+[aria-label="Benutzereinstellungen"], 
+[aria-label="User Settings"], 
+[aria-label="Ajustes de usuario"], 
+[aria-label="Paramètres utilisateur"], 
+[aria-label="Korisničke postavke"], 
+[aria-label="Impostazioni utente"], 
+[aria-label="Naudotojo Nustatymai"], 
+[aria-label="Felhasználói beállítások"], 
+[aria-label="Gebruikersinstellingen"], 
+[aria-label="Brukerinnstillinger"], 
+[aria-label="Ustawienia użytkownika"], 
+[aria-label="Configurações de Usuário"], 
+[aria-label="Setări utilizator"], 
+[aria-label="Käyttäjäasetukset"], 
+[aria-label="Användarinställningar"], 
+[aria-label="Cài đặt người dùng"], 
+[aria-label="Kullanıcı Ayarları"], 
+[aria-label="Uživatelská nastavení"], 
+[aria-label="Ρυθμίσεις χρήστη"], 
+[aria-label="Потребителски настройки"], 
+[aria-label="Настройки пользователя"], 
+[aria-label="Користувацькі налаштування"], 
+[aria-label="यूज़र सेटिंग"], 
+[aria-label="ตั้งค่าผู้ใช้"], 
+[aria-label="用户设置"], 
+[aria-label="ユーザー設定"], 
+[aria-label="使用者設定"], 
+[aria-label="사용자 설정"]) .item-2GWPIy:nth-child(5):before {
+    background: url(data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KDTwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIFRyYW5zZm9ybWVkIGJ5OiBTVkcgUmVwbyBNaXhlciBUb29scyAtLT4KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KDTxnIGlkPSJTVkdSZXBvX2JnQ2FycmllciIgc3Ryb2tlLXdpZHRoPSIwIi8+Cg08ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KDTxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4gPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNiA2QzE0LjM0MzIgNiAxMyA3LjM0MzE1IDEzIDlDMTMgMTAuNjU2OSAxNC4zNDMyIDEyIDE2IDEyQzE3LjY1NjkgMTIgMTkgMTAuNjU2OSAxOSA5QzE5IDcuMzQzMTUgMTcuNjU2OSA2IDE2IDZaTTExIDlDMTEgNi4yMzg1OCAxMy4yMzg2IDQgMTYgNEMxOC43NjE0IDQgMjEgNi4yMzg1OCAyMSA5QzIxIDEwLjMxOTMgMjAuNDg5IDExLjUxOTMgMTkuNjU0MiAxMi40MTI4QzIxLjQ5NTEgMTMuMDEyNCAyMi45MTc2IDE0LjE5OTMgMjMuODI2NCAxNS41MzI5QzI0LjEzNzQgMTUuOTg5MyAyNC4wMTk1IDE2LjYxMTQgMjMuNTYzMSAxNi45MjI0QzIzLjEwNjggMTcuMjMzNCAyMi40ODQ2IDE3LjExNTUgMjIuMTczNiAxNi42NTkxQzIxLjE5NzkgMTUuMjI3MyAxOS40MTc4IDE0IDE3IDE0QzEzLjE2NiAxNCAxMSAxNy4wNzQyIDExIDE5QzExIDE5LjU1MjMgMTAuNTUyMyAyMCAxMCAyMEM5LjQ0NzczIDIwIDkuMDAwMDEgMTkuNTUyMyA5LjAwMDAxIDE5QzkuMDAwMDEgMTguMzA4IDkuMTU4NDggMTcuNTcgOS40NjA4MiAxNi44NDI1QzkuMzgzNzkgMTYuNzkzMSA5LjMxMjMgMTYuNzMyMyA5LjI0ODg5IDE2LjY2MDJDOC40MjgwNCAxNS43MjYyIDcuMTU0MTcgMTUgNS41MDAwMSAxNUMzLjg0NTg1IDE1IDIuNTcxOTkgMTUuNzI2MiAxLjc1MTE0IDE2LjY2MDJDMS4zODY1NSAxNy4wNzUgMC43NTQ2OTIgMTcuMTE1NyAwLjMzOTg1NSAxNi43NTExQy0wLjA3NDk4MDcgMTYuMzg2NSAtMC4xMTU3MDkgMTUuNzU0NyAwLjI0ODg4NiAxNS4zMzk4QzAuODA5MDM1IDE0LjcwMjUgMS41MTc4NCAxNC4xMzY0IDIuMzU3MjUgMTMuNzIwN0MxLjUxOTg5IDEyLjkwMzUgMS4wMDAwMSAxMS43NjI1IDEuMDAwMDEgMTAuNUMxLjAwMDAxIDguMDE0NzIgMy4wMTQ3MyA2IDUuNTAwMDEgNkM3Ljk4NTI5IDYgMTAgOC4wMTQ3MiAxMCAxMC41QzEwIDExLjc2MjUgOS40ODAxMyAxMi45MDM1IDguNjQyNzggMTMuNzIwN0M5LjM2NTE4IDE0LjA3ODUgOS45OTA4NSAxNC41NDc2IDEwLjUwODMgMTUuMDc3N0MxMS4xNTIgMTQuMjY1OSAxMS45ODg2IDEzLjUzODIgMTIuOTkyMiAxMi45OTQ1QzExLjc4MjIgMTIuMDgxOSAxMSAxMC42MzIzIDExIDlaTTMuMDAwMDEgMTAuNUMzLjAwMDAxIDkuMTE5MjkgNC4xMTkzIDggNS41MDAwMSA4QzYuODgwNzIgOCA4LjAwMDAxIDkuMTE5MjkgOC4wMDAwMSAxMC41QzguMDAwMDEgMTEuODgwNyA2Ljg4MDcyIDEzIDUuNTAwMDEgMTNDNC4xMTkzIDEzIDMuMDAwMDEgMTEuODgwNyAzLjAwMDAxIDEwLjVaIiBmaWxsPSIjZmZmZmZmIi8+IDwvZz4KDTwvc3ZnPg==)
+}
 /* Apps */
 .side-1lrxIh:is([aria-label="Brugerindstillinger"],
 [aria-label="Benutzereinstellungen"], 
