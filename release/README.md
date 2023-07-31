@@ -23,7 +23,7 @@ NOTE: For chat bubbles/mentioned use only solid colors without transparency.
 
 Theme Presets:
 
-Use the bellow @imports to apply pre-made customisation presets for Gass Wave.
+Use one of the bellow @imports in your custom css tab to apply a pre-made customisation preset for Gass Wave.
 
 @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css);<br>
 @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css);<br>
