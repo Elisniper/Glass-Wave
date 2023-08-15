@@ -951,6 +951,12 @@
     top: 31px;
     left: 36px;
 }
+/* Number Badge */
+.container-32HW5s[aria-posinset="1"] .interactive-iyXY_x .numberBadge-37OJ3S {
+    position: absolute;
+    left: 82px;
+    top: 33px;
+}
 /* Nitro Promotion/Trial badge */
 .container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .nitroTabBadgeContainer-1EIXgy {
     position: relative;
@@ -1016,7 +1022,7 @@
     position: relative;
     padding: 2px 12px;
     transition: 300ms ease;
-    display: block;
+    display: inline-flex;
     font-size: 15px;
     color: #b5b5b5;
     box-sizing: border-box;
