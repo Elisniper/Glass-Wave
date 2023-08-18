@@ -156,7 +156,8 @@
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer-o60hpj, .wrapper-3htY7x,
 .wave-2xQAXR, .container-2WMFjc, .container-jV-A82, .container-1iKw09, .row-XYkFDK, .box-3QCU9H, .stepNumber-1OYCPJ, .enableCard-707m1C, .containerSidenav-3qiKqP .themed-Hp1KC_,
-.settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer-11-cKL, .suggestedChannels-1mEoi7, .prompt-R8SyL4, .role-3uAPnQ {
+.settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer-11-cKL, .suggestedChannels-1mEoi7, .prompt-R8SyL4, .role-3uAPnQ, 
+.premiumTrialAcknowledgedBadge-2QxbU_ {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
@@ -965,15 +966,29 @@
     bottom: 3px;
 }
 .container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .premiumTrialAcknowledgedBadge-2QxbU_ {
+    position: relative;
     width: 85%;
+    height: 18px;
+    top: -8px;
+    left: -16px;
+    border-radius: 3px 3px 0 0;
+    color: var(--header-secondary);
+    background-color: var(--var-popout-color);
+    transform: translateY(-28px);
     transition: 150ms ease;
 }
 .container-32HW5s[aria-posinset="2"] .interactive-iyXY_x:hover .premiumTrialAcknowledgedBadge-2QxbU_ {
-    transition: 150ms ease-out;
+    position: relative;
+    width: 85%;
     color: #eeeff0;
+    border-radius: 3px 3px 0 0;
+    transform: translateY(0px);
+    transition: 150ms ease-out;
 }
 .container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .premiumTrialBadgeSelected-3NVwA4 {
+    background-color: var(--var-accent);
     color: #eeeff0;
+    transform: translateY(0px);
 }
 /* Snowgiving button */
 .snowsgivingLink-1TZi3c {
