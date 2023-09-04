@@ -864,6 +864,9 @@
 .focused-1xh-wG .searchBar-jGtisZ, .open-1F8u2c .searchBar-jGtisZ {
     width: 144px;
 }
+.chat-2ZfjoI:has(.searchResultsWrap-5RVOkx) .searchBar-jGtisZ {
+    width: 200px;
+}
 .header-30YxSJ {
     background-color: var(--var-black1);
     position: relative;
