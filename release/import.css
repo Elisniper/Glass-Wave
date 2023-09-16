@@ -65,7 +65,7 @@
 .theme-dark .footer-1hTRRZ .inputDefault-Ciwd-S, .titleContainer-3fPic2, .option-ayUoaq:hover:after, .footer-C9oLp9 .inputDefault-Ciwd-S, .spinner-3QeLKO,
 .theme-dark .notches-2w7UZJ.gray-3wP137, .scroller-36O4Tg, .header-16U6Vf, .container-mJQ_O9, .theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9, 
 .theme-dark .container-1um7CU, .theme-dark .focusLock-bHVOlV .carouselModal-1eUFoq, .topicFormItem-2-pw4u .textInput-3g8y92, .userProfileInner-1ngKnf:before, .wrapper-1gVUIN,
-.outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav-3qiKqP {
+.outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav-3qiKqP, .sidebar-2rB69-, .theme-dark .container-2qjEOK, .theme-dark .page-2dwf_i, .theme-dark .sidebar-2rB69- {
     background-color: transparent;
 }
 .bg-1QIAus {
@@ -102,7 +102,7 @@
 .ruleIconContainer-dXW56-, .stepCountIcon-1A2Rxd, .selectedBrand-1IePZM, .featureIcon-2sTnDK, .viewServerButton-29xbQE,
 .mediaBarGrabber-FvJKJg, .mediaBarProgress-38I317, .mediaBarProgress-38I317:after, .mediaBarProgress-38I317:before, .mediaBarInteraction-tUE5dq:hover .mediaBarGrabber-FvJKJg,
 .interactive:hover, .row-1qtctT:hover, .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4, .bd-server-tag, .selectorButtonSelected-3cQUnj,
-.theme-dark .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn, .theme-dark .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe, .theme-light .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe,
+.theme-dark .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn, .theme-light .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe,
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
 .iconWrapper-3plkqh, .theme-dark .footer-1hTRRZ, .checkmark-1RtODZ, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill-3RgCsY, .container-ZSFRqx, .pillItemSelected-1o_C0R,
 .checkboxCircle-C8Xapb, .theme-dark .dim-GXxpGm .key-RP8gj3, .theme-dark .calendarPicker-sDhzdi .react-datepicker, .selectedProgressBar-11z5d9,.activityCardTag-glB7qz,
@@ -157,7 +157,7 @@
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer-o60hpj, .wrapper-3htY7x,
 .wave-2xQAXR, .container-2WMFjc, .container-jV-A82, .container-1iKw09, .row-XYkFDK, .box-3QCU9H, .stepNumber-1OYCPJ, .enableCard-707m1C, .containerSidenav-3qiKqP .themed-Hp1KC_,
 .settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer-11-cKL, .suggestedChannels-1mEoi7, .prompt-R8SyL4, .role-3uAPnQ, 
-.premiumTrialAcknowledgedBadge-2QxbU_ {
+.premiumTrialAcknowledgedBadge-2QxbU_, .chat-2ZfjoI .header-elFGge, .mainTableContainer-3Nxvkd, .otherRoles-LMys1u, .button-2XiUpU {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
@@ -212,7 +212,8 @@
 .inputForm-3RoxXV .inputWrapper-2K8ds1.input-m1-Y7Q, .nameInput-ph8KMi .inputWrapper-2K8ds1, .input-3O04eu, 
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover, .container-3zZkKh,
 .integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover, .header-1sd0RU, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive-26HRN_:hover,
-.wrapper-NhbLHG:hover .link-1_kTxV, .header-uVCAlo .container-1SX9VC, .addMemberRow-KVhQFf.selectedRow-1SAgVL, .termsFieldBody-2nQ2cD, .profileCard-2gVmvm, .prompt-1sE27N {
+.wrapper-NhbLHG:hover .link-1_kTxV, .header-uVCAlo .container-1SX9VC, .addMemberRow-KVhQFf.selectedRow-1SAgVL, .termsFieldBody-2nQ2cD, .profileCard-2gVmvm, .prompt-1sE27N,
+.memberRowContainer-ZDlmmA:hover td {
     background-color: rgb(181 181 181 / 20%);
 }
 .card-8UsK4b:hover {
@@ -225,7 +226,7 @@
 .backgroundModifierContainer-WjXgb2:active:not(.disabled-3Q7kTN):not(.noAction-3PygTY), .collapseable-1FiLab:active, .clickable-vvKY2q .header-3OsQeK:hover, 
 .selected-1GtAC5 .header-3OsQeK, .rowContainer-3t7486:hover, .rowContainer-3t7486:active, .listRow-Y5zoF8:hover, .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, 
 .colorable-3rVGna.primaryDark-2UJt1G:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
-.interactive-26HRN_:active, .wrapper-NhbLHG:active .link-1_kTxV {
+.interactive-26HRN_:active, .wrapper-NhbLHG:active .link-1_kTxVm, .button-2XiUpU:hover {
     background-color: rgb(181 181 181 / 25%);
 }
 .optionButtonWrapper-2lbogO {
@@ -280,6 +281,9 @@
 .theme-light ::placeholder, .theme-light input, .theme-light select {
     color: #fff6;
     background-color: transparent;
+}
+.memberRowContainer-ZDlmmA {
+    background-color: transparent !important;
 }
 .emojiPicker-6YCk8a {
     border-radius: 0;
@@ -372,6 +376,9 @@
 .cameraWrapper-nG8dpo {
     background-color: var(--var-black1);
     border: 1px solid var(--var-black1);
+}
+.theme-dark .tooltipBrand-uKW6Xn .tooltipPointer-sMBQqe {
+    border-top-color: var(--var-accent);
 }
 .placeholderCard-3eGmb3 {
     border: 1px dashed var(--var-black1);
@@ -502,6 +509,9 @@
 }
 .header-3xB4vB {
     border-radius: 10px 0 0 0;
+}
+.chat-2ZfjoI .header-elFGge {
+    border-radius: 10px 0 0 10px;
 }
 .checkbox-3gI2WR.selected-3KWlIC {
     background-color: var(--var-accent);
