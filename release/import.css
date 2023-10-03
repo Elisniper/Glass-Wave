@@ -264,6 +264,10 @@
     background-color: var(--var-black1);
     border-color: rgb(181 181 181 / 100%);
 }
+.theme-dark .optionPill-2kmuZR {
+    background-color: rgb(181 181 181 / 20%);
+    border-color: rgb(181 181 181 / 30%);
+}
 .checkCircle-1uvETj {
     color: rgb(181 181 181 / 50%)
 }
