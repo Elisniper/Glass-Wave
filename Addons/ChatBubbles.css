@@ -201,15 +201,18 @@
 
 
 /* Compact view */
-.compact-2Nkcau.wrapper-30-Nkg {
-    padding-left: 15px;
-}
 .message-2CShn3:not(.groupStart-3Mlgv1).compact-2Nkcau .timestamp-p1Df1m, .message-2CShn3.groupStart-3Mlgv1.compact-2Nkcau .timestamp-p1Df1m {
     position: relative;
     left: -5px;
 }
 .compact-2Nkcau.message-2CShn3.groupStart-3Mlgv1 {
-    padding: 8px 14px;
+    padding: 2px 14px;
+    border-radius: 4px;
+}
+.message-2CShn3:not(.groupStart-3Mlgv1).compact-2Nkcau.wrapper-30-Nkg {
+    margin-top: -3px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 15px;
 }
 /* Popup veiw */
 .message-G6O-Wv .wrapper-30-Nkg .avatar-2e8lTP {
