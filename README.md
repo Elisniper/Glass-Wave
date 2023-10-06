@@ -8,17 +8,24 @@ I will try and provide Updates/Bug fixes as soon as possible when discord update
 
 # Glass Wave customisations: 
 
-Use the bellow code in your custom css tab to customise the theme.
+All Glass Wave variables can be customised using the bellow code in your custom css tab.
 
 NOTE: For chat bubbles/mentioned use only solid colors without transparency.
 
 :root{<br>
+--var-background: url(Custom image) ;<br>
 --var-accent: Custom color ;<br>
 --var-popout-color: Custom color ;<br>
 --var-chat-bubbles-background: Custom color ;<br>
 --var-chat-bubbles-edge-background: Custom color ;<br>
 --var-chat-mentioned: Custom color ;<br>
---var-background: url(Custom image) ;<br>
+--var-hover20: Custom color ;<br>
+--var-hover22: Custom color ;<br>
+--var-hover25: Custom color ;<br>
+--var-hover30: Custom color ;<br>
+--var-hover50: Custom color ;<br>
+--var-hover80: Custom color ;<br>
+--var-hover100: Custom color ;<br>
 };<br>
 
 Theme Presets:

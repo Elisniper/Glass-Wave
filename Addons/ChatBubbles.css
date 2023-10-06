@@ -146,7 +146,7 @@
     margin: 16px 0 0 60px;
     padding: 8px 10px;
     padding-bottom: 3px;
-    background-color: rgb(181 181 181 / 20%);
+    background-color: var(--var-hover20);
     border-bottom: none !important;
     overflow: visible !important;
 }
@@ -160,7 +160,7 @@
     border-right-color: transparent;
 }
 .recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg:after, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg:after {
-    border-right-color: rgb(181 181 181 / 20%);
+    border-right-color: var(--var-hover20);
 }
 .recentMentionsPopout-2bI1ZN .cozy-VmLDNB.wrapper-30-Nkg .avatar-2e8lTP, .messagesPopoutWrap-3zryHW .cozy-VmLDNB.wrapper-30-Nkg .avatar-2e8lTP {
     left: -55px;
@@ -221,12 +221,12 @@
     margin-left: 50px;
     padding-left: 10px;
     padding-bottom: 3px;
-    background-color: rgb(181 181 181 / 25%);
+    background-color: var(--var-hover25);
     border-bottom: none !important;
     overflow: visible !important;
 }
 .message-G6O-Wv .cozy-VmLDNB.wrapper-30-Nkg:after {
-    border-right-color: rgb(181 181 181 / 25%);
+    border-right-color: var(--var-hover25);
 }
 .theme-dark .message-G6O-Wv {
     background-color: transparent;

@@ -10,6 +10,13 @@
     --var-black2: rgb(0 0 0 / 65%);
     --var-notification: #B00020;
     --var-popout-color: rgb(10 20 20);
+    --var-hover20: rgb(181 181 181 / 20%);
+    --var-hover22: rgb(181 181 181 / 22%);
+    --var-hover25: rgb(181 181 181 / 25%);
+    --var-hover30: rgb(181 181 181 / 30%);
+    --var-hover50: rgb(181 181 181 / 50%);
+    --var-hover80: rgb(181 181 181 / 80%);
+    --var-hover100: rgb(181 181 181 / 100%);
 }
 /* Theme info and version */
 .info-3pQQBb:after {
@@ -38,7 +45,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Glass Wave customisations: \a\a Use the bellow code in your custom css tab to customise the theme. \a\a NOTE: For chat bubbles/mentioned use only solid colors without transparency.\a\a :root{ \a --var-accent: Custom color ;\a --var-popout-color: Custom color ; \a --var-chat-bubbles-background: Custom color ; \a --var-chat-bubbles-edge-background: Custom color ; \a --var-chat-mentioned: Custom color ; \a --var-background: url(Custom image) ; \a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);";
+    content: "Glass Wave customisations: \a\a All Glass Wave variables can be customised using the bellow code in your custom css tab. \a\a NOTE: For chat bubbles/mentioned use only solid colors without transparency.\a\a :root{ \a --var-background: url(Custom image) ;\a --var-accent: Custom color ;\a --var-popout-color: Custom color ;\a --var-chat-bubbles-background: Custom color ;\a --var-chat-bubbles-edge-background: Custom color ;\a --var-chat-mentioned: Custom color ;\a --var-hover20: Custom color ;\a--var-hover22: Custom color ;\a--var-hover25: Custom color ;\a--var-hover30: Custom color ;\a--var-hover50: Custom color ;\a--var-hover80: Custom color ;\a--var-hover100: Custom color ;\a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);";
     position: relative;
     display: flex;
     width: 100%;
@@ -157,7 +164,7 @@
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer-o60hpj, .wrapper-3htY7x,
 .wave-2xQAXR, .container-2WMFjc, .container-jV-A82, .container-1iKw09, .row-XYkFDK, .box-3QCU9H, .stepNumber-1OYCPJ, .enableCard-707m1C, .containerSidenav-3qiKqP .themed-Hp1KC_,
 .settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer-11-cKL, .suggestedChannels-1mEoi7, .prompt-R8SyL4, .role-3uAPnQ, 
-.premiumTrialAcknowledgedBadge-2QxbU_, .chat-2ZfjoI .header-elFGge, .mainTableContainer-3Nxvkd, .otherRoles-LMys1u, .button-2XiUpU {
+.premiumTrialAcknowledgedBadge-2QxbU_, .chat-2ZfjoI .header-elFGge, .mainTableContainer-3Nxvkd, .otherRoles-LMys1u, .button-2XiUpU, .scrollerContainer-20PD88, .bannedUser-1IrKtC {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
@@ -213,11 +220,11 @@
 .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover, .container-3zZkKh,
 .integration-1qC-fv, .container-1A0qQO, .row-7jGzPR:hover, .header-1sd0RU, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive-26HRN_:hover,
 .wrapper-NhbLHG:hover .link-1_kTxV, .header-uVCAlo .container-1SX9VC, .addMemberRow-KVhQFf.selectedRow-1SAgVL, .termsFieldBody-2nQ2cD, .profileCard-2gVmvm, .prompt-1sE27N,
-.memberRowContainer-ZDlmmA:hover td {
-    background-color: rgb(181 181 181 / 20%);
+.memberRowContainer-ZDlmmA:hover td, .bannedUser-1IrKtC:hover {
+    background-color: var(--var-hover20);
 }
 .card-8UsK4b:hover {
-    background-color: rgb(181 181 181 / 22%);
+    background-color: var(--var-hover22);
 }
 
 .optionContainer-yOpaLq:hover, .categoryItemDefaultCategory-3haEDq:hover, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
@@ -227,14 +234,14 @@
 .selected-1GtAC5 .header-3OsQeK, .rowContainer-3t7486:hover, .rowContainer-3t7486:active, .listRow-Y5zoF8:hover, .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, 
 .colorable-3rVGna.primaryDark-2UJt1G:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
 .interactive-26HRN_:active, .wrapper-NhbLHG:active .link-1_kTxVm, .button-2XiUpU:hover {
-    background-color: rgb(181 181 181 / 25%);
+    background-color: var(--var-hover25);
 }
 .optionButtonWrapper-2lbogO {
-    border: 2px solid rgb(181 181 181 / 25%);
+    border: 2px solid var(--var-hover25);
     transition: 50ms ease-in-out;
 }
 .clickableAction-2q3H52:hover .action-3oG-si {
-    background-color: rgb(181 181 181 / 30%);
+    background-color: var(--var-hover30);
 }
 .menu-1QACrS, .header-11eigE, .emojiPicker-6YCk8a, .contentWrapper-3vHNP2, .wrapper-2SplAX, .theme-dark .customColorPicker-C_jddW, .messageContainer-3VTXBC, .footer-5ji8u1,
 .popout-15UxD6, .container-3YcgdM, .divider-AZrXIA, .menu-2TXYjN, .wrapper-1HIH0j, .resultsList-2Bp-2_, .popout-TdhJ6Z, .theme-dark .tierMarkerBackground-G8FoN4, 
@@ -245,34 +252,34 @@
     background-color: var(--var-popout-color);
 }
 .legacySession-UoUT_h .sessionIcon-2fwSzb {
-    background-color: rgb(181 181 181 / 50%);
+    background-color: var(--var-hover50);
 }
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
     background-color: rgb(16 53 103 / 90%);
 }
 .sessionIcon-2fwSzb, .clickableProgressBar-WjCpWw:hover .progressBar-2ULTnj {
-    background-color: rgb(181 181 181 / 80%);
+    background-color: var(--var-hover80);
 }
 .progressBarContainer-3nSoms .progressBarCurrent-ea4YDg, .clickableProgressBar-WjCpWw:active .progressBar-2ULTnj {
-    background-color: rgb(181 181 181 / 100%);
+    background-color: var(--var-hover100);
 }
 .optionButtonWrapper-2lbogO:hover {
-    border-color: rgb(181 181 181 / 100%);
+    border-color: var(--var-hover100);
     transition: 50ms ease-in-out;
 }
 .optionButtonWrapper-2lbogO.selected-KQBgNS {
     background-color: var(--var-black1);
-    border-color: rgb(181 181 181 / 100%);
+    border-color: var(--var-hover100);
 }
 .theme-dark .optionPill-2kmuZR {
-    background-color: rgb(181 181 181 / 20%);
-    border-color: rgb(181 181 181 / 30%);
+    background-color: var(--var-hover20);
+    border-color: var(--var-hover30);
 }
 .checkCircle-1uvETj {
-    color: rgb(181 181 181 / 50%)
+    color: var(--var-hover50)
 }
 .eventStatusBrand-3D-ae6 {
-    color: rgb(181 181 181 / 80%);
+    color: var(--var-hover80);
 }
 .title-1_TkpU, .subtitle-3m-md1, .text-PdAsFQ, .optionHeader-27AHfD, .footerTitle-3Bslxi, .subtitle-1cc8Nz, .title-OdeD-o, .skip-2hTIXL, 
 .footerSeparator-3U8YsT .button-ejjZWC .contents-3NembX, .subtitle-bIoUVX, .title-2Giw-4, .guidelines-FvqqF2, .createGuild-2m1V10 .input-3O04eu, .uploadIcon-2wV7s_, 
@@ -358,7 +365,7 @@
 }
 .theme-dark .notches-2w7UZJ.black-11MaxJ {
     color: transparent;
-    background-color: rgb(181 181 181 / 20%);
+    background-color: var(--var-hover20);
 }
 .selectionCircle-3s5Uex {
     box-shadow: inset 0 0 4px 3px #0e6682, inset 0 0 4px 4px #0e6682;
@@ -398,10 +405,10 @@
     border-radius: 10px;
 }
 .rowBottomBorder-3HkIZv {
-    border-bottom: 1px solid rgb(181 181 181 / 20%);
+    border-bottom: 1px solid var(--var-hover20);
 }
 .closeIcon-3aZ-RA {
-    color: rgb(181 181 181 / 20%);
+    color: var(--var-hover20);
 }
 .theme-dark .default-1Tkeeg {
     box-shadow: none;
@@ -619,13 +626,13 @@
     fill: transparent !important;
 }
 .booleanValueIcon-1Z365i path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {
-    color: rgb(181 181 181 / 30%);
+    color: var(--var-hover30);
 }
 .list-1PXS_1 {
-    border-top: 1px solid rgb(181 181 181 / 20%);
+    border-top: 1px solid var(--var-hover20);
 }
 .listItem-25TTJR {
-    border-bottom: 1px solid rgb(181 181 181 / 20%);
+    border-bottom: 1px solid var(--var-hover20);
 }
 .recommendedTierHighlight-1V298h:after, .recommendedTierHighlight-1V298h:before {
     border-color: var(--var-black1);
@@ -691,7 +698,7 @@
     background-color: var(--var-accent);
 }
 .previewContainer-1xQAsw .theme-light .messageContainer-3a6gLR {
-    background-color: rgb(181 181 181 / 20%);
+    background-color: var(--var-hover20);
 }
 .previewContainer-1xQAsw .theme-light .markup-eYLPri {
     color: rgb(193 198 201);
@@ -917,7 +924,7 @@
     margin-right: 3px;
 }
 .forumPost-3i1mpe {
-    background-color: rgb(181 181 181 / 20%);
+    background-color: var(--var-hover20);
     border-radius: 10px;
     margin: 10px 0 10px;
 }
@@ -1114,7 +1121,7 @@
 /* Sliders */
 .container-1QtPKm:not(.checked-16gMAN) {
     /*full off*/
-    background-color: rgb(181 181 181 / 20%) !important;
+    background-color: var(--var-hover20) !important;
 }
 .container-1QtPKm.checked-16gMAN {
     /*full on*/
@@ -1125,7 +1132,7 @@
 }
 /* BD Sliders */
 .bd-switch-body {
-    --switch-color: rgb(181 181 181 / 20%) !important;
+    --switch-color: var(--var-hover20) !important;
     transition: 100ms ease;
 }
 .bd-switch input:checked+.bd-switch-body {
@@ -1187,7 +1194,7 @@
 }
 /* User popouts */
 .userProfileInnerThemedNonPremium-2AJg-H .role-2TIOKu {
-    background-color: rgb(181 181 181 / 20%);
+    background-color: var(--var-hover20);
 }
 .userProfileInnerThemedNonPremium-2AJg-H {
     background: var(--var-popout-color);
@@ -1199,7 +1206,7 @@
     background-color: var(--var-black1);
 }
 .userProfileInnerThemedNonPremium-2AJg-H .badgeList-2aoHPw {
-    background-color: rgb(181 181 181 / 20%);
+    background-color: var(--var-hover20);
 }
 /* Notice */
 .notice-2HEN-u {
