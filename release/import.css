@@ -983,36 +983,28 @@
     top: 33px;
 }
 /* Nitro Promotion/Trial badge */
-.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .nitroTabBadgeContainer-1EIXgy {
+.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .badgeContainer-1OeZs3 {
     position: relative;
-    left: -3px;
-    font-size: 10px;
+    left: -10px;
     bottom: 3px;
 }
-.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .premiumTrialAcknowledgedBadge-2QxbU_ {
+.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .badgeContainer-1OeZs3 {
     position: relative;
-    width: 85%;
     height: 18px;
-    top: -8px;
-    left: -24px;
-    border-radius: 3px 3px 0 0;
+    top: -7px;
     color: var(--header-secondary);
-    background-color: var(--var-popout-color);
+    background-color: var(--mbd-black3);
+    border-radius: 3px 3px 0 0;
     transform: translateY(-28px);
     transition: 150ms ease;
 }
-.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x:hover .premiumTrialAcknowledgedBadge-2QxbU_ {
-    position: relative;
-    width: 85%;
+.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x:hover .badgeContainer-1OeZs3 {
+    background-color: var(--mbd-black1);
     color: #eeeff0;
+    top: -4px;
     border-radius: 3px 3px 0 0;
     transform: translateY(0px);
     transition: 150ms ease-out;
-}
-.container-32HW5s[aria-posinset="2"] .interactive-iyXY_x .premiumTrialBadgeSelected-3NVwA4 {
-    background-color: var(--var-accent);
-    color: #eeeff0;
-    transform: translateY(0px);
 }
 /* Snowgiving button */
 .snowsgivingLink-1TZi3c {
