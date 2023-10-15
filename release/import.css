@@ -138,7 +138,7 @@
 .connection-YOVI9j, .connectionHeader-Ixbb1s, .accountButtonInner-33vCDY, .theme-dark .feature-2IUcBI, .guildHeader-1EPPBS, .cardWrapper-1bSePP, .detailsBlock-24pLFz,
 .noItemsCard-5EOcCl, .promotionCard-mo7ClH, .theme-dark .paymentPane-ut5qKZ, .theme-dark .codeRedemptionRedirect-2hYMSQ, .theme-dark .defaultIndicator-2ndWks, .container--8P6Tr,
 .contentCircle-15IFyT, .container-2cd8Mz .themed-Hp1KC_, .theme-dark .headerBar-1dSpQr, .container-2o3qEW, .searchResult-O9NDji, .header-1w9Q93, 
-.card-2guEcY:not(.outline-3kFzf8), .emptyCard-KDifrB, .mainCard-3KBsBI, .matchingPostsRow-2IiEQ1, .pill-3pRQlO, .bigPerkCard-1uwmWV, .smallPerkCard-2sX_--, 
+.card-2guEcY:not(.outline-3kFzf8), .emptyCard-KDifrB, .mainCard-3KBsBI, .matchingPostsRow-2IiEQ1, .pill-3pRQlO, .bigPerkCard-1uwmWV, .smallPerkCard-39W9m_, 
 .children-2C96Ex .input-3O04eu, .theme-dark .expandedInfo-1W31i3, .theme-dark .progress-1S-TDF, .avatarUploaderInnerSquareDisabled-3M9eJS,
 .container-3EtAkD, .primary-38Hs-h:hover:not(.disabled-184-il), .secondary-2bzKEX, .container-3EtAkD:hover .icon-2DGsye, .theme-dark .default-1Tkeeg, 
 .theme-dark .tierHeaderUnlocked-1OpOLf, .theme-dark .tierHeaderLocked-30MLlO, .descriptionBox-SKGNgB, .marginBottom4-1fdMNe .input-3O04eu, .cardHeader-3d6H8N, .member-2cj2PI .role-2TIOKu,
@@ -164,7 +164,8 @@
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer-o60hpj, .wrapper-3htY7x,
 .wave-2xQAXR, .container-2WMFjc, .container-jV-A82, .container-1iKw09, .row-XYkFDK, .box-3QCU9H, .stepNumber-1OYCPJ, .enableCard-707m1C, .containerSidenav-3qiKqP .themed-Hp1KC_,
 .settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer-11-cKL, .suggestedChannels-1mEoi7, .prompt-R8SyL4, .role-3uAPnQ, 
-.premiumTrialAcknowledgedBadge-2QxbU_, .chat-2ZfjoI .header-elFGge, .mainTableContainer-3Nxvkd, .otherRoles-LMys1u, .button-2XiUpU, .scrollerContainer-20PD88, .bannedUser-1IrKtC {
+.premiumTrialAcknowledgedBadge-2QxbU_, .chat-2ZfjoI .header-elFGge, .mainTableContainer-3Nxvkd, .otherRoles-LMys1u, .button-2XiUpU, .scrollerContainer-20PD88, .bannedUser-1IrKtC,
+.card-1TK1zf {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer-3NMgTS {
@@ -247,7 +248,7 @@
 .popout-15UxD6, .container-3YcgdM, .divider-AZrXIA, .menu-2TXYjN, .wrapper-1HIH0j, .resultsList-2Bp-2_, .popout-TdhJ6Z, .theme-dark .tierMarkerBackground-G8FoN4, 
 .quickswitcher-pKcM9U, .noiseCancellationPopout-2-e5Xz, .container-1jQZ2U, .accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf, .button-3bklZh:hover,
 .container-18GwIk, .theme-dark .streamPreview-I7itZ6, .scroller-3b1p7z, .theme-dark .quickSelectPopout-2F0PXw, .container-2McqkF, .theme-dark .autocomplete-3NRXG8, 
-.body-2qXItL, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container-3kfp0r, .wrapper-1gVUIN.minimum-fXpVNc, .innerWrapper-MqFL7z, .resultsList-2tyWrf, 
+.body-2qXItL, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container-3kfp0r, .wrapper-1gVUIN.minimum-fXpVNc, .innerWrapper-1__hoj, .resultsList-2tyWrf, 
 .theme-dark.authBox-1HR6Ha, .callContainer-HtHELf, .contentWrapper-2f9yME {
     background-color: var(--var-popout-color);
 }
@@ -407,8 +408,11 @@
 .rowBottomBorder-3HkIZv {
     border-bottom: 1px solid var(--var-hover20);
 }
-.closeIcon-3aZ-RA {
+.closeIcon-3rsIdn {
     color: var(--var-hover20);
+}
+.rowBottomBorder-1BI5G- {
+    border-bottom: 1px solid var(--var-hover20);
 }
 .theme-dark .default-1Tkeeg {
     box-shadow: none;
@@ -543,6 +547,9 @@
 .calendarPicker-sDhzdi .react-datepicker__day {
     border-top: 1px solid var(--var-black1);
     border-left: 1px solid var(--var-black1);
+}
+.container-2GO3s6 .root-1ZTLuz path {
+    fill: none;
 }
 /* Coloring END */
 
