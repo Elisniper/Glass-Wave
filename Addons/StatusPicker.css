@@ -7,14 +7,14 @@
 .submenu-1apzyU, .submenu-1apzyU .scroller-1bVxF5 {
     background: rgb(40 40 40) !important;
 }
-.accountProfilePopoutWrapper-3GskID .scroller-1bVxF5, .menu-1QACrS[aria-label="Set Status"] {
+.accountProfilePopoutWrapper-Ag_Fip .scroller-1bVxF5, .menu-1QACrS[aria-label="Set Status"] {
     background: transparent;
     box-shadow: none !important;
 }
-.accountProfilePopoutWrapper-3GskID .menu-1QACrS {
+.accountProfilePopoutWrapper-Ag_Fip .menu-1QACrS {
     background: transparent;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA.profileColors-2AgAV4.theme-dark {
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutOuter-1OHwPL.userProfileOuterUnthemed-11rPfA.profileColors-2AgAV4.theme-dark {
     position: relative;
     width: 240px;
     left: 22px;
@@ -22,13 +22,13 @@
     background: transparent;
     box-shadow: none;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM.profileColors-2AgAV4.theme-dark {
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM.profileColors-2AgAV4.theme-dark {
     position: relative;
     width: 232px;
     left: 22px;
     box-shadow: none;
     top: 10px;
 }
-.accountProfilePopoutWrapper-3GskID .pencilContainer-18TrEJ {
+.accountProfilePopoutWrapper-Ag_Fip .pencilContainer-18TrEJ {
     right: 33%;
 }
