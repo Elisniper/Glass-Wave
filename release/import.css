@@ -76,13 +76,20 @@
     background-color: transparent;
 }
 .bg-1QIAus {
-    background-image: var(--var-background);
     background-position-x: center;
     background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(100%) contrast(100%) blur(0px) saturate(100%);
     z-index: -5;
+}
+body {
+    background-image: var(--var-background);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(100%) contrast(100%) blur(0px) saturate(100%);
 }
 .theme-dark .directoryContainer-z-0pgp {
     background-color: var(--var-accent);
@@ -952,6 +959,11 @@
 }
 .layer-86YKbF:has(.hidden-10MsGQ) .wrapper-1gVUIN {
     border-radius: 0;
+}
+/* Nitro Theme Preview & App Icon Preview*/
+.themeEditor-1Ebyfp, .editor-1m9XtV {
+    background: var(--var-black1);
+    border-left: 5px solid transparent;
 }
 /* Friends, Nitro and Public server buttons start */
 .container-32HW5s[aria-posinset="1"], .container-32HW5s[aria-posinset="2"] {
