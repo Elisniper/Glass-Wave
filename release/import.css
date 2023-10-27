@@ -859,6 +859,12 @@ body {
     border-radius: 10px;
     background-color: var(--var-black1);
 }
+.content__1a4fe:not(:has(.container_b2ce9c)) .container_b181b6:before {
+    border-radius: 10px 0 0 10px;
+}
+.chat__52833.threadSidebarOpen_fa231d .container_b181b6:before {
+    border-radius: 10px;
+}
 .profilePanel__12596 {
     width: 240px;
     height: 100%;
