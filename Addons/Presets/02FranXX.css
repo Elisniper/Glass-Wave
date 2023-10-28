@@ -1,0 +1,10 @@
+/* 02FranXX Preset */
+:root {
+    --var-background: url(https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/02FranXX.jpg?raw=true);
+    --var-accent: #591d25;
+    --var-popout-color: rgb(103 41 52);
+
+    /* Chat */
+    --var-chat-bubbles-background: linear-gradient(90deg, rgb(31 21 27 / 0.5) 0%, rgb(42 22 31 / 0.5) 50%, rgb(41 23 35 / 0.5) 100%);
+    --var-chat-mentioned: rgb(104 68 66 / 70%);
+}

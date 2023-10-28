@@ -45,7 +45,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Glass Wave customisations: \a\a All Glass Wave variables can be customised using the bellow code in your custom css tab. \a\a NOTE: For chat bubbles/mentioned use only solid colors without transparency.\a\a :root{ \a --var-background: url(Custom image) ;\a --var-accent: Custom color ;\a --var-popout-color: Custom color ;\a --var-chat-bubbles-background: Custom color ;\a --var-chat-bubbles-edge-background: Custom color ;\a --var-chat-mentioned: Custom color ;\a --var-hover20: Custom color ;\a--var-hover22: Custom color ;\a--var-hover25: Custom color ;\a--var-hover30: Custom color ;\a--var-hover50: Custom color ;\a--var-hover80: Custom color ;\a--var-hover100: Custom color ;\a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);";
+    content: "Glass Wave customisations: \a\a All Glass Wave variables can be customised using the bellow code in your custom css tab. \a\a :root{ \a --var-background: url(Custom image) ;\a --var-accent: Custom color ;\a --var-popout-color: Custom color ;\a --var-chat-bubbles-background: Custom color ;\a --var-chat-mentioned: Custom color ;\a --var-hover20: Custom color ;\a--var-hover22: Custom color ;\a--var-hover25: Custom color ;\a--var-hover30: Custom color ;\a--var-hover50: Custom color ;\a--var-hover80: Custom color ;\a--var-hover100: Custom color ;\a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/River.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Space.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/Fantacy.css);";
     position: relative;
     display: flex;
     width: 100%;
@@ -121,7 +121,7 @@ body {
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c,
 .iconWrapper__85630, .theme-dark .footer-1hTRRZ, .checkmark__1577e, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill__30e17, .container__73245, .pillItemSelected__3dd13,
 .checkboxCircle_aed363, .theme-dark .dim__7b9b1 .key__06fe6, .theme-dark .calendarPicker__5c474 .react-datepicker, .selectedProgressBar-11z5d9,.activityCardTag-glB7qz,
-.childWrapper__01b9c, .expandedFolderBackground__1bec6, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_d6aa46, .iconCircle_de71da {
+.childWrapper__01b9c, .expandedFolderBackground__1bec6, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_d6aa46, .iconCircle_de71da, .wrapper_cd625e {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper__4bf8e:focus-within, .wrapper__4beb8 {
@@ -161,12 +161,12 @@ body {
 .theme-dark .bd-server-card, .bd-pagination button:hover, .bd-pagination button:active, .container-x8Y1ix, .role__88585, .theme-dark .notDetected__2a0c9, 
 .theme-light .notDetected__2a0c9, .tag__69d9d, .activityItem-1Z9CTr, .participantsButton__56586, .replyBar_b64d74, .threadSuggestionBar_b633f7, 
 .header__53b07, .theme-dark .inviteBannerUpsell-1t_LYM, .previewContainer_c7e80d, .emptyChannelIcon__1a1ba, .darkIcon__1846a, .selected__608f1, .selected__608f1:hover, 
-.sortDropdown_ec3016, .tag-19iIl1, .tagsButton_e96762, .wrapper-90V9J2, .card-2bTCxE, .topPerksCard__9fc01, .wrapper_cf13f4, .testimonialHeroContainer__4a355, 
+.sortDropdown_ec3016, .tag-19iIl1, .tagsButton_e96762, .card-2bTCxE, .topPerksCard__9fc01, .wrapper_cf13f4, .testimonialHeroContainer__4a355, 
 .previewListItem__4f725, .progressBarCurrent__44486, .channelList__4e836, .header__8e9c1, .channelRow__33fcb, .channelCoverage__3b43c, .channelCoverageDetails__1b72e, 
 .container_bc63f8, .pillContainer_e97d2d, .badExampleIcon__70659, .actionItem__36958, .resourceChannel__1f331, .addActionItem__209df:hover, .addActionItem__209df:active, 
 .onboardingStepContainer__4a9d0, .theme-dark .headerArtPlaceholder__4f00a, .sidebarCardWrapper__2c840, .chatHeaderBar__28ee6,  .channelRow__96673:hover:not(.disabled__583e7), 
 .upsellPreview_e0cb61, .container-3arpDl, .divider-2bkesd, .changelog__6d46d, .safetyChecklist__826c8, .simpleItemWrapper__2a0a0, .theme-dark .container__10dc7, 
-.theme-dark .header__60bef, .list_b1e6a9, .commandName__72789, .wrapper-1ReDXd, .theme-dark .calendarPicker__5c474 .react-datepicker__day--disabled, 
+.theme-dark .header__60bef, .list_b1e6a9, .commandName__72789, .theme-dark .calendarPicker__5c474 .react-datepicker__day--disabled, 
 .theme-dark .calendarPicker__5c474 .react-datepicker__day--outside-month, .theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled, 
 .theme-dark .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker__5c474 .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer__9d362, .wrapper__0df00,
@@ -237,12 +237,12 @@ body {
 }
 
 .optionContainer__5d0b1:hover, .categoryItemDefaultCategory__67fe7:hover, .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategorySelected__8245a:hover,
-.navButtonActive__735cb, .side_b4b3f6 .themed_b957e8.item__48dda:active:not(.disabled__85bca), .option_be8b2e.focused_a2f507, .option_be8b2e:focus, .option_be8b2e:hover,
+.navButtonActive_b003de, .side_b4b3f6 .themed_b957e8.item__48dda:active:not(.disabled__85bca), .option_be8b2e.focused_a2f507, .option_be8b2e:focus, .option_be8b2e:hover,
 .container__99b06:hover, .theme-dark .container__99b06.isOpen__8593d, .lookFilled__19298.colorBrandNew_fd170a:active, .container_d5f6d0:active,
 .backgroundModifierContainer__73a0a:active:not(.disabled__8b7eb):not(.noAction_aabf92), .collapseable__71e46:active, .clickable__2d589 .header__104ca:hover, 
 .selected__0b1ad .header__104ca, .rowContainer__6f4c6:hover, .rowContainer__6f4c6:active, .listRow-Y5zoF8:hover, .colorable_c84c4c.primaryDark__6b700.active_ff29dc, 
 .colorable_c84c4c.primaryDark__6b700:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:after,
-.interactive__776ee:active, .wrapper__7bcde:active .link__95dc0m, .button_fb10b9:hover {
+.interactive__776ee:active, .wrapper__7bcde:active .link__95dc0m, .button_fb10b9:hover, .button__3ecb4 {
     background-color: var(--var-hover25);
 }
 .optionButtonWrapper__4072c {
@@ -938,10 +938,6 @@ body {
 .container__56e52 {
     padding-right: 0;
     padding-left: 8px;
-}
-.messagesPopout__22763 .jumpButton_da1ebb {
-    margin-top: 18px;
-    margin-right: 5px;
 }
 .scroller__1c703 .jumpButton_da1ebb {
     margin-right: 3px;
