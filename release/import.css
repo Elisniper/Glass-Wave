@@ -45,7 +45,7 @@
 }
 /* Theme customisation instructions */
 #themes-tab .bd-addon-controls:after {
-    content: "Glass Wave customisations: \a\a All Glass Wave variables can be customised using the bellow code in your custom css tab. \a\a :root{ \a --var-background: url(Custom image) ;\a --var-accent: Custom color ;\a --var-popout-color: Custom color ;\a --var-chat-bubbles-background: Custom color ;\a --var-chat-mentioned: Custom color ;\a --var-hover20: Custom color ;\a--var-hover22: Custom color ;\a--var-hover25: Custom color ;\a--var-hover30: Custom color ;\a--var-hover50: Custom color ;\a--var-hover80: Custom color ;\a--var-hover100: Custom color ;\a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/02FranXX.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/EminenceInShadow.css);";
+    content: "Glass Wave customisations: \a\a Glass Wave can be customised using the bellow code in your custom css tab. \a\a :root{ \a --var-background: url(Custom image) ;\a --var-accent: Custom color ;\a --var-popout-color: Custom color ;\a --var-chat-bubbles-background: Custom color ;\a --var-chat-mentioned: Custom color ;\a --var-hover20: Custom color ;\a--var-hover22: Custom color ;\a--var-hover25: Custom color ;\a--var-hover30: Custom color ;\a--var-hover50: Custom color ;\a--var-hover80: Custom color ;\a--var-hover100: Custom color ;\a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/02FranXX.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/EminenceInShadow.css);";
     position: relative;
     display: flex;
     width: 100%;
@@ -249,8 +249,11 @@ body {
     border: 2px solid var(--var-hover25);
     transition: 50ms ease-in-out;
 }
-.clickableAction_bef9b9:hover .action_c957d9, .close__1080c {
+.clickableAction_bef9b9:hover .action_c957d9 {
     background-color: var(--var-hover30);
+}
+.close__1080c {
+    color: var(--var-hover30);
 }
 .menu_dc52c6, .header__55964, .emojiPicker_b65ce9, .contentWrapper__321ed, .wrapper_fbbb73, .theme-dark .customColorPicker__3cb6a, .messageContainer_aa7d14, .footer_a3029c,
 .popout_a6e77f, .menu_dc52c6, .wrapper_efe67f, .resultsList-2Bp-2_, .popout__24e32, .theme-dark .tierMarkerBackground-G8FoN4, 
@@ -266,8 +269,11 @@ body {
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
     background-color: rgb(16 53 103 / 90%);
 }
-.sessionIcon__540be, .clickableProgressBar__960fb:hover .progressBar__02515, .close__1080c:hover {
+.sessionIcon__540be, .clickableProgressBar__960fb:hover .progressBar__02515 {
     background-color: var(--var-hover80);
+}
+.close__1080c:hover {
+    color: var(--var-hover80);
 }
 .progressBarContainer_f5600f .progressBarCurrent__44486, .clickableProgressBar__960fb:active .progressBar__02515 {
     background-color: var(--var-hover100);
