@@ -30,6 +30,7 @@ Theme Presets:
 Use one of the bellow @imports in your custom css tab to apply a pre-made customisation preset for Gass Wave.
 
 @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/02FranXX.css);<br>
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/EminenceInShadow.css);<br>
 
 # Installation
 
