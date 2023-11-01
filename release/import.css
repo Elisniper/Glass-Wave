@@ -125,7 +125,7 @@ body {
 .interactive:hover, .row__4daf2:hover, .categoryItem_b1be5c.selectedCategoryItem__0bf4c .itemInner__9e755, .bd-server-tag, .selectorButtonSelected-3cQUnj,
 .theme-dark .tooltipBrand__13fbc, .theme-light .tooltipBrand__13fbc, .theme-light .tooltipBrand__13fbc .tooltipPointer_a79354,
 .selectorButton-3fWZ0_:not(.selectorButtonPremiumRequired-IZXhgV):hover, .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c, .wrapper_d281dd:hover .childWrapper__01b9c,
-.iconWrapper__85630, .theme-dark .footer-1hTRRZ, .checkmark__1577e, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill__30e17, .container__73245, .pillItemSelected__3dd13,
+.iconWrapper__85630, .theme-dark .footer__13977, .checkmark__1577e, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill__30e17, .container__73245, .pillItemSelected__3dd13,
 .checkboxCircle_aed363, .theme-dark .dim__7b9b1 .key__06fe6, .theme-dark .calendarPicker__5c474 .react-datepicker, .selectedProgressBar__10383,.activityCardTag-glB7qz,
 .childWrapper__01b9c, .expandedFolderBackground__1bec6, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_d6aa46, .iconCircle_de71da, .wrapper_cd625e,
 .uploadInput_bbab2f, .marker__6f061 .empty__3837d {
@@ -237,7 +237,7 @@ body {
 .integration_d2f026, .container__2c498, .row_fd1939:hover, .header__7133e, .card-8UsK4b, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive__776ee:hover,
 .wrapper__7bcde:hover .link__95dc0, .header_f71767 .container_e4c233, .addMemberRow_d14116.selectedRow__754b4, .termsFieldBody__96dcb, .profileCard_bd55ee, .prompt__1b100,
 .memberRowContainer_f0d0e5:hover td, .bannedUser__38b44:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .name_b3f702 .input_d266e7, .form__13b4f .input_d266e7,
-.theme-dark .previewCard_aef1ab, .options__83084 .input_d266e7 {
+.theme-dark .previewCard_aef1ab, .options__83084 .input_d266e7, .input_d266e7 {
     background-color: var(--var-hover20);
 }
 .card-8UsK4b:hover {
@@ -877,7 +877,7 @@ body {
     border-radius: 10px;
     background-color: var(--var-black1);
 }
-.content__1a4fe:not(:has(.container_b2ce9c)) .container_b181b6:before {
+.content__1a4fe:not(:has(.profilePanel__12596)):not(:has(.container_b2ce9c)) .chatContent__5dca8:before, .content__1a4fe:not(:has(.container_b2ce9c)) .container_b181b6:before {
     border-radius: 10px 0 0 10px;
 }
 .chat__52833.threadSidebarOpen_fa231d .container_b181b6:before {
