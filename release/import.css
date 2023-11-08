@@ -128,7 +128,7 @@ body {
 .iconWrapper__85630, .theme-dark .footer__13977, .checkmark__1577e, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill__30e17, .container__73245, .pillItemSelected__3dd13,
 .checkboxCircle_aed363, .theme-dark .dim__7b9b1 .key__06fe6, .theme-dark .calendarPicker__5c474 .react-datepicker, .selectedProgressBar__10383,.activityCardTag-glB7qz,
 .childWrapper__01b9c, .expandedFolderBackground__1bec6, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_d6aa46, .iconCircle_de71da, .wrapper_cd625e,
-.uploadInput_bbab2f, .marker__6f061 .empty__3837d {
+.uploadInput_bbab2f, .marker__6f061 .empty__3837d, .premiumTrialAcknowledgedBadge_b69948 {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper__4bf8e:focus-within, .wrapper__4beb8 {
@@ -179,7 +179,7 @@ body {
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer__9d362, .wrapper__0df00,
 .wave_e98f7c, .container__6968f, .container__9c82e, .container__9f90c, .row_c1b980, .box__6431e, .stepNumber_f429db, .enableCard__9c362, .containerSidenav__2623a .themed_b152d4,
 .settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer_a703d5, .suggestedChannels__158f9, .prompt__671aa, .role__65ab8, 
-.premiumTrialAcknowledgedBadge-2QxbU_, .chat__52833 .header_c43d51, .mainTableContainer__5ffe0, .otherRoles_a19529, .button_fb10b9, .scrollerContainer_c3503a, .bannedUser__38b44,
+.chat__52833 .header_c43d51, .mainTableContainer__5ffe0, .otherRoles_a19529, .button_fb10b9, .scrollerContainer_c3503a, .bannedUser__38b44,
 .card_e97590, .container__8ee50, .chatHeaderBar_c1df53, .soundButtonSettingContainer__548af, .divider_ffec75, .list__4e6aa, .line__333ed, .benefitsContainer_f75168, 
 .container_a6c201, .copyInput_c1c679, .cardHeader__62148 {
     background-color: var(--var-black1);
@@ -1051,6 +1051,10 @@ body {
     border-radius: 3px 3px 0 0;
     transform: translateY(0px);
     transition: 150ms ease-out;
+}
+.premiumTrialBadge_f2180d {
+    position: relative;
+    transform: translate(-25px, -4px);
 }
 /* Snowgiving button */
 .snowsgivingLink-1TZi3c {
