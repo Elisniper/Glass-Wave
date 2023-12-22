@@ -242,7 +242,7 @@ body {
 .integration_d2f026, .container__2c498, .row_fd1939:hover, .header__7133e, .card__7756d, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive__776ee:hover,
 .wrapper__7bcde:hover .link__95dc0, .header_f71767 .container_e4c233, .addMemberRow_d14116.selectedRow__754b4, .termsFieldBody__96dcb, .profileCard_bd55ee, .prompt__1b100,
 .memberRowContainer_f0d0e5:hover td, .bannedUser__38b44:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .name_b3f702 .input_d266e7, .form__13b4f .input_d266e7,
-.theme-dark .previewCard_aef1ab, .options__83084 .input_d266e7, .input_d266e7, .role__631a3, .valuePill__9d21a, .table_e130b5, .activityItem__33da9 {
+.theme-dark .previewCard_aef1ab, .options__83084 .input_d266e7, .input_d266e7, .role__631a3, .valuePill__9d21a, .table_e130b5, .activityItem__33da9, .users__65981 {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_af2c51 {
@@ -318,7 +318,7 @@ body {
 .header_f45cbf .text-sm-normal_d9d853, .formTitle_ba6f05, .sampleLink__771c4, .title__92748, .rowText_e87737, 
 .progressBarContainer_f5600f .text-xs-medium__220aa[style*="color: var(--text-brand);"], 
 .addPrompt_d0c3a2 .plusIcon__5736c, .addPrompt_d0c3a2 .text-md-medium_b12de1[style*="color: var(--text-brand);"], .nameInput__2a6ec .label__5447e,
-.container-2rCwVJ .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+.container-2rCwVJ .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz, .selectorText_b1d64c {
     color: #FFF !important;
 }
 .theme-light ::placeholder, .theme-light input, .theme-light select {
