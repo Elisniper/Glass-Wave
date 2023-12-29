@@ -1229,7 +1229,7 @@ body {
     margin-bottom: 5px;
     height: 48px;
     width: 72px;
-    top: 22px;
+    transform: translate(0%, -100%);
     border-radius: 10px 10px 0 0;
     background-color: var(--var-black1);
     z-index: 1;
