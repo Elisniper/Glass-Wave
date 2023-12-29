@@ -63,15 +63,31 @@
     content: "";
     position: absolute;
     display: block;
-    top: 0px;
     margin-bottom: 3px;
     margin-top: 3px;
-    left: 72px;
+    left: 0;
     bottom: 0;
+    top: 0;
     pointer-events: none;
     width: 3px;
     border-radius: 10px;
     background-color: var(--info-warning-foreground);
+    z-index: 10;
+}
+.replying_d7b6ad:before {
+    z-index: 20;
+    background-color: var(--var-accent) !important;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 3px;
+    border-radius: 10px;
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    display: block;
 }
 .message__80c10:not(.groupStart__56db5):before {
     background-color: transparent;
