@@ -1223,12 +1223,15 @@ body {
     display: none;
 }
 .scroller__3d071:not(.foldercontent) > .tutorialContainer__890ea {
+    position: fixed;
     display: flex;
     margin: 0;
     margin-bottom: 5px;
     height: 48px;
     width: 72px;
+    top: 22px;
     border-radius: 10px 10px 0 0;
+    background-color: var(--var-black1);
     z-index: 1;
 }
 .scroller__3d071:not(.foldercontent) > .tutorialContainer__890ea .lowerBadge__669e7 {
@@ -1237,6 +1240,7 @@ body {
 }
 .wrapper_a7e7a8 .scroller__3d071 {
     padding-top: 0px;
+    margin-top: 48px;
 }
 .unreadMentionsIndicatorTop_ada847 {
     top: 42px;
