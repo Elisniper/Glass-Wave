@@ -1,0 +1,22 @@
+/*Context Menu START*/
+@keyframes context-new {
+    0% {
+        transform: scale(1, 0.8); 
+    } 
+}
+.menu_dc52c6#guild-context, .menu_dc52c6#user-context, .menu_dc52c6#channel-context, .menu_dc52c6#message, .menu_dc52c6#guild-browse-channels-context-menu, 
+.menu_dc52c6#message-actions {
+    animation: opacity 50ms ease, context-new 240ms cubic-bezier(0, 0, 0, 1);
+    transform-origin: top;
+}
+
+/*Add friend Animation */
+@keyframes add-friend {
+    from {
+        transform: translate(0, -8px); 
+    } 
+}
+.header__6113c {
+    border-bottom: 0;
+    animation: 150ms ease, add-friend 250ms cubic-bezier(0,0,0,1);
+}
