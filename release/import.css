@@ -243,7 +243,7 @@ body {
 .wrapper__7bcde:hover .link__95dc0, .header_f71767 .container_e4c233, .addMemberRow_d14116.selectedRow__754b4, .termsFieldBody__96dcb, .profileCard_bd55ee, .prompt__1b100,
 .memberRowContainer_f0d0e5:hover td, .bannedUser__38b44:hover, .emojiItem_b15dee.emojiItemSelected__1a09a, .name_b3f702 .input_d266e7, .form__13b4f .input_d266e7,
 .theme-dark .previewCard_aef1ab, .options__83084 .input_d266e7, .input_d266e7, .role__631a3, .valuePill__9d21a, .table_e130b5, .activityItem__33da9, .users__65981, .iconWidget_db0821,
-.setCustomButton__99e98 {
+.setCustomButton__99e98, .buttonInner__2771e, .addReactButton__59750 {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_af2c51 {
@@ -260,7 +260,7 @@ body {
 .selected__0b1ad .header__104ca, .rowContainer__6f4c6:hover, .rowContainer__6f4c6:active, .listRow-Y5zoF8:hover, .colorable_c84c4c.primaryDark__6b700.active_ff29dc, 
 .colorable_c84c4c.primaryDark__6b700:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:after,
 .interactive__776ee:active, .wrapper__7bcde:active .link__95dc0m, .button_fb10b9:hover, .button__3ecb4, .navButtonActive__735cb, .setCustomButton__99e98:hover, 
-.iconWidget_db0821:hover {
+.iconWidget_db0821:hover, .buttonInner__2771e:hover, .addReactButton__59750:hover {
     background-color: var(--var-hover25);
 }
 .optionButtonWrapper__4072c {
