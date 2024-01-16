@@ -51,7 +51,7 @@
 .repliedMessage_e2bf4a {
     height: 26px;
 }
-.message__80c10.mentioned__58017 .contents_f41bb2 {
+.message__80c10.mentioned__58017 .contents_f41bb2, .message__80c10.mentioned__58017 .container_dbadf5 {
     background: var(--var-chat-mentioned) !important;
 }
 .message__80c10:not(.groupStart__56db5), .message__80c10.selected_fd9051, .mouse-mode.full-motion .message__80c10:hover {

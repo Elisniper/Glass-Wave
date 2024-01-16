@@ -132,7 +132,7 @@ body {
 .iconWrapper__85630, .theme-dark .footer__13977, .checkmark__1577e, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill__30e17, .container__73245, .pillItemSelected__3dd13,
 .checkboxCircle_aed363, .theme-dark .dim__7b9b1 .key__06fe6, .theme-dark .calendarPicker__5c474 .react-datepicker, .selectedProgressBar__10383,.activityCardTag-glB7qz,
 .childWrapper__01b9c, .expandedFolderBackground__1bec6, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_d6aa46, .iconCircle_de71da, .wrapper_cd625e,
-.uploadInput_bbab2f, .marker__6f061 .empty__3837d, .premiumTrialAcknowledgedBadge_b69948, .activityItem__33da9:hover {
+.uploadInput_bbab2f, .marker__6f061 .empty__3837d, .premiumTrialAcknowledgedBadge_b69948, .activityItem__33da9:hover, .wrapper_b1db9d {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper__4bf8e:focus-within, .wrapper__4beb8 {
@@ -329,9 +329,6 @@ body {
 }
 .memberRowContainer_f0d0e5 {
     background-color: transparent !important;
-}
-.emojiPicker_b65ce9 {
-    border-radius: 0;
 }
 .total_c01838:after {
     border-right-color: rgb(6 13 14);
