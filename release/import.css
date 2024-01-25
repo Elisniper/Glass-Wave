@@ -77,7 +77,8 @@
 .theme-dark .notches__065e9.gray__4fb3f, .scroller-36O4Tg, .header-16U6Vf, .container__9e6a7, .theme-dark .emptyPage__3e15d, .theme-dark .scrollerContainer_bf5dbd, 
 .theme-dark .container__7590f, .theme-dark .focusLock__10aa5 .carouselModal-1eUFoq,.topicFormItem__80144 .textInput__210e5 ,.userProfileInner__8065b:before, .wrapper_bd2abe,
 .outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav__2623a, .sidebar__68062, .theme-dark .container_df3aa0, .theme-dark .page__0b66e, .theme-dark .sidebar__68062, 
-.wrapper__3d460, .wrapper_a7e7a8, .container_b181b6, .wrapper_dae547, .paymentNote_c68ae0, .container__949fa .container_d2567a, .marker__6f061, .option_b5597b:after, .shop_b31ed2 {
+.wrapper__3d460, .wrapper_a7e7a8, .container_b181b6, .wrapper_dae547, .paymentNote_c68ae0, .container__949fa .container_d2567a, .marker__6f061, .option_b5597b:after, .shop_b31ed2,
+.scroller_a1aadd {
     background-color: transparent;
 }
 .bg__12180 {
@@ -157,7 +158,7 @@ body {
 .connection_fff5f6, .connectionHeader__3c82d, .accountButtonInner__80e3a, .theme-dark .feature-2IUcBI, .guildHeader__30707, .cardWrapper_bc8d2a, .detailsBlock__1191c,
 .noItemsCard_f473e7, .promotionCard__8581c, .theme-dark .paymentPane__9cf01, .theme-dark .codeRedemptionRedirect_bc7f36, .theme-dark .defaultIndicator__855a2,
 .contentCircle-15IFyT, .container__5c7e7 .themed_b152d4, .theme-dark .headerBar_afb1ac, .container_b2ce9c, .searchResult_dcd237, .header_f5cc88, 
-.card__4dc22:not(.outline_cb0aed), .emptyCard_f82dde, .mainCard__8a660, .matchingPostsRow__510be, .pill_f055c3, .bigPerkCard-1uwmWV, .smallPerkCard-39W9m_, 
+.card__4dc22:not(.outline_cb0aed), .emptyCard_f82dde, .mainCard__8a660, .matchingPostsRow__510be, .pill_f055c3, .perkCard__6fe60, 
 .children_b15c64 .input_d266e7, .theme-dark .expandedInfo__47bad, .theme-dark .progress__2cc1d, .avatarUploaderInnerSquareDisabled__3cfd1,
 .container_d5f6d0, .primary_f0f61f:hover:not(.disabled__8e315), .secondary_c96c46, .container_d5f6d0:hover .icon__4c736, .theme-dark .default__3e2f5, 
 .theme-dark .tierHeaderUnlocked_cc60fa, .theme-dark .tierHeaderLocked__4d099, .descriptionBox_cca0c3, .marginBottom4__12b08 .input_d266e7, .cardHeader__27283, .member-2cj2PI .role__631a3,
