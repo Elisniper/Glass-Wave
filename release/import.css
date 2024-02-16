@@ -1041,35 +1041,30 @@ body {
     top: 33px;
 }
 /* Nitro Promotion/Trial badge */
-.container__8759a[aria-posinset="2"] .interactive_a868bc .badgeContainer_bc9a26 {
+.container__8759a[aria-posinset="2"] .interactive_a868bc .premiumTrialBadge_f2180d {
     position: relative;
-    left: -10px;
-    font-size: 10px;
-    bottom: 3px;
-}
-.container__8759a[aria-posinset="2"] .interactive_a868bc .badgeContainer_bc9a26 {
-    position: relative;
-    width: 85%;
     height: 18px;
     top: -7px;
-    border-radius: 3px 3px 0 0;
+    left: -24px;
+    bottom: 3px;
+    padding-left: 15px;
+    padding-right: 12px;
     color: var(--header-secondary);
-    background-color: var(--var-popout-color);
+    border-radius: 3px 3px 0 0;
     transform: translateY(-28px);
     transition: 150ms ease;
 }
-.container__8759a[aria-posinset="2"] .interactive_a868bc:hover .badgeContainer_bc9a26 {
-    position: relative;
-    width: 85%;
-    top: -4px;
+.container__8759a[aria-posinset="2"] .interactive_a868bc:hover .premiumTrialBadge_f2180d {
     color: #eeeff0;
     border-radius: 3px 3px 0 0;
     transform: translateY(0px);
     transition: 150ms ease-out;
 }
-.interactive_a868bc .premiumTrialBadge_f2180d {
-    position: relative;
-    transform: translate(-25px, -4px);
+.container__8759a[aria-posinset="2"] .interactive_a868bc .premiumTrialAcknowledgedBadge_b69948 {
+    padding-left: 6px;
+    padding-right: 7px;
+    top: -8px;
+    background-color: var(--var-popout-color);
 }
 /* Snowgiving button */
 .snowsgivingLink-1TZi3c {
