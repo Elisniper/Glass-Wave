@@ -76,7 +76,7 @@
 .theme-dark .footer-1hTRRZ .inputDefault__80165, .titleContainer_e558ff, .option_b5597b:hover:after, .footer__274e8 .inputDefault__80165, .spinner-3QeLKO,
 .theme-dark .notches__065e9.gray__4fb3f, .scroller-36O4Tg, .header-16U6Vf, .container__9e6a7, .theme-dark .emptyPage__3e15d, .theme-dark .scrollerContainer_bf5dbd, 
 .theme-dark .container__7590f, .theme-dark .focusLock__10aa5 .carouselModal-1eUFoq,.topicFormItem__80144 .textInput__210e5 ,.userProfileInner__8065b:before, .wrapper_bd2abe,
-.outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav__2623a, .sidebar__68062, .theme-dark .container_df3aa0, .theme-dark .page__0b66e, .theme-dark .sidebar__68062, 
+.outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav__2623a, .sidebar__68062, .theme-dark .container_df3aa0, .theme-dark .sidebar__68062, 
 .wrapper__3d460, .wrapper_a7e7a8, .container_b181b6, .wrapper_dae547, .paymentNote_c68ae0, .container__949fa .container_d2567a, .marker__6f061, .option_b5597b:after, .shop_b31ed2,
 .scroller_a1aadd, .pageWrapperBackgroundPrimary__74f14, .shopScrollBackgroundPrimary_bb1f42 {
     background-color: transparent;
@@ -112,7 +112,7 @@ body {
 .modalHeader_b23047, .whatsNewSection_e83a8d {
     background: transparent;
 }
-.zoomedCarouselModalRoot__1e2da {
+.zoomedCarouselModalRoot__1e2da, .page__0b66e {
     background: transparent !important;
 }
 /* Transparent Backgrounds END */
@@ -280,7 +280,7 @@ body {
 .container__8261a, .theme-dark .streamPreview__1846c, .scroller_abc422, .theme-dark .quickSelectPopout_c0cf80, .container_d6dad3, .theme-dark .autocomplete_df266d, 
 .body__59737, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container_ae7412, .wrapper_bd2abe.minimum_ebf000, .innerWrapper_c80bad, .resultsList-2tyWrf, 
 .theme-dark.authBox__7196a, .callContainer_cbde45, .contentWrapper_eab878, .skuSelectModalHeader_a2b0d3, .skuSelectModalContent__16b0f, .modalHeader_e68db4, 
-.scrollContainer__7562e .scroller__9a9ac, .popout__7a706, .popout__4c91f {
+.scrollContainer__7562e .scroller__9a9ac, .popout__7a706, .popout__4c91f, .content__1b8a0 {
     background-color: var(--var-popout-color);
 }
 .legacySession__93c63 .sessionIcon__540be {
@@ -793,6 +793,9 @@ body {
     border-radius: 10px;
     margin-right: 5px;
     height: 100%;
+}
+.chat__52833 {
+    border-radius: 0px 0px 0px 10px;
 }
 .container__037ed {
     height: 98.6%;
