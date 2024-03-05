@@ -122,7 +122,7 @@ body {
 
 /* Accent */
 .lookFilled__19298.colorBrand_b2253e:disabled, .lookFilled__19298.colorBrand_b2253e[aria-disabled=true], .lookFilled__19298.colorBrand_b2253e, .lookFilled__19298.colorPrimary__6ed40,
-.modeSelected__487d6 .link__95dc0, .modeSelected__487d6:hover .link__95dc0, .bd-button, .itemFilled__373d7[aria-checked=true], .selected_ea51d6.option_a0c054, 
+.modeSelected__487d6 .link__95dc0, .modeSelected__487d6:hover .link__95dc0, .itemFilled__373d7[aria-checked=true], .selected_ea51d6.option_a0c054, 
 .notice__99c03, .button__671cf:hover, .colorDefault-CDqZdO.focused-3qFvc8, .wrapper__4f229, .inspector__993e1, .optionBox-1UOevl, #bd-editor-controls,
 .channelHeader__5d30c, .wrapper__2d9b1, .buttonColor__6f6b0, .questionMark-3V9mGJ,.colorDefault__0b482:active:not(.hideInteraction__2790e), .lookFilled__19298.colorBrandNew_fd170a,
 .selectedIcon__4b0ba, .newMessagesBar__8b6d7, .botTagRegular_c89c9a, .searchBox_a63854:focus, .backgroundModifierContainer__73a0a.selected__93d53,
@@ -651,11 +651,11 @@ body {
 /* loading circle END*/
 
 /* Button changes */
-.lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover, .bd-button:hover {
+.lookFilled__19298.colorBrand_b2253e:hover, .lookFilled__19298.colorPrimary__6ed40:hover {
     background-color: var(--var-accent);
     transform: translateY(-1px);
 }
-.lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active, .bd-button:active {
+.lookFilled__19298.colorBrand_b2253e:active, .lookFilled__19298.colorPrimary__6ed40:active {
     background-color: var(--var-accent);
     transform: translateY(1px);
 }
@@ -1332,4 +1332,42 @@ body {
 }
 .checkbox-item {
     margin-right: 10px;
+}
+.bd-modal-root {
+    background-color: var(--var-accent);
+}
+.bd-modal-footer {
+    border-radius: 0 0 3px 3px;
+    background-color: var(--var-black2);
+}
+/*BD Addon button */
+.bd-button-filled.bd-button-color-red {
+    background-color: var(--var-notification);
+}
+.bd-button-filled.bd-button-color-brand,  .bd-button-filled.bd-button-color-brand:hover, .bd-button-filled.bd-button-color-brand:active {
+    background-color: var(--var-accent);
+}
+.bd-button-filled.bd-button-color-brand:hover, .bd-button-filled.bd-button-color-red:hover {
+    transform: translateY(-1px);
+}
+.bd-button-filled.bd-button-color-brand:active, .bd-button-filled.bd-button-color-red:active {
+    transform: translateY(1px);
+}
+.bd-button-filled.bd-button-color-brand:disabled, .bd-button-filled.bd-button-color-brand:disabled:hover, .bd-button-filled.bd-button-color-brand:disabled:active {
+    background-color: var(--var-black2);
+}
+
+/*BD BASIC button */
+.bd-controls-basic .bd-button:hover {
+    background-color: var(--var-black1);
+    transform: translateY(-1px);
+}
+.bd-controls-basic .bd-button:active {
+    background-color: var(--var-accent);
+    transform: translateY(1px);
+}
+
+/* BD Blank Button*/
+.bd-button-blank, .bd-button-blank:hover {
+    background-color: transparent;
 }
