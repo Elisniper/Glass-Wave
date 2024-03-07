@@ -81,6 +81,18 @@
 .scroller_a1aadd, .pageWrapperBackgroundPrimary__74f14, .shopScrollBackgroundPrimary_bb1f42 {
     background-color: transparent;
 }
+.artwork__04b4e .image_a9b746.loaded_b5cc8f[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
+    display: none;
+}
+.modalHeader_b23047, .whatsNewSection_e83a8d {
+    background: transparent;
+}
+.zoomedCarouselModalRoot__1e2da, .page__0b66e {
+    background: transparent !important;
+}
+/* Transparent Backgrounds END */
+
+/* Background */
 .bg__12180 {
     background-position-x: center;
     background-color: transparent;
@@ -100,6 +112,7 @@ body {
 .theme-dark .directoryContainer_d3edd9 {
     background-color: var(--var-background);
 }
+/* Scrollbars */
 .scroller__1f96e::-webkit-scrollbar-track, .auto__76cc7::-webkit-scrollbar-track, .thin__62e51::-webkit-scrollbar-thumb, .scroller__52ae7::-webkit-scrollbar-track,
 .auto_a48086::-webkit-scrollbar-track {
     background-color: transparent !important;
@@ -107,16 +120,7 @@ body {
 .auto__76cc7::-webkit-scrollbar-thumb, .auto_a48086::-webkit-scrollbar-thumb {
     background-color: var(--var-black1);
 }
-.artwork__04b4e .image_a9b746.loaded_b5cc8f[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
-    display: none;
-}
-.modalHeader_b23047, .whatsNewSection_e83a8d {
-    background: transparent;
-}
-.zoomedCarouselModalRoot__1e2da, .page__0b66e {
-    background: transparent !important;
-}
-/* Transparent Backgrounds END */
+
 
 /* Coloring */
 
@@ -190,7 +194,7 @@ body {
 .container_a6c201, .copyInput_c1c679, .cardHeader__62148, .shop_b31ed2 .theme-dark.themed_b152d4, .defaultPreviewButtonColor__78b22 {
     background-color: var(--var-black1);
 }
-.upsellOverlayContainer__08979 {
+.upsellOverlayContainer__08979, .mockInput_fd89c6 {
     background: var(--var-black1);
 }
 /* Black 2 */
@@ -665,7 +669,7 @@ body {
 .scroller__439a2[style*='overflow: hidden scroll;'] {
     overflow: overlay !important;
 }
-.scroller__439a2.auto__76cc7.scrollerBase_dc3aa9 {
+.scroller__439a2.auto__76cc7.scrollerBase__2b744 {
     margin-top: 22px;
     background: transparent;
 }
