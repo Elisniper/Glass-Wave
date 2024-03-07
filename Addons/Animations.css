@@ -20,3 +20,23 @@
     border-bottom: 0;
     animation: 150ms ease, add-friend 250ms cubic-bezier(0,0,0,1);
 }
+
+/* User controls activity animation */
+@keyframes user-controls-activitys-swing-in {
+    0% {
+        transform: rotateX(100deg);
+        transform-origin: bottom;
+      opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        transform-origin: bottom;
+      opacity: 1;
+    }
+}
+.panels__58331 .activityPanel__22355 {
+    animation: user-controls-activitys-swing-in 400ms ease-in-out both;
+}
+.container_d667ff {
+    animation: user-controls-activitys-swing-in 200ms ease-in-out both;
+}

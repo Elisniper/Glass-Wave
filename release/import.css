@@ -1,7 +1,7 @@
 @import url(https://elisniper.github.io/Glass-Wave/Addons/StatusPicker.css);
 @import url(https://elisniper.github.io/Glass-Wave/Addons/ChatBubbles.css);
 @import url(https://elisniper.github.io/Glass-Wave/Addons/Icons.css);
-
+@import url(https://elisniper.github.io/Glass-Wave/Addons/Animations.css);
 
 :root {
     --var-background: linear-gradient(138deg, rgba(162,247,220,1) 0%, rgba(18,145,187,1) 80%, rgba(35,108,179,1) 100%);
@@ -158,7 +158,7 @@ body {
 .theme-dark .container_ca50b9, .container_def45c, .container__767d1, .scrollableContainer__33e06, 
 .peopleListItem_d14722.active__6b8ff, .peopleListItem_d14722:hover, .peopleColumn__51df3 .searchBar_ff8800, .addFriendInputWrapper__4bf8e, .theme-dark .inset__0bfb3, 
 .theme-dark .scroller__3d071, .bd-addon-list .bd-addon-card, .bd-addon-list .bd-addon-header, .bd-search-wrapper, .bd-select:hover, .bd-select.menu-open, 
-.bd-select .bd-select-options, .flexChild__6e093 .layout-1XOMLV, .itemFilled__373d7, .container_a308ae:active, .theme-dark .card__86773, .theme-dark .iconMask__1aff7,
+.flexChild__6e093 .layout-1XOMLV, .itemFilled__373d7, .container_a308ae:active, .theme-dark .card__86773, .theme-dark .iconMask__1aff7,
 .content_d67847, .container__8877d, .customizationSection__16fec .input_d266e7, .customizationSection__16fec .bioTextArea_a108c9, .authedApp__51b26, .connectContainer__8050b,
 .connection_fff5f6, .connectionHeader__3c82d, .accountButtonInner__80e3a, .theme-dark .feature-2IUcBI, .guildHeader__30707, .cardWrapper_bc8d2a, .detailsBlock__1191c,
 .noItemsCard_f473e7, .promotionCard__8581c, .theme-dark .paymentPane__9cf01, .theme-dark .codeRedemptionRedirect_bc7f36, .theme-dark .defaultIndicator__855a2,
@@ -285,7 +285,7 @@ body {
 .container__8261a, .theme-dark .streamPreview__1846c, .scroller_abc422, .theme-dark .quickSelectPopout_c0cf80, .container_d6dad3, .theme-dark .autocomplete_df266d, 
 .body__59737, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container_ae7412, .wrapper_bd2abe.minimum_ebf000, .innerWrapper_c80bad, .resultsList-2tyWrf, 
 .theme-dark.authBox__7196a, .callContainer_cbde45, .contentWrapper_eab878, .skuSelectModalHeader_a2b0d3, .skuSelectModalContent__16b0f, .modalHeader_e68db4, 
-.scrollContainer__7562e .scroller__9a9ac, .popout__7a706, .popout__4c91f, .content__1b8a0 {
+.scrollContainer__7562e .scroller__9a9ac, .popout__7a706, .popout__4c91f, .content__1b8a0, .bd-select .bd-select-options {
     background-color: var(--var-popout-color);
 }
 .legacySession__93c63 .sessionIcon__540be {
@@ -534,10 +534,10 @@ body {
     border: 1px solid transparent;
 }
 .bd-select .bd-select-option:hover {
-    background-color: rgb(0 0 0 / 25%);
+    background-color: var(--var-popout-color);
 }
 .bd-select .bd-select-option.selected, .theme-dark .popoutList_db80c1, .theme-dark .addGamePopout_e4ca8f {
-    background-color: rgb(0 0 0 / 60%);
+    background-color: var(--var-popout-color);
 }
 .card__86773 .wrapper_c727b6 {
     background-color: #000000;
@@ -599,6 +599,10 @@ body {
 }
 .container__74da1 .root__3594f path {
     fill: none;
+}
+.theme-dark .game__19f4b .gameNameInput_e25dd8:hover, .theme-dark .gameNameInput_e25dd8:focus {
+    border-color: var(--var-black1);
+    background-color: var(--var-black1);
 }
 /* Coloring END */
 
@@ -1374,4 +1378,8 @@ body {
 /* BD Blank Button*/
 .bd-button-blank, .bd-button-blank:hover {
     background-color: transparent;
+}
+/* BD toast */
+.bd-toast {
+    background-color: var(--var-popout-color);
 }
