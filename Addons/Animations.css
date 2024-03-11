@@ -26,12 +26,12 @@
     0% {
         transform: rotateX(100deg);
         transform-origin: bottom;
-      opacity: 0;
+        opacity: 0;
     }
     100% {
         transform: rotateX(0);
         transform-origin: bottom;
-      opacity: 1;
+        opacity: 1;
     }
 }
 .panels__58331 .activityPanel__22355 {
