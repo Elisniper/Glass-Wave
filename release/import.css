@@ -21,6 +21,7 @@
     /* Discord VARS */
     --green-360: rgb(35 165 89 / 80%);
     --green-330: rgb(35 165 89 / 100%);
+    --status-danger: var(--var-notification);
 }
 /* Theme info and version */
 .info__755e1:after {
@@ -1300,7 +1301,7 @@ body {
     right: 34px;
 }
 .notice-2olXi7 {
-    background-color: var(--mbd-notification);
+    background-color: var(--var-notification);
 }
 .closeButton_ffc97a {
     top: 5px;
