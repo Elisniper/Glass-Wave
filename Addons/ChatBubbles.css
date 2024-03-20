@@ -191,6 +191,12 @@
 .spoilerMarkdownContent__2b8f8 {
     background-color: var(--var-black2);
 }
+.cozy_f5c119.hasThread__58ee2:after {
+    border-color: var(--var--black1);
+}
+.cozy_f5c119.hasThread__58ee2:after {
+    border-color: var(--var-hover20);
+}
 /* Automod Messages */
 .embedCard__66fca {
     background-color: var(--var-black1);

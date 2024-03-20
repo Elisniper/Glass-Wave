@@ -1003,6 +1003,13 @@ body {
     margin: 2px 0px 10px 0px;
     border-radius: 10px;
 }
+.chatHeaderBar__28ee6:after {
+    box-shadow: none;
+}
+.chatHeaderBar__28ee6 {
+    margin-top: 2px;
+    border-radius: 10px;
+}
 /* Full screen FIX */
 .layer__2efaa:has(.hidden__7c832) {
     top: -22px;
