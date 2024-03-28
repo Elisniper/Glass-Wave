@@ -1,4 +1,4 @@
-.customEmojiPlaceholder__16936 {
+.customEmojiPlaceholder_b65905 {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRo%0D%0APSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAg%0D%0AMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2%0D%0ALjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIg%0D%0AMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0z%0D%0ALjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQg%0D%0AOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5%0D%0ALjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0%0D%0ALjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3Zn%0D%0APg==) !important;
     background-position: 50% !important;
     background-size: 100% !important;
@@ -7,11 +7,11 @@
 .submenu-1apzyU, .submenu-1apzyU .scroller-1bVxF5 {
     background: rgb(40 40 40) !important;
 }
-.accountProfilePopoutWrapper_af829a .scroller-1bVxF5, .menu_dc52c6[aria-label="Set Status"] {
+.accountProfilePopoutWrapper_d4887f .scroller-1bVxF5, .menu__088f7[aria-label="Set Status"] {
     background: transparent;
     box-shadow: none !important;
 }
-.accountProfilePopoutWrapper_af829a .userPopoutOuter_d739b2.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark {
+.accountProfilePopoutWrapper_d4887f .userPopoutOuter__3884e.userProfileOuterUnthemed_e14365 {
     position: relative;
     width: 240px;
     left: 22px;
@@ -19,13 +19,182 @@
     background: transparent;
     box-shadow: none;
 }
-.accountProfilePopoutWrapper_af829a .userPopoutOuter_d739b2.userProfileOuterThemed__6eb84.profileColors__2e2f0.theme-dark {
+.accountProfilePopoutWrapper_d4887f .userPopoutOuter__3884e.userProfileOuterThemed__1fbd7 {
     position: relative;
     width: 232px;
     left: 22px;
     box-shadow: none;
     top: 10px;
+    border-radius: 10px 10px 0 0;
 }
-.accountProfilePopoutWrapper_af829a .pencilContainer_d4ce8d {
+.accountProfilePopoutWrapper_d4887f .pencilContainer_ae6d25 {
     right: 33%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Start of Custom Animated User profile popout */
+.accountProfilePopoutWrapper_d4887f .userPopoutOuter__3884e.theme-dark .userPopoutInner_e90432 {
+    background: none;
+}
+/* Fade in animation */
+.fade_d2e09a.didRender__7e24c:has(.accountProfilePopoutWrapper_d4887f) {
+    transition: opacity 80ms ease-out 290ms;
+    opacity: 1;
+    position: relative;
+    z-index: 0;
+}
+/* Custom User profile popout background */
+.container_debb33:has(.avatarWrapper__500a6[aria-expanded=true])::before {
+    content: "";
+    position: absolute;
+    bottom: 49px;
+    left: 0;
+    width: 240px;
+    height: 389px;
+    border-radius: 10px 10px 0 0;
+    background: var(--var-popout-color);
+    animation: profile-anim 300ms ease;
+    z-index: 5;
+}
+
+/* Outer Unthemed & Custom status */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .customStatusSection_c9f9ba) .container_debb33::before {
+    height: 423px !important;
+}
+/* Outer Unthemed, Custom status & Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 472px !important;
+}
+/* Outer Unthemed & Developer mode activated */
+.notAppAsidePanel__95814:has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 438px !important;
+}
+
+
+/* Outer themed */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7) .container_debb33::before {
+    height: 435px !important;
+}
+/* Outer themed & Custom status */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .customStatusSection_c9f9ba) .container_debb33::before {
+    height: 469px !important;
+}
+/* Outer themed, Custom status & Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 518px !important;
+}
+/* Outer themed & Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 484px !important;
+}
+
+/* Change user control panel background to match user profile popout */
+.container_debb33:has(.avatarWrapper__500a6[aria-expanded=true]) {
+    border-radius: 0 0 10px 10px;
+    background: var(--var-popout-color);
+}
+/* End of Custom Animated User profile popout */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Ajust height for user profile background when game activity is active*/
+
+/* Outer Unthemed & has Active playing game */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .gameIcon_f19d1f) .container_debb33::before {
+    height: 465px !important;
+}
+/* Outer Unthemed, has Active playing game & active custom status */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .customStatusSection_c9f9ba):has(.userProfileOuterUnthemed_e14365 .gameIcon_f19d1f) .container_debb33::before {
+    height: 499px !important;
+}
+/* Outer Unthemed, has Active playing game & active custom status with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .customStatusSection_c9f9ba):has(.userProfileOuterUnthemed_e14365 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 548px !important;
+}
+/* Outer Unthemed, has Active playing game with Developer mode activated */
+.notAppAsidePanel__95814:has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]):has(.userProfileOuterUnthemed_e14365 .gameIcon_f19d1f) .container_debb33::before {
+    height: 514px !important;
+}
+
+
+/* Outer themed & has Active playing game */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .gameIcon_f19d1f) .container_debb33::before {
+    height: 511px !important;
+} 
+/* Outer themed, has Active playing game & active custom status */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .customStatusSection_c9f9ba):has(.userProfileOuterThemed__1fbd7 .gameIcon_f19d1f) .container_debb33::before {
+    height: 545px !important;
+}
+/* Outer themed, has Active playing game & active custom status with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .customStatusSection_c9f9ba):has(.userProfileOuterThemed__1fbd7 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 594px !important;
+}
+/* Outer themed, has Active playing game with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 560px !important;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Ajust height for user profile background and ajust button padding when spotify activity is active  */
+
+/* Outer Unthemed & has Active spotify activity */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .spotifyButtonLogo__6ca34) .container_debb33::before {
+    height: 561px !important;
+}
+/* Outer Unthemed, has Active spotify activity & active custom status */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed_e14365 .customStatusSection_c9f9ba) .container_debb33::before {
+    height: 595px !important;
+}
+/* Outer Unthemed, has Active spotify activity & active custom status with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed_e14365 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 644px !important;
+}
+/* Outer Unthemed, has Active spotify activity with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterUnthemed_e14365 .spotifyButtonLogo__6ca34):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 610px !important;
+}
+
+
+/* Outer themed & has Active spotify activity */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .spotifyButtonLogo__6ca34) .container_debb33::before {
+    height: 607px !important;
+}
+/* Outer themed, has Active spotify activity & active custom status */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed__1fbd7 .customStatusSection_c9f9ba) .container_debb33::before {
+    height: 641px !important;
+}
+/* Outer themed, has Active spotify activity & active custom status with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed__1fbd7 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 690px !important;
+}
+/* Outer themed, has Active playing game with Developer mode activated */
+.notAppAsidePanel__95814:has(.userProfileOuterThemed__1fbd7 .spotifyButtonLogo__6ca34):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+    height: 656px !important;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.overlayBackground__2666e .button__88ad4 {
+    padding: 0;
+}
+
+/* Set max height for Spotify song info */
+.contentImagesUserPopoutV2_cbfb04.content__7246b {
+    max-height: 56px;
+}
+/* Set custom status display max height */
+.customStatusText__386f7 {
+    text-overflow: ellipsis;
+    width: 84%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-height: 18px;
 }

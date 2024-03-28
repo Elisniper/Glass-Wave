@@ -9,7 +9,7 @@
         transform: translate(0, -8px); 
     } 
 }
-@keyframes swing-in-bottom {
+@keyframes activity-anim {
     0% {
         transform: rotateX(100deg);
         transform-origin: bottom;
@@ -21,25 +21,35 @@
         opacity: 1;
     }
 }
-/*---------------------------------------------------------------------------------------*/
+@keyframes profile-anim {
+    0% {
+        transform: scaleY(0);
+        transform-origin: bottom;
+    } 
+    100% {
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Context Menu START*/
-.menu_dc52c6#guild-context, .menu_dc52c6#user-context, .menu_dc52c6#channel-context, .menu_dc52c6#message, .menu_dc52c6#guild-browse-channels-context-menu, 
-.menu_dc52c6#message-actions {
+.menu__088f7#guild-context, .menu__088f7#user-context, .menu__088f7#channel-context, .menu__088f7#message, .menu__088f7#guild-browse-channels-context-menu, 
+.menu__088f7#message-actions {
     animation: opacity 50ms ease, context-new 240ms cubic-bezier(0, 0, 0, 1);
     transform-origin: top;
 }
 
 /* Add friend Animation */
-.header__6113c {
+.header__6ddae {
     border-bottom: 0;
     animation: 150ms ease, add-friend 250ms cubic-bezier(0,0,0,1);
 }
 
 /* User controls activity animation */
-.panels__58331 .activityPanel__22355 {
-    animation: swing-in-bottom 400ms ease-in-out both;
+.panels__58331 .activityPanel_b73e7a {
+    animation: activity-anim 400ms ease-in-out both;
 }
-.container_d667ff {
-    animation: swing-in-bottom 200ms ease-in-out both;
+.container_e1958d {
+    animation: activity-anim 200ms ease-in-out both;
 }
