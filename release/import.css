@@ -91,6 +91,9 @@
 .zoomedCarouselModalRoot__32ea8, .page_e5cc79 {
     background: transparent !important;
 }
+.backdrop__1a911 {
+    backdrop-filter: none !important;
+}
 /* Transparent Backgrounds END */
 
 /* Background */
