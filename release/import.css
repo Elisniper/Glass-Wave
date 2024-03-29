@@ -9,6 +9,7 @@
     --var-popout-color: rgb(10 21 21);
     --var-background-size: cover;
     --var-background-position: center;
+    --var-font: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --var-notification: #B00020;
     --var-black1: rgb(0 0 0 / 55%);
     --var-black2: rgb(0 0 0 / 65%);
@@ -113,6 +114,9 @@ body {
     background-size: var(--var-background-size);
     background-repeat: no-repeat;
     filter: brightness(100%) contrast(100%) blur(0px) saturate(100%);
+    font-family: var(--var-font) !important;
+    --font-primary: var(--var-font) !important;
+    --font-display: var(--var-font) !important;
 }
 .theme-dark .directoryContainer__36395 {
     background-color: var(--var-background);
