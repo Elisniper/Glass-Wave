@@ -6,10 +6,12 @@
 :root {
     --var-background: linear-gradient(138deg, rgba(162,247,220,1) 0%, rgba(18,145,187,1) 80%, rgba(35,108,179,1) 100%);
     --var-accent: #0a4355;
+    --var-popout-color: rgb(10 21 21);
+    --var-background-size: cover;
+    --var-background-position: center;
+    --var-notification: #B00020;
     --var-black1: rgb(0 0 0 / 55%);
     --var-black2: rgb(0 0 0 / 65%);
-    --var-notification: #B00020;
-    --var-popout-color: rgb(10 21 21);
     --var-hover20: rgb(181 181 181 / 20%);
     --var-hover22: rgb(181 181 181 / 22%);
     --var-hover25: rgb(181 181 181 / 25%);
@@ -98,9 +100,9 @@
 
 /* Background */
 .bg__12180 {
-    background-position-x: center;
+    background-position: var(--var-background-position);
+    background-size: var(--var-background-size);
     background-color: transparent;
-    background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(100%) contrast(100%) blur(0px) saturate(100%);
     z-index: -5;
