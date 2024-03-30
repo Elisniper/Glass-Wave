@@ -52,18 +52,8 @@
     transform: translateY(20%);
 }
 /* Theme customisation instructions */
-#themes-tab .bd-addon-controls:after {
-    content: "Glass Wave customisations: \a\a Glass Wave can be customised using the bellow code in your custom css tab. \a\a :root{ \a --var-background: url(Custom image) ;\a --var-accent: Custom color ;\a --var-popout-color: Custom color ;\a --var-chat-bubbles-background: Custom color ;\a --var-chat-mentioned: Custom color ;\a --var-hover20: Custom color ;\a--var-hover22: Custom color ;\a--var-hover25: Custom color ;\a--var-hover30: Custom color ;\a--var-hover50: Custom color ;\a--var-hover80: Custom color ;\a--var-hover100: Custom color ;\a }; \a\a Theme Presets: \a\a Use one of the bellow @imports in your custom css tab to apply a pre-made customisation \a preset for Gass Wave.\a\a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/02FranXX.css); \a @import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/EminenceInShadow.css);";
-    position: relative;
-    display: flex;
-    width: 100%;
-    margin-top: 10px;
-    background: var(--var-black1);
-    color: var(--header-secondary);
-    box-sizing: border-box;
-    padding: 16px;
-    border-radius: 5px;
-    white-space: pre;
+#Glass\ Wave-card .bd-author:after {
+    content: " | Customise Glass Wave on bdeditor.dev";
 }
 /* Transparent Backgrounds */
 .layer_f7d46a .wrapper__216eb, .layer_f7d46a .container_d1f8f5, .layer_f7d46a, .layer_f7d46a .standardSidebarView__12528, .appMount_c99875 .layers_a23c37, .appMount_c99875 .layer_f7d46a,
@@ -564,7 +554,7 @@ body {
     background-color: var(--var-black2);
     border-color: var(--var-black1);
 }
-.theme-dark .root_a28985, .container__23c08, .container_eb737e, .messagesPopoutWrap__10dd1 {
+.theme-dark .root_a28985, .container__23c08, .container_eb737e, .messagesPopoutWrap__10dd1, .recentMentionsPopout__40c54 {
     background-color: var(--var-popout-color);
     border-radius: 10px;
 }
@@ -1041,6 +1031,9 @@ body {
     margin-top: 2px;
     border-radius: 10px;
 }
+#account_standing-tab .cardPrimary__1ee6a {
+    padding: 10px 20px 10px 0px;
+}
 /* Full screen FIX */
 .layer_f7d46a:has(.hidden__7c832) {
     top: -22px;
@@ -1222,7 +1215,7 @@ body {
     transition: 180ms cubic-bezier(1,0,0,0.7),opacity 100ms;
     opacity: 0;
 }
-.side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__2717e), .topPill__63ad4 .themed_b957e8.item__48dda:hover:not(.disabled__2717e) {
+.side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__2717e), .tabBar__73938 .themed_b957e8.item__48dda:hover:not(.disabled__2717e) {
     transition: 100ms ease-out;
     background-color: transparent;
     color: #FFF !important;

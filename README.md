@@ -8,29 +8,7 @@ I will try and provide Updates/Bug fixes as soon as possible when discord update
 
 # Glass Wave customisations: 
 
-Glass Wave can be customised using the bellow code in your custom css tab.
-
-:root{<br>
---var-background: url(Custom image) ;<br>
---var-accent: Custom color ;<br>
---var-popout-color: Custom color ;<br>
---var-chat-bubbles-background: Custom color ;<br>
---var-chat-mentioned: Custom color ;<br>
---var-hover20: Custom color ;<br>
---var-hover22: Custom color ;<br>
---var-hover25: Custom color ;<br>
---var-hover30: Custom color ;<br>
---var-hover50: Custom color ;<br>
---var-hover80: Custom color ;<br>
---var-hover100: Custom color ;<br>
-};<br>
-
-Theme Presets:
-
-Use one of the bellow @imports in your custom css tab to apply a pre-made customisation preset for Gass Wave.
-
-@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/02FranXX.css);<br>
-@import url(https://elisniper.github.io/Glass-Wave/Addons/Presets/EminenceInShadow.css);<br>
+Customise Glass Wave on bdeditor.dev
 
 # Installation
 
@@ -58,9 +36,11 @@ Glass Wave does not actively support all plugins and does not seek out theme fix
 ## User Setting 2
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Image%207.PNG?raw=true)
 
-## 02FranXX Preset
+# Showcases
+
+## 02FranXX Showcase
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/02FranXX%20Image%201.PNG?raw=true)
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/02FranXX%20Image%202.PNG?raw=true)
-## Eminence In Shadow Preset
+## Eminence In Shadow Showcase
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/EminenceInShadow%20Image%201.PNG?raw=true)
 ![](https://github.com/Elisniper/Glass-Wave/blob/master/resources/Presets/Previews/EminenceInShadow%20Image%202.PNG?raw=true)
