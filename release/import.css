@@ -287,6 +287,9 @@ body {
 .scrollContainer__99a28 .scroller__27542, .popout__7a706, .popout__4c91f, .content__3ea16, .bd-select .bd-select-options {
     background-color: var(--var-popout-color);
 }
+.theme-dark .contentWrapper_f9bc93 {
+    background: var(--var-popout-color);
+}
 .legacySession__809be .sessionIcon_df2e9c, .mainSeparator_b42a79 {
     background-color: var(--var-hover50);
 }
