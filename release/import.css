@@ -972,6 +972,14 @@ body {
     margin: 0px 0px 0 10px;
     order: 1;
 }
+/* Thread memever list EMPTY STATE */
+.emptyState_c74688 {
+    padding-left: 0px;
+}
+.emptyState_c74688 .emptyStateHeader__727fa, .emptyState_c74688 .emptyStateIconContainer_d9bd61, .emptyState_c74688 .heading-md-semibold__76ba1,
+.emptyState_c74688 .emptyStateSubtext__668e1 {
+    padding-left: 16px;
+}
 .container_f79ab4 .membersWrap__5ca6b {
     height: 100%;
 }
