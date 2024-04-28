@@ -1343,6 +1343,16 @@ body {
 .userProfileInnerThemedNonPremium_b64fb4 .badgeList-2aoHPw {
     background-color: var(--var-hover20);
 }
+.theme-dark .root_a28985 .tabBarContainer_b283be {
+    background: transparent;
+    box-shadow: none;
+}
+.badgeList__6b2c7 {
+    background-color: var(--mbd-black1);
+}
+.badgeList__126b0 {
+    background-color: var(--mbd-black2);
+}
 /* Notice */
 .notice__5fd4c {
     height: 48px;
