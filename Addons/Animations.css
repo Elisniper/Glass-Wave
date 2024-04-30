@@ -31,6 +31,14 @@
         transform-origin: bottom;
     }
 }
+@keyframes fadein-anim {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+}
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Context Menu START*/
@@ -52,4 +60,12 @@
 }
 .container_e1958d {
     animation: activity-anim 200ms ease-in-out both;
+}
+
+/* App directory & App Animation */
+.theme-dark .directoryContainer__36395 {
+    animation: fadein-anim 300ms ease-in-out both;
+}
+.app_de4237 {
+    animation: fadein-anim 400ms ease-in-out both;
 }
