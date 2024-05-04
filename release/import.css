@@ -1295,6 +1295,9 @@ body {
 .tutorialContainer_b06ae6 .listItem__48528:first-child .childWrapper_a6ce15 {
     background-color: transparent;
 }
+.tutorialContainer_b06ae6 .wrapper__8436d img {
+    display: none;
+}
 .tutorialContainer_b06ae6 .wrapper__8436d rect {
     display: none;
 }
