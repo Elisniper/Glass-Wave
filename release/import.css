@@ -898,6 +898,9 @@ body {
     padding-top: 4px;
     padding-bottom: 4px;
 }
+.has-webkit-scrollbar .buttons__7ecff {
+    margin-right: -5px;
+}
 .scrollerSpacer__6b1b6 {
     height: 15px;
 }
