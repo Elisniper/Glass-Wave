@@ -186,11 +186,11 @@ body {
 .theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker__47c85 .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer_fef06f, .wrapper__6b347,
 .wave_e98f7c, .container_d5dec4, .container__7d3e2, .container__5a2c3, .row__9455d, .box__6431e, .stepNumber__2f0cb, .enableCard_f36203, .containerSidenav_c2b517 .themed_b152d4,
-.settingCard-xZSDjS, .settingCard-xZSDjS.active-3EK-ed, .cardFolder-3H4uH4, .footerContainer_b2e9f6, .suggestedChannels__0a3d8, .prompt__671aa, .role__110aa, 
+.settingCard__9b0ad, .settingCard__9b0ad.active__898cd, .cardFolder__40dc5, .footerContainer_b2e9f6, .suggestedChannels__0a3d8, .prompt__671aa, .role__110aa, 
 .chat__52833 .header__10587, .mainTableContainer__37b54, .otherRoles_e625c8, .button__440c9, .scrollerContainer__35215, .bannedUser_f75842,
 .card_e97590, .container__68e43, .chatHeaderBar__9e6ac, .soundButtonSettingContainer__3821b, .divider__4df9f, .list__4e6aa, .line_bfb82b, .benefitsContainer_f75168, 
 .container__11a0b, .copyInput_f549fd, .cardHeader__62148, .shop_b31ed2 .theme-dark.themed_b152d4, .defaultPreviewButtonColor_cae7c6, .footer_b96583, .header__5c5a9,
-.boostContainer__1f6bc, .theme-dark .outerContainer_a76fe9l, .mainTableContainer_d09fd4, .movedTable_dbcb19 {
+.boostContainer__1f6bc, .theme-dark .outerContainer_a76fe9l, .mainTableContainer_d09fd4, .movedTable_dbcb19, .passthrough__91f95.selected__5faae {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer__9580e, .mockInput_d3257e {
@@ -248,7 +248,8 @@ body {
 .wrapper__612a5:hover .link_ddbb36, .header__643ce .container_ec5ce2, .addMemberRow_c41402.selectedRow__791f8, .termsFieldBody_c56d5f, .profileCard__1d74b, .prompt__1b100,
 .memberRowContainer__8a95f:hover td, .bannedUser_f75842:hover, .emojiItem_de65fd.emojiItemSelected__023be, .name__2b077 .input_f27786, .form_a9ae73 .input_f27786,
 .theme-dark .previewCard__980d0, .options__67b4d .input_f27786, .input_f27786, .role_d81130, .valuePill__75168, .table__7058d, .activityItem__2bb92, .users__65981, .iconWidget__22dfa,
-.setCustomButton__09dbf, .buttonInner__865de, .addReactButton__4342f, .darkCardBackground__38c63, .childButton__58a87, .container__9922f, .badgeList__6b2c7 {
+.setCustomButton__09dbf, .buttonInner__865de, .addReactButton__4342f, .darkCardBackground__38c63, .childButton__58a87, .container__9922f, .badgeList__6b2c7, 
+.searchBox__25f54 .searchBar__6c84d, .item_f48d11 {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_d0f226 {
