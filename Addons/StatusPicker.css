@@ -30,7 +30,12 @@
 .accountProfilePopoutWrapper_d4887f .pencilContainer_ae6d25 {
     right: 33%;
 }
-
+.userProfileInnerThemedNonPremium_b64fb4 .overlayBackground__345c9 {
+    background-color: var(--var-black2);
+}
+.userProfileInnerThemedNonPremium_b64fb4 .menu__13d0c {
+    background-color: transparent;
+}
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Start of Custom Animated User profile popout */
