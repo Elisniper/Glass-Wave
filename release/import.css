@@ -1390,7 +1390,7 @@ body {
     transition: 100ms ease-out;
     color: #FFF !important;
 }
-.userProfileOuterThemed_a425f3:not(:has(.fullSizeInnerThemed_ae6977)) .tabBarItem__7bc74.selected_a523ff .text-sm-normal__95a78 {
+.root__8fb4a:has(.userProfileOuterUnthemed__9741c) .tabBarItem__7bc74.selected_a523ff .text-sm-normal__95a78 {
     color: #FFF;
 }
 .userProfileOuterThemed_a425f3 .tabBar__6db53 .tabBarItem__7bc74:after {
