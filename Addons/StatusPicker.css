@@ -15,7 +15,7 @@
     position: relative;
     width: 240px;
     left: 22px;
-    bottom: -8px;
+    bottom: -13px;
     background: transparent;
     box-shadow: none;
 }
@@ -56,7 +56,7 @@
     bottom: 49px;
     left: 0;
     width: 240px;
-    height: 409px;
+    height: 399px;
     border-radius: 10px 10px 0 0;
     background: var(--var-popout-color);
     animation: profile-anim 300ms ease;
@@ -65,33 +65,33 @@
 
 /* Outer Unthemed & Custom status */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba) .container_debb33::before {
-    height: 443px !important;
+    height: 433px !important;
 }
 /* Outer Unthemed, Custom status & Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 492px !important;
+    height: 482px !important;
 }
 /* Outer Unthemed & Developer mode activated */
 .notAppAsidePanel__95814:has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 458px !important;
+    height: 448px !important;
 }
 
 
 /* Outer themed */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3) .container_debb33::before {
-    height: 435px !important;
+    height: 425px !important;
 }
 /* Outer themed & Custom status */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba) .container_debb33::before {
-    height: 469px !important;
+    height: 459px !important;
 }
 /* Outer themed, Custom status & Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 518px !important;
+    height: 508px !important;
 }
 /* Outer themed & Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 484px !important;
+    height: 474px !important;
 }
 
 /* Change user control panel background to match user profile popout */
@@ -109,37 +109,37 @@
 
 /* Outer Unthemed & has Active playing game */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f) .container_debb33::before {
-    height: 485px !important;
+    height: 475px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f) .container_debb33::before {
-    height: 519px !important;
+    height: 509px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 568px !important;
+    height: 558px !important;
 }
 /* Outer Unthemed, has Active playing game with Developer mode activated */
 .notAppAsidePanel__95814:has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]):has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f) .container_debb33::before {
-    height: 534px !important;
+    height: 524px !important;
 }
 
 
 /* Outer themed & has Active playing game */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f) .container_debb33::before {
-    height: 511px !important;
+    height: 501px !important;
 } 
 /* Outer themed, has Active playing game & active custom status */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f) .container_debb33::before {
-    height: 545px !important;
+    height: 535px !important;
 }
 /* Outer themed, has Active playing game & active custom status with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 594px !important;
+    height: 584px !important;
 }
 /* Outer themed, has Active playing game with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 560px !important;
+    height: 550px !important;
 }
 
 
@@ -150,37 +150,37 @@
 
 /* Outer Unthemed & has Active spotify activity */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34) .container_debb33::before {
-    height: 581px !important;
+    height: 571px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba) .container_debb33::before {
-    height: 615px !important;
+    height: 605px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 664px !important;
+    height: 654px !important;
 }
 /* Outer Unthemed, has Active spotify activity with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 630px !important;
+    height: 620px !important;
 }
 
 
 /* Outer themed & has Active spotify activity */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34) .container_debb33::before {
-    height: 607px !important;
+    height: 597px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba) .container_debb33::before {
-    height: 641px !important;
+    height: 631px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 690px !important;
+    height: 680px !important;
 }
 /* Outer themed, has Active playing game with Developer mode activated */
 .notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
-    height: 656px !important;
+    height: 646px !important;
 }
 
 

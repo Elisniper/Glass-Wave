@@ -137,7 +137,7 @@ body {
 .checkboxCircle__5416b, .theme-dark .dim__7b9b1 .key__6a8d9, .theme-dark .calendarPicker__47c85 .react-datepicker, .selectedProgressBar__26b4d,.activityCardTag-glB7qz,
 .childWrapper_a6ce15, .expandedFolderBackground_b1385f, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_e36852, .iconCircle__43c9b, .wrapper__45980,
 .uploadInput_a6cb60, .marker_ec77a6 .empty__3837d, .premiumTrialAcknowledgedBadge_f881d5, .activityItem__2bb92:hover, .wrapper__81567, .authorize__9e6f3.inApp__944f6,
-.selectGuildPseudoCta_bad4c9, .buttonColor_b3c4e5, .theme-dark .staticToolbar_d19051 {
+.selectGuildPseudoCta_bad4c9, .buttonColor_b3c4e5, .theme-dark .staticToolbar_d19051, .botTagRegular_fc4b4a {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper__2b30b:focus-within, .wrapper__4b6b3 {
@@ -230,7 +230,7 @@ body {
 .theme-dark .iconWrapper__0d13e, .item__47602, .category_c3da1d:hover, .clickable__4a175.container_bdd168:hover, .category_a343a6:hover, .category__1ebd5:hover,
 .backgroundModifierContainer_d14724:hover:not(.disabled__9b21b):not(.noAction__7e3ff), .editCard__7d03f.active_ef2ec5, .editCard__7d03f.toggled__775cb .container_ec5ce2,
 .channelRowLabel-2yYGtY, .collapseable_a59844, .triggerMainContainer_ca82f6 .collapseable_a59844.toggled__0b0b4:active, .theme-dark .changeDetails_c0aa16,
-.focused__87b55, .item__287de:hover:not(.disabled_ef860a), .buffer_e14781, .buffer_e14781:after, .buffer_e14781:before, .clickable__03a29:hover .layout_bb8e67,
+.focused__87b55, .item__287de:hover:not(.disabled_ef860a), .buffer_e14781, .buffer_e14781:after, .buffer_e14781:before, .clickable__03a29:hover .layout_bb8e67, .selected__7f4cb .layout_bb8e67,
 .theme-dark .bd-server-card:hover, .theme-dark .bd-server-card:focus, .container__9dd63:hover, .rowContainer_a98a8a, .colorDefault_e361cf.focused_dcafb9, .role__3655d:hover,
 .button_c7b3ea:hover, .perks__63e5a, .quickswitcher_b5bb0a .input__2a648, .result__25f11[aria-selected=true], .header__5e5a6 .container_ec5ce2, .note-6O4w9y textarea:focus,
 .colorable__4f530.primaryDark_ec74a7, .container_ad6d5c, .activityTag-3C3YK5, .scrollTierBackgroundUpsell-2oh_9T, .scrollTierBackground-BnWR8k, .root__649bb,
@@ -1390,8 +1390,11 @@ body {
     transition: 100ms ease-out;
     color: #FFF !important;
 }
-.tabBar__6db53 .tabBarItem__7bc74.selected_a523ff .text-sm-normal__95a78 {
+.userProfileOuterThemed_a425f3:not(:has(.fullSizeInnerThemed_ae6977)) .tabBarItem__7bc74.selected_a523ff .text-sm-normal__95a78 {
     color: #FFF;
+}
+.userProfileOuterThemed_a425f3 .tabBar__6db53 .tabBarItem__7bc74:after {
+    background: var(--profile-gradient-button-color);
 }
 
 /*user popout coloring for unthemed accounts*/
@@ -1421,6 +1424,11 @@ body {
 .userProfileOuterUnthemed__9741c .statusBubbleOuter__7e51b:after {
     background-color: var(--var-hover10);
 }
+/*user popout coloring for Themed/nitro accounts*/
+.userProfileOuterThemed_a425f3 .lookFilled__950dd.colorPrimary_ebe632 {
+    background-color: var(--profile-gradient-button-color);
+}
+
 /* Mod View */
 .sidebarContianer__623bd .userProfileOuter__35e59 {
     background: var(--var-black1);
