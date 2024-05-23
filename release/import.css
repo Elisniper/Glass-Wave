@@ -69,7 +69,7 @@
 .theme-dark .container__6b2e5, .theme-dark .focusLock__28507 .carouselModal-1eUFoq,.topicFormItem_a2e885 .textInput__12559 ,.userProfileInner__8ff35:before, .wrapper__6bf2d,
 .outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav_c2b517, .sidebar__68062, .theme-dark .container__3a30a, .theme-dark .sidebar__68062, 
 .wrapper_c899da, .wrapper__216eb, .container_b92032, .wrapper_ba4346, .paymentNote__894cf, .container_b9c7d0 .container__14313, .marker_ec77a6, .shop_b31ed2,
-.scroller__49aa3, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_d9ceba, .scroller__7d61e {
+.scroller__49aa3, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_d9ceba, .scroller__7d61e, .shopScroll_caa423, .pageWrapper__18871 {
     background-color: transparent;
 }
 .artwork_eaea88 .image__682a1.loaded_b5cc8f[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -737,6 +737,9 @@ body {
 }
 .backButton__1d36e:hover, .theme-dark .leftArrow__06d17:hover, .theme-dark .rightArrow_ca65a9:hover {
     background-color: var(--var-hover30);
+}
+.shopCard__3d319[style*="background-color: var(--background-floating);"] {
+    background-color: var(--var-black2) !important;
 }
 /* Pannel changes */
 .theme-dark .children_cde9af:after, .theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:before, .theme-dark .form_d8a4a1:after {
