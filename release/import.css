@@ -132,7 +132,7 @@ body {
 .mediaBarGrabber__1d527, .mediaBarProgress_a3b7f1, .mediaBarProgress_a3b7f1:after, .mediaBarProgress_a3b7f1:before, .mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527,
 .interactive:hover, .row__9e25f:hover, .categoryItem__0608f.selectedCategoryItem__3e361 .itemInner_eedb2b, .bd-server-tag, .selectorButtonSelected-3cQUnj,
 .theme-dark .tooltipBrand__68214, .theme-light .tooltipBrand__68214, .theme-light .tooltipBrand__68214 .tooltipPointer_f7411c, .selectorButtonSelected__707fb,
-.selectorButton_ea0609:not(.selectorButtonPremiumRequired__9df5b):hover, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15, .wrapper__8436d:hover .childWrapper_a6ce15,
+.selectorButton_ea0609:not(.selectorButtonPremiumRequired__9df5b):hover, .wrapper_a6f950.selected_b420e6 .childWrapper__760c6, .wrapper_a6f950:hover .childWrapper__760c6,
 .iconWrapper__8795c, .theme-dark .footer_d84330, .checkmark__5b7ba, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill__1f56b, .container__9dd63, .pillItemSelected__2ede3,
 .checkboxCircle__5416b, .theme-dark .dim__7b9b1 .key__6a8d9, .theme-dark .calendarPicker__47c85 .react-datepicker, .selectedProgressBar__26b4d,.activityCardTag-glB7qz,
 .childWrapper_a6ce15, .expandedFolderBackground_b1385f, .folder__17546.hover__043de, .folder__17546[aria-expanded=true], .userCardInner_e36852, .iconCircle__43c9b, .wrapper__45980,
@@ -1291,7 +1291,7 @@ body {
 }
 /* Sliders END*/
 /* Home Icon */
-.tutorialContainer_b06ae6 .wrapper__8436d {
+.tutorialContainer_b06ae6 .wrapper_a6f950 {
     background-color: #fff;
     opacity: .5;
     -webkit-mask: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjwh%0D%0ARE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cu%0D%0AdzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4x%0D%0AIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4%0D%0AbGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRo%0D%0APSI2NHB4IiBoZWlnaHQ9IjY0cHgiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZW5hYmxlLWJhY2tncm91%0D%0AbmQ9Im5ldyAwIDAgNjQgNjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPiAgPGltYWdlIGlkPSJpbWFn%0D%0AZTAiIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgeD0iMCIgeT0iMCIKICAgIHhsaW5rOmhyZWY9ImRh%0D%0AdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBRUFBQUFCQUNBUUFB%0D%0AQUFBWUxsVkFBQUFCR2RCVFVFQUFMR1BDL3hoQlFBQUFDQmpTRkpOCkFBQjZKZ0FBZ0lRQUFQb0FB%0D%0AQUNBNkFBQWRUQUFBT3BnQUFBNm1BQUFGM0NjdWxFOEFBQUFBbUpMUjBRQS80ZVB6TDhBQUFBSmNF%0D%0AaFoKY3dBQUN4TUFBQXNUQVFDYW5CZ0FBQUFIZEVsTlJRZmpEQlFMR1JtMXNRQjhBQUFCQkVsRVFW%0D%0AUm8zdTNaMFE2Q01BeUZZYmJ3L3E5YwpyMENCYmp1blhTSEU3b0xvTnZKL0toY0dpaXpQanZwd1B3%0D%0ASHZCOGppdklwOUFQazVQZ0FRNWRXTkFPbTh1d0Vnd0V3Z1FJalpBSUFZClZpWUNqcEd5RkIrQkJa%0D%0AenozNk9Sd0FHMHZKUEFBRnA1RndFSDlQSU9BZ29ZNWMwRURJRGtqUVFFZ09aTmhER0F5UnNJSXdD%0D%0AYnB3bDkKZ0NWUEVub0FhNTRpdEFHZVBFRm9BYng1bUtBRFp1UkJnZ2FZbFljSVY4RE1QRUE0QTJi%0D%0Abmg0VGFXd3dhaDBwdExkeEZXT244YUIvMgpzOG0ycjVJbnpocDdyU3FUY1JTbFVDOGJZcitKUzJG%0D%0AVk5uQ2ZaaHZvTlhRNjcvVTNLQktRZ0FRa0lBRUplRDlnN2E1YS9xYUczcVlMCkdBa28rZHd3QVFu%0D%0ANGU4QUgwMW8rZXE1eHo3c0FBQUFsZEVWWWRHUmhkR1U2WTNKbFlYUmxBREl3TVRrdE1USXRNakJV%0D%0ATVRFNk1qVTYKTWpVck1ETTZNRER0aVgwOUFBQUFKWFJGV0hSa1lYUmxPbTF2WkdsbWVRQXlNREU1%0D%0ATFRFeUxUSXdWREV4T2pJMU9qSTFLekF6T2pBdwpuTlRGZ1FBQUFBQkpSVTVFcmtKZ2dnPT0iIC8+%0D%0ACjwvc3ZnPgo=);
@@ -1302,20 +1302,20 @@ body {
     -webkit-mask-position: center;
     transition: all 100ms ease;
 }
-.tutorialContainer_b06ae6 .listItem__48528:first-child .childWrapper_a6ce15 {
+.tutorialContainer_b06ae6 .listItem__48528:first-child .childWrapper__760c6 {
     background-color: transparent;
 }
-.tutorialContainer_b06ae6 .wrapper__8436d img {
+.tutorialContainer_b06ae6 .wrapper_a6f950 img {
     display: none;
 }
-.tutorialContainer_b06ae6 .wrapper__8436d rect {
+.tutorialContainer_b06ae6 .wrapper_a6f950 rect {
     display: none;
 }
-.tutorialContainer_b06ae6 .wrapper__8436d {
+.tutorialContainer_b06ae6 .wrapper_a6f950 {
     opacity: .5;
     transition: all 100ms ease;
 }
-.tutorialContainer_b06ae6 .wrapper__8436d:hover, .tutorialContainer_b06ae6 .wrapper__8436d.selected_ae80f7 {
+.tutorialContainer_b06ae6 .wrapper_a6f950:hover, .tutorialContainer_b06ae6 .wrapper_a6f950.selected_b420e6 {
     opacity: 1;
     transition: all 100ms ease;
 }
