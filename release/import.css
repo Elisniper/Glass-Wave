@@ -108,6 +108,9 @@ body {
 .theme-dark .directoryContainer__36395 {
     background-color: var(--var-background);
 }
+.backdrop__34c64 {
+    backdrop-filter: none !important;
+}
 /* Scrollbars */
 .scroller_e412fe::-webkit-scrollbar-track, .auto__020ac::-webkit-scrollbar-track, .thin__62e51::-webkit-scrollbar-thumb, .scroller_d4b86c::-webkit-scrollbar-track,
 .auto_a3c0bd::-webkit-scrollbar-track {
@@ -186,12 +189,13 @@ body {
 .theme-dark .calendarPicker__47c85 .react-datepicker__day--outside-month, .theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled, 
 .theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker__47c85 .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer_fef06f, .wrapper__6b347,
-.wave_e98f7c, .container_d5dec4, .container__7d3e2, .container__5a2c3, .row__9455d, .box__6431e, .stepNumber__2f0cb, .enableCard_f36203, .containerSidenav_c2b517 .themed_b152d4,
+.container_d5dec4, .container__7d3e2, .container__5a2c3, .row__9455d, .box__6431e, .stepNumber__2f0cb, .enableCard_f36203, .containerSidenav_c2b517 .themed_b152d4,
 .settingCard__9b0ad, .settingCard__9b0ad.active__898cd, .cardFolder__40dc5, .footerContainer_b2e9f6, .suggestedChannels__0a3d8, .prompt__671aa, .role__110aa, 
 .chat__52833 .header__10587, .mainTableContainer__37b54, .otherRoles_e625c8, .button__440c9, .scrollerContainer__35215, .bannedUser_f75842,
 .card_e97590, .container__68e43, .chatHeaderBar__9e6ac, .soundButtonSettingContainer__3821b, .divider__4df9f, .list__4e6aa, .line_bfb82b, .benefitsContainer_f75168, 
 .container__11a0b, .copyInput_f549fd, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_b96583, .header__5c5a9,
-.boostContainer__1f6bc, .theme-dark .outerContainer_a76fe9l, .mainTableContainer_d09fd4, .movedTable_dbcb19, .passthrough__91f95.selected__5faae, .container__7afce {
+.boostContainer__1f6bc, .theme-dark .outerContainer_a76fe9l, .mainTableContainer_d09fd4, .movedTable_dbcb19, .passthrough__91f95.selected__5faae, .container__7afce,
+.theme-dark .outerContainer_a76fe9 {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer__9580e, .mockInput_d3257e {
@@ -199,6 +203,9 @@ body {
 }
 .shop_b31ed2 .theme-dark.themed_b152d4 {
     background-color: var(--var-black1) !important;
+}
+.wave_e98f7c {
+    fill: var(--var-black1);
 }
 /* Black 2 */
 .accountProfileCard__744d8, .theme-dark .outer_a41cf3.active__76f42, .theme-dark .outer_a41cf3.interactive__46c44:hover, .flexChild__3da10 .disabled__97701 .layout-1XOMLV,
@@ -753,7 +760,8 @@ body {
     background: transparent;
 }
 .theme-dark .container__7e23c, .privateChannels__9b518, .sidebar_e031be .panels__58331, .container_debb33, .activityPanel_b73e7a, 
-.container_e1958d, .clickable__1383f .header__77c95:hover, .selected__987e6 .header__77c95, .header__77c95 {
+.container_e1958d, .clickable__1383f .header__77c95:hover, .selected__987e6 .header__77c95, .header__77c95, .contentWrapper_bfbca4, .content__4f323,
+.wrapper_a571fb {
     border-radius: 10px 10px 10px 10px;
 }
 .messageGroupWrapper__1fce2 {
