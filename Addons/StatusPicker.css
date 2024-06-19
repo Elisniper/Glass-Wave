@@ -1,4 +1,4 @@
-.customEmojiPlaceholder_b65905 {
+.customEmojiPlaceholder_c69536 {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRo%0D%0APSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAg%0D%0AMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTEuOTkgMkM2LjQ3IDIgMiA2%0D%0ALjQ4IDIgMTJzNC40NyAxMCA5Ljk5IDEwQzE3LjUyIDIyIDIyIDE3LjUyIDIyIDEyUzE3LjUyIDIg%0D%0AMTEuOTkgMnpNMTIgMjBjLTQuNDIgMC04LTMuNTgtOC04czMuNTgtOCA4LTggOCAzLjU4IDggOC0z%0D%0ALjU4IDgtOCA4em0zLjUtOWMuODMgMCAxLjUtLjY3IDEuNS0xLjVTMTYuMzMgOCAxNS41IDggMTQg%0D%0AOC42NyAxNCA5LjVzLjY3IDEuNSAxLjUgMS41em0tNyAwYy44MyAwIDEuNS0uNjcgMS41LTEuNVM5%0D%0ALjMzIDggOC41IDggNyA4LjY3IDcgOS41IDcuNjcgMTEgOC41IDExem0zLjUgNi41YzIuMzMgMCA0%0D%0ALjMxLTEuNDYgNS4xMS0zLjVINi44OWMuOCAyLjA0IDIuNzggMy41IDUuMTEgMy41eiIvPjwvc3Zn%0D%0APg==) !important;
     background-position: 50% !important;
     background-size: 100% !important;
@@ -7,11 +7,11 @@
 .submenu-1apzyU, .submenu-1apzyU .scroller-1bVxF5 {
     background: rgb(40 40 40) !important;
 }
-.accountProfilePopoutWrapper_d4887f .scroller-1bVxF5, .menu__088f7[aria-label="Set Status"] {
+.accountProfilePopoutWrapper_b2ca13 .scroller-1bVxF5, .menu_d90b3d[aria-label="Set Status"] {
     background: transparent;
     box-shadow: none !important;
 }
-.accountProfilePopoutWrapper_d4887f .userPopoutOuter_d67f56.userProfileOuterUnthemed__9741c {
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userProfileOuterUnthemed_c69a7b {
     position: relative;
     width: 240px;
     left: 22px;
@@ -19,7 +19,7 @@
     background: transparent;
     box-shadow: none;
 }
-.accountProfilePopoutWrapper_d4887f .userPopoutOuter_d67f56.userProfileOuterThemed_a425f3 {
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userProfileOuterThemed_c69a7b {
     position: relative;
     width: 232px;
     left: 22px;
@@ -27,33 +27,33 @@
     top: 10px;
     border-radius: 10px 10px 0 0;
 }
-.accountProfilePopoutWrapper_d4887f .pencilContainer_ae6d25 {
+.accountProfilePopoutWrapper_b2ca13 .pencilContainer_c3e427 {
     right: 33%;
 }
-.accountProfilePopoutWrapper_d4887f .bannerSVGWrapper__8a38c .popoutBanner__3fbe8 {
+.accountProfilePopoutWrapper_b2ca13 .bannerSVGWrapper_b32cc2 .popoutBanner_c3e427 {
     width: 240px;
 }
-.userProfileInnerThemedNonPremium_b64fb4 .overlayBackground__345c9 {
+.userProfileInnerThemedNonPremium_c69a7b .overlayBackground_c69a7b {
     background-color: var(--var-black2);
 }
-.userProfileInnerThemedNonPremium_b64fb4 .menu__13d0c {
+.userProfileInnerThemedNonPremium_c69a7b .menu_ad5fac {
     background-color: transparent;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Start of Custom Animated User profile popout */
-.accountProfilePopoutWrapper_d4887f .userPopoutOuter_d67f56.theme-dark .userPopoutInner_ac0960 {
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.theme-dark .userPopoutInner_c69a7b {
     background: none;
 }
 /* Fade in animation */
-.fade_d2e09a.didRender__7e24c:has(.accountProfilePopoutWrapper_d4887f) {
+.fade_f88ae3.didRender_f88ae3:has(.accountProfilePopoutWrapper_b2ca13) {
     transition: opacity 80ms ease-out 290ms;
     opacity: 1;
     position: relative;
     z-index: 0;
 }
 /* Custom User profile popout background */
-.container_debb33:has(.avatarWrapper__500a6[aria-expanded=true])::before {
+.container_b2ca13:has(.avatarWrapper_b2ca13[aria-expanded=true])::before {
     content: "";
     position: absolute;
     bottom: 49px;
@@ -67,38 +67,38 @@
 }
 
 /* Outer Unthemed & Custom status */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .customStatusSection_d2b491) .container_b2ca13::before {
     height: 433px !important;
 }
 /* Outer Unthemed, Custom status & Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .customStatusSection_d2b491):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 482px !important;
 }
 /* Outer Unthemed & Developer mode activated */
-.notAppAsidePanel__95814:has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 448px !important;
 }
 
 
 /* Outer themed */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b) .container_b2ca13::before {
     height: 425px !important;
 }
 /* Outer themed & Custom status */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .customStatusSection_d2b491) .container_b2ca13::before {
     height: 459px !important;
 }
 /* Outer themed, Custom status & Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .customStatusSection_d2b491):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 508px !important;
 }
 /* Outer themed & Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 474px !important;
 }
 
 /* Change user control panel background to match user profile popout */
-.container_debb33:has(.avatarWrapper__500a6[aria-expanded=true]) {
+.container_b2ca13:has(.avatarWrapper_b2ca13[aria-expanded=true]) {
     border-radius: 0 0 10px 10px;
     background: var(--var-popout-color);
 }
@@ -111,37 +111,37 @@
 /* Ajust height for user profile background when game activity is active*/
 
 /* Outer Unthemed & has Active playing game */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
     height: 475px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .customStatusSection_d2b491):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
     height: 509px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .customStatusSection_d2b491):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 558px !important;
 }
 /* Outer Unthemed, has Active playing game with Developer mode activated */
-.notAppAsidePanel__95814:has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]):has(.userProfileOuterUnthemed__9741c .gameIcon_f19d1f) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
     height: 524px !important;
 }
 
 
 /* Outer themed & has Active playing game */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
     height: 501px !important;
 } 
 /* Outer themed, has Active playing game & active custom status */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .customStatusSection_d2b491):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
     height: 535px !important;
 }
 /* Outer themed, has Active playing game & active custom status with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .customStatusSection_d2b491):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 584px !important;
 }
 /* Outer themed, has Active playing game with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .gameIcon_f19d1f):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 550px !important;
 }
 
@@ -152,53 +152,53 @@
 /* Ajust height for user profile background and ajust button padding when spotify activity is active  */
 
 /* Outer Unthemed & has Active spotify activity */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .spotifyButtonLogo__6ca34) .container_b2ca13::before {
     height: 571px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed_c69a7b .customStatusSection_d2b491) .container_b2ca13::before {
     height: 605px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed__9741c .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .spotifyButtonLogo__6ca34):has(.userProfileOuterUnthemed_c69a7b .customStatusSection_d2b491):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 654px !important;
 }
 /* Outer Unthemed, has Active spotify activity with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterUnthemed__9741c .spotifyButtonLogo__6ca34):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .spotifyButtonLogo__6ca34):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 620px !important;
 }
 
 
 /* Outer themed & has Active spotify activity */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .spotifyButtonLogo__6ca34) .container_b2ca13::before {
     height: 597px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed_c69a7b .customStatusSection_d2b491) .container_b2ca13::before {
     height: 631px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed_a425f3 .customStatusSection_c9f9ba):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .spotifyButtonLogo__6ca34):has(.userProfileOuterThemed_c69a7b .customStatusSection_d2b491):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 680px !important;
 }
 /* Outer themed, has Active playing game with Developer mode activated */
-.notAppAsidePanel__95814:has(.userProfileOuterThemed_a425f3 .spotifyButtonLogo__6ca34):has(.icon__0bfbf path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_debb33::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .spotifyButtonLogo__6ca34):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 646px !important;
 }
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.overlayBackground__345c9 .button__88ad4 {
+.overlayBackground_c69a7b .button_da7790 {
     padding: 0;
 }
 
 /* Set max height for Spotify song info */
-.contentImagesUserPopoutV2_cbfb04.content__7246b {
+.contentImagesUserPopoutV2_d5089b.content_d5089b {
     max-height: 56px;
 }
 /* Set custom status display max height */
-.customStatusText__386f7 {
+.customStatusText_cb55fc {
     text-overflow: ellipsis;
     width: 84%;
     display: inline-block;
