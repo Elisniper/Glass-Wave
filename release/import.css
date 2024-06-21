@@ -1623,3 +1623,79 @@ body {
 #bd-modal-container {
     color: transparent;
 }
+/* BD plugin settings test color */
+.plugin-inputs .titleDefault-a8-ZSr {
+    color: #FFF;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Spotify Controls Plugin Support */
+.container_6sXIoE {
+    background-color: var(--var-black1);
+    border-radius: 10px;
+    margin-bottom: 0px;
+    animation: activity-anim 400ms ease-in-out both;
+}
+.interpret_F93iqP {
+    color: var(--text-normal);
+}
+/* Channel Tabs Plugin Support */
+#channelTabs-container {
+    padding: 0px 0px 1px 0px;
+}
+.channelTabs-tabContainer {
+    margin-left: 8px;
+    margin-right: 20px;
+}
+#channelTabs-settingsMenu {
+    top: 5px;
+    border-radius: 4px;
+}
+.channelTabs-tabIconWrapper {
+    transform: scale(0.9);
+}
+.channelTabs-tab, .channelTabs-closeTab, .channelTabs-newTab, #channelTabs-settingsMenu {
+    transition: 150ms ease;
+}
+.channelTabs-tab {
+    margin-right: 4px;
+    margin-bottom: 2px;
+    padding: 2px 0 2px 0;
+}
+.channelTabs-fav {
+    margin-right: 4px;
+    margin-bottom: 2px;
+    padding: 2px 6px 2px 6px;
+}
+.channelTabs-newTab {
+    margin: 0 6px 3px 3px;
+}
+.channelTabs-tab.channelTabs-selected, .channelTabs-fav .channelTabs-noMention, .channelTabs-fav .channelTabs-noUnread {
+    background: var(--var-black1);
+}
+.channelTabs-tab:not(.channelTabs-selected):hover, .channelTabs-tabContainer .channelTabs-tabNav>div:hover, .channelTabs-newTab:hover, #channelTabs-settingsMenu:hover,
+.channelTabs-fav:hover {
+    background: var(--var-hover20);
+    transition: 150ms ease;
+}
+.channelTabs-tab:not(.channelTabs-selected):active, .channelTabs-tabContainer .channelTabs-tabNav>div:active, .channelTabs-newTab:active, .channelTabs-fav:active {
+    background: var(--var-hover25);
+}
+.channelTabs-closeTab:hover, .channelTabs-mentionBadge {
+    background: var(--var-notification);
+    transition: 150ms ease;
+}
+#channelTabs-container>:not(#channelTabs-settingsMenu)+div {
+    padding-top: 2px;
+    border-top: 1px solid var(--var-hover20);
+    margin-left: 8px;
+}
+.channelTabs-favContainer.channelTabs-noFavs {
+    padding-top: 6px !important;
+    padding-bottom: 4px !important;
+}
+.channelTabs-tabContainer[data-tab-count="1"] .channelTabs-tabNav>.channelTabs-tabNavClose {
+    color: var(--interactive-normal);
+    opacity: .4;
+}

@@ -17,7 +17,10 @@ Customise Glass Wave on [bdeditor.dev](https://bdeditor.dev/)
 3. Enable the theme in the themes tab.
 
 # Plugin Support
-Glass Wave does not actively support all plugins and does not seek out theme fixes for every plugin out there. However, I try to stay as compatible as possible. (If an issue is found please create an issue on the GitHub Repo or reach out for some help in the BetterDiscord server.)
+- SpotifyControls
+- ChannelTabs
+
+NOTE: Glass Wave does not actively support all plugins and does not seek out theme fixes for every plugin out there. However, I try to stay as compatible as possible. (If an issue is found please create an issue on the GitHub Repo or reach out for some help in the BetterDiscord server.)
 
 # Previews
 
