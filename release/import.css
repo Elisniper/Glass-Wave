@@ -138,7 +138,7 @@ body {
 .theme-dark .tooltipBrand_b6c360, .theme-light .tooltipBrand_b6c360, .theme-light .tooltipBrand_b6c360 .tooltipPointer_b6c360, .selectorButtonSelected_a78967,
 .selectorButton_a78967:not(.selectorButtonPremiumRequired__9df5b):hover, .wrapper_f90abb.selected_f90abb .childWrapper_f90abb, .wrapper_f90abb:hover .childWrapper_f90abb,
 .iconWrapper_ec583a, .theme-dark .footer_cedfaf, .checkmark_cb7c27, .countContainer-3DOo5v, .countContainer-3uQ087, .barFill_c7a159, .container_a47d49, .pillItemSelected_a18ec1,
-.checkboxCircle_aa7c25, .theme-dark .dim_c90023 .key_c90023, .theme-dark .calendarPicker__47c85 .react-datepicker, .selectedProgressBar_f2ceaa,.activityCardTag-glB7qz,
+.checkboxCircle_aa7c25, .theme-dark .dim_c90023 .key_c90023, .theme-dark .calendarPicker_be05cd .react-datepicker, .selectedProgressBar_f2ceaa,.activityCardTag-glB7qz,
 .childWrapper_a6ce15, .expandedFolderBackground_bc7085, .folder_bc7085.hover_bc7085, .folder_bc7085[aria-expanded=true], .userCardInner_c69a7b, .iconCircle_d29eee, .wrapper_ba23fe,
 .uploadInput_a15d29, .marker_f7ea1b .empty_f7ea1b, .premiumTrialAcknowledgedBadge_b089d3, .activityItem_d46b95:hover, .wrapper_c43059, .authorize_c5a065.inApp_c5a065,
 .selectGuildPseudoCta_ac4952, .buttonColor_cd74cc, .theme-dark .staticToolbar_de3e42, .botTagRegular_a02df3 {
@@ -163,7 +163,7 @@ body {
 .theme-dark .scroller_fea3ef, .bd-addon-list .bd-addon-card, .bd-addon-list .bd-addon-header, .bd-search-wrapper, .bd-select:hover, .bd-select.menu-open, 
 .flexChild_bba380 .layout-1XOMLV, .itemFilled_eb92a8, .container_aef5fd:active, .theme-dark .card_eb1ca6, .theme-dark .iconMask_eb1ca6,
 .content_fc5f50, .container_f11cbf, .customizationSection_b3a5c2 .input_f8bc55, .customizationSection_b3a5c2 .bioTextArea_ccf27d, .authedApp_f0135d, .connectContainer_e2a436,
-.connection_e2a436, .connectionHeader_e2a436, .accountButtonInner_e2a436, .theme-dark .feature-2IUcBI, .guildHeader__30707, .cardWrapper_bc8d2a, .detailsBlock_a206c7,
+.connection_e2a436, .connectionHeader_e2a436, .accountButtonInner_e2a436, .theme-dark .feature-2IUcBI, .guildHeader__30707, .cardWrapper_f9902b, .detailsBlock_a206c7,
 .noItemsCard_e70817, .promotionCard_e8af36, .theme-dark .paymentPane_f66684, .theme-dark .codeRedemptionRedirect_cb70f4, .theme-dark .defaultIndicator_ede133,
 .contentCircle-15IFyT, .container_c2739c .themed_e44302, .theme-dark .headerBar_d175a8, .container_cbd271, .searchResult_ddc613, .header_ac90a2, .emptyCard_f02fcf, 
 .mainCard_a6d69a, .matchingPostsRow_a6d69a, .pill_c993da, .perkCard_d611db, .children_a6ae9b .input_f8bc55, .theme-dark .expandedInfo_a28a08, .theme-dark 
@@ -186,15 +186,15 @@ body {
 .container_a90bed, .pillContainer_a18ec1, .badExampleIcon_e88228, .actionItem_e88228, .resourceChannel_e88228, .addActionItem_e88228:hover, .addActionItem_e88228:active, 
 .onboardingStepContainer_a85c10, .theme-dark .headerArtPlaceholder_d32e26, .sidebarCardWrapper_e85cee, .chatHeaderBar_efb691,  .channelRow_f04d06:hover:not(.disabled_f04d06), 
 .upsellPreview_aa7c25, .divider-2bkesd, .changelog_abe1fa, .safetyChecklist_abe1fa, .simpleItemWrapper_e1b877, .theme-dark .container_f1fd9c, 
-.theme-dark .header_f1fd9c, .list_e0307d, .commandName_e0307d, .theme-dark .calendarPicker__47c85 .react-datepicker__day--disabled, 
-.theme-dark .calendarPicker__47c85 .react-datepicker__day--outside-month, .theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled, 
-.theme-dark .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker__47c85 .react-datepicker__header,
+.theme-dark .header_f1fd9c, .list_e0307d, .commandName_e0307d, .theme-dark .calendarPicker_be05cd .react-datepicker__day--disabled, 
+.theme-dark .calendarPicker_be05cd .react-datepicker__day--outside-month, .theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled, 
+.theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker_be05cd .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer_e0d799, .wrapper_d4ec61,
 .container_b01337, .container_a2e886, .row_e677b7, .box_f70f48, .stepNumber_f70f48, .enableCard_c55991, .containerSidenav_d576e9 .themed_e44302,
 .settingCard_dd864e, .settingCard_dd864e.active_dd864e, .cardFolder_dd864e, .footerContainer_bf4197, .suggestedChannels_e88228, .prompt_cd377c, .role_c6b11b, 
 .chat_a7d72e .header_d20375, .mainTableContainer_e23072, .otherRoles_a39fe9, .button_a39fe9, .scrollerContainer_c90ddb, .bannedUser_c90ddb,
 .card_c21997, .container_b385c8, .chatHeaderBar_e2f46e, .soundButtonSettingContainer_c801bb, .divider_af45f8, .list_f20a46, .line_f7ea1b, .benefitsContainer_f75168, 
-.container_f9d8eb, .copyInput_f549fd, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
+.container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_e3c4bb.selected_e3c4bb, .container_a039eb,
 .theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4 {
     background-color: var(--var-black1);
@@ -236,7 +236,7 @@ body {
 .theme-dark .hoverablePayment_a28a08:hover, .searchBar_f0963d .searchBarComponent_f0963d, .withTagAsButton_b2ca13:hover, .withTagless_b2ca13:hover, 
 .circleIconButton_db6521, .button_f67531.enabled_f67531:hover, .section_cd82a7, .userProfileInnerThemedNonPremium_c69a7b .input_f8bc55, .friendRequestsButton_c0c071,
 .itemFilled_eb92a8:hover:not([aria-checked=true]):not(.disabled_eb92a8), .phoneField_d4eb58, 
-.container__33507, .theme-dark .selectableItem__5e076:focus, .theme-dark .selectableItem__5e076:hover, .theme-dark .bar_c7a159, .theme-dark .markDash_c7a159,
+.container__33507, .theme-dark .selectableItem_d40acf:focus, .theme-dark .selectableItem_d40acf:hover, .theme-dark .bar_c7a159, .theme-dark .markDash_c7a159,
 .lookFilled_dd4f85.colorBrandNew__8872c:hover, .footer_f9a4c9, .container_cc7b67:hover, .roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1), .icon_cc7b67,
 .theme-dark .iconWrapper__0d13e, .item_b05c08, .category_d7acc7:hover, .clickable_d9c848.container_d9c848:hover, .category_fa8ebf:hover, .category_d169f5:hover,
 .backgroundModifierContainer_e5c5d5:hover:not(.disabled_e5c5d5):not(.noAction_e5c5d5), .editCard_cd99d3.active_ef2ec5, .editCard_cd99d3.toggled_cd99d3 .container_effbe2,
@@ -255,7 +255,7 @@ body {
 .separator_a0, .userProfileInnerThemedNonPremium_c69a7b .note-3M15gE textarea:focus, .userProfileInnerThemedNonPremium_c69a7b .note_c90ad7 textarea:focus, 
 .theme-dark .focused_eedf95, .theme-dark.navRow-dG-XX8, .loginForm-3gN0jt .input_f8bc55, .descriptionContainer_ddbb27, .avatarCard_da92c3, 
 .inputForm-3RoxXV .inputWrapper_f8bc55.input-m1-Y7Q, .nameInput_c1ee6b .inputWrapper_f8bc55, .theme-light .input_f8bc55, 
-.calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker__47c85 .react-datepicker__day:hover, .container_c811f3,
+.calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker_be05cd .react-datepicker__day:hover, .container_c811f3,
 .integration_e2a436, .container_fe1358, .row_fd8ff1:hover, .header_fa4e6d, .card_f30ffe, .emptyContainer-1qMVs7 .circle-1g-jMn, .interactive_f5eb4b:hover,
 .wrapper_d8bfb3:hover .link_d8bfb3, .header_d8cdac .container_effbe2, .addMemberRow_a0cc0d.selectedRow_a0cc0d, .termsFieldBody_cd377c, .profileCard_c6b11b, .prompt_c6b11b,
 .memberRowContainer_a39fe9:hover td, .bannedUser_c90ddb:hover, .emojiItem_fbfedd.emojiItemSelected_fbfedd, .name_b545d5 .input_f8bc55, .form_b229b0 .input_f8bc55,
@@ -278,7 +278,7 @@ body {
 .container_d331f1:hover, .theme-dark .container_d331f1.isOpen_d331f1, .lookFilled_dd4f85.colorBrandNew__8872c:active, .container_cc7b67:active,
 .backgroundModifierContainer_e5c5d5:active:not(.disabled_e5c5d5):not(.noAction_e5c5d5), .collapseable_a3cc4a:active, .clickable_fd6364 .header_fd6364:hover, 
 .selected_fd6364 .header_fd6364, .rowContainer_e8a9c7:hover, .rowContainer_e8a9c7:active, .listRow-Y5zoF8:hover, .colorable_ef18ee.primaryDark_ef18ee.active_ef18ee, 
-.colorable_ef18ee.primaryDark_ef18ee:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker__47c85 .react-datepicker__day.react-datepicker__day--selected:after,
+.colorable_ef18ee.primaryDark_ef18ee:hover, .theme-dark .override-1sK4r0:hover, .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--selected:after,
 .interactive_f5eb4b:active, .wrapper_d8bfb3:active .link_d8bfb3m, .button_a39fe9:hover, .button_a24e84, .navButtonActive_af5dbb, .setCustomButton_a9414b:hover, 
 .iconWidget_a9414b:hover, .buttonInner_b385c8:hover, .addReactButton_b385c8:hover, .childButton_f45bfc:hover, .stepContainer_a039eb:hover, .container_dc3fc4:hover,
 .buttonContainer_f7ece4:hover {
@@ -297,7 +297,7 @@ body {
 .menu_d90b3d, .header_c6ee36, .emojiPicker_c6ee36, .contentWrapper_af5dbb, .wrapper_faf5ab, .theme-dark .customColorPicker_bbc020, .messageContainer_ddb5b4, .footer_ac90a2,
 .popout_f6639d, .menu_d90b3d, .wrapper_b9fe76, .resultsList-2Bp-2_, .popout_c5b389, .theme-dark .tierMarkerBackground-G8FoN4, 
 .quickswitcher_f4e139, .noiseCancellationPopout_adcaac, .container_b572de, .accountProfilePopoutWrapper_b2ca13 .userProfileInner_c69a7b, .button_ef319f:hover,
-.container_e664f3, .theme-dark .streamPreview_adbea6, .scroller_bc9592, .theme-dark .quickSelectPopout__56a98, .container_eedf95, .theme-dark .autocomplete_f23da8, 
+.container_e664f3, .theme-dark .streamPreview_adbea6, .scroller_bc9592, .theme-dark .quickSelectPopout_abbf45, .container_eedf95, .theme-dark .autocomplete_f23da8, 
 .body_bf926b, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container_ae4f46, .wrapper_d880dc.minimum_d880dc, .innerWrapper_c511e4, .resultsList-2tyWrf, 
 .theme-dark.authBox_dc6abe, .callContainer_d880dc, .contentWrapper_eab878, .skuSelectModalHeader_f92df2, .skuSelectModalContent_f92df2, .modalHeader_cd3d24, 
 .scrollContainer_f09e45 .scroller_f09e45, .popout_d201be, .popout_a9414b, .content_cc6017, .bd-select .bd-select-options {
@@ -616,7 +616,7 @@ body {
 .theme-dark .notches_e5cdf3.gray_e5cdf3 rect {
     fill: transparent;
 }
-.calendarPicker__47c85 .react-datepicker__day {
+.calendarPicker_be05cd .react-datepicker__day {
     border-top: 1px solid var(--var-black1);
     border-left: 1px solid var(--var-black1);
 }
@@ -672,11 +672,11 @@ body {
     width: 8px;
     height: 8px;
 }
-.imageLoadingOverlay__2b0df .inner_b6db20:not(.pulsingEllipsis-3YiXRF) {
+.imageLoadingOverlay_d4597d .inner_b6db20:not(.pulsingEllipsis-3YiXRF) {
     width: 8px;
     height: 8px;
 }
-.imageLoadingOverlay__2b0df {
+.imageLoadingOverlay_d4597d {
     background-color: transparent;
 }
 /* loading circle END*/
@@ -899,17 +899,17 @@ body {
 .peopleListItem_d51464 {
     border-top: none;
 }
-.notice__5fd4c {
+.notice_be03aa {
     box-shadow: none;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.notice__5fd4c .button_e2ecbf.backButton_e2ecbf.button_dd4f85.lookOutlined_dd4f85.colorWhite_dd4f85.grow_dd4f85 {
+.notice_be03aa .button_e2ecbf.backButton_e2ecbf.button_dd4f85.lookOutlined_dd4f85.colorWhite_dd4f85.grow_dd4f85 {
     left: 8px;
 }
-.notice__5fd4c .button_e2ecbf:not(.backButton_e2ecbf, :has(.selectCaret_e2ecbf)) {
+.notice_be03aa .button_e2ecbf:not(.backButton_e2ecbf, :has(.selectCaret_e2ecbf)) {
     left: -24px;
 }
 .premiumIcon_d572b7 {
@@ -1508,7 +1508,7 @@ body {
     border-top-color: var(--var-popout-color);
 }
 /* Notice */
-.notice__5fd4c {
+.notice_be03aa {
     height: 48px;
     box-shadow: none;
     display: flex;
@@ -1537,11 +1537,11 @@ body {
 .notice-2olXi7 {
     background-color: var(--var-notification);
 }
-.closeButton__90904 {
+.closeButton_be03aa {
     top: 5px;
     right: 24px;
 }
-.button__33db6 {
+.button_be03aa {
     top: 0;
 }
 /* BD setting changes */
