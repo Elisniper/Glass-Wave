@@ -1448,7 +1448,7 @@ body {
     background-color: var(--var-hover10);
 }
 /*user popout coloring for Themed/nitro accounts*/
-.userProfileOuterThemed_c69a7b .lookFilled_dd4f85.colorPrimary_dd4f85 {
+.userProfileOuterThemed_c69a7b .lookFilled_dd4f85.colorPrimary_dd4f85, .userProfileOuterThemed_c69a7b .lookFilled_dd4f85.colorBrand_dd4f85 {
     background-color: var(--profile-gradient-button-color);
 }
 
