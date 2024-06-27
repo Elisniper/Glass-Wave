@@ -15,7 +15,7 @@
     position: relative;
     width: 240px;
     left: 22px;
-    bottom: -12px;
+    bottom: -11px;
     background: transparent;
     box-shadow: none;
 }
@@ -25,7 +25,7 @@
     left: 22px;
     box-shadow: none;
     top: 10px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 .accountProfilePopoutWrapper_b2ca13 .pencilContainer_c3e427 {
     right: 33%;
