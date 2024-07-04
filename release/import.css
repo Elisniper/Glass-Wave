@@ -36,7 +36,7 @@
     color: var(--text-muted);
 }
 /* Theme Developer sign */
-.avatar_ec86aa[src*="253480609224065025"]+::after {
+.avatar_f9f2ca[src*="253480609224065025"]+::after {
     content: 'Theme Developer';
     text-transform: uppercase;
     font-size: 10px;
