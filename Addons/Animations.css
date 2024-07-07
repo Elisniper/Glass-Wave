@@ -62,6 +62,22 @@
     animation: activity-anim 200ms ease-in-out both;
 }
 
+/* User Profile and conrols animation */
+.container_b2ca13 .flex_bba380 {
+    display: flex;
+    width: 160px;
+    justify-content: space-evenly;
+}
+.container_b2ca13 .avatarWrapper_b2ca13 {
+    width: 36px;
+    min-width: 36px;
+    transition: 200ms ease-in-out;
+}
+.container_b2ca13 .avatarWrapper_b2ca13:hover, .container_b2ca13 .avatarWrapper_b2ca13[aria-expanded="true"] {
+    max-width: 120px;
+    min-width: 120px;
+}
+
 /* App directory & App Animation */
 .theme-dark .directoryContainer_da3f59 {
     animation: fadein-anim 300ms ease-in-out both;
