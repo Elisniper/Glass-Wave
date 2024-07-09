@@ -1003,6 +1003,7 @@ body {
 .searchResultsWrap_c2b47d {
     background-color: var(--var-black1);
     height: 100%;
+    width: 415px;
     border-radius: 0 0 0 10px;
     overflow: visible;
 }
