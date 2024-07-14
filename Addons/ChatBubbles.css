@@ -201,17 +201,17 @@
     border-color: var(--var-hover20);
 }
 /* Automod Messages */
-.embedCard_c6cefd {
+.embedCard_a0eae1 {
     background-color: var(--var-black1);
 }
-.iconContainer_bf4197 {
+.iconContainer_bc2461 {
     left: -76px;
     top: 0;
 }
-.automodMessage_d5deea:before, .shieldIcon_e8366c {
+.automodMessage_d5deea:before, .shieldIcon_cc3927 {
     background-color: var(--var-notification);
 }
-.embedCard_c6cefd .cozy_f9f2ca.wrapper_f9f2ca {
+.embedCard_a0eae1 .cozy_f9f2ca.wrapper_f9f2ca {
     position: relative;
     margin-left: 50px;
     padding-left: 10px;

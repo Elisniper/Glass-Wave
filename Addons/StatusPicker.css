@@ -147,72 +147,72 @@
 /* Ajust height for user profile background when game activity is active*/
 
 /* Outer Unthemed & has Active playing game */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 479px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (No emoji only long text) */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 495px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (Only emoji) */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 487px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (With emoji and long text) */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 493.703px !important;
 }
 
 /* Outer Unthemed, has Active playing game & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 558px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 536px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterUnthemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 542.703px !important;
 }
 /* Outer Unthemed, has Active playing game with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]):has(.userProfileOuterUnthemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]):has(.userProfileOuterUnthemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 528px !important;
 }
 
 
 /* Outer themed & has Active playing game */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 505px !important;
 } 
 /* Outer themed, has Active playing game & active custom status (No emoji only long text) */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 521px !important;
 }
 /* Outer themed, has Active playing game & active custom status (Only emoji) */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 531px !important;
 }
 /* Outer themed, has Active playing game & active custom status (With emoji and long text) */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd) .container_b2ca13::before {
     height: 519.703px !important;
 }
 
 /* Outer themed, has Active playing game & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 584px !important;
 }
 /* Outer themed, has Active playing game & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiOnly_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 562px !important;
 }
 /* Outer themed, has Active playing game & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .statusEmojiInline_d0a252):has(.userProfileOuterUnthemed_c69a7b .statusBubbleShape_d0a252):has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 568.703px !important;
 }
 
 /* Outer themed, has Active playing game with Developer mode activated */
-.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .gameIcon_d5089b):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
+.notAppAsidePanel_bd26cc:has(.userProfileOuterThemed_c69a7b .gameIcon_c1d9fd):has(.icon_d90b3d path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container_b2ca13::before {
     height: 554px !important;
 }
 
@@ -305,7 +305,7 @@
     gap: 0;
 }
 /* Set max height for Spotify song info */
-.theme-dark .activityBiteSizePopout_d5089b .content_d5089b {
+.theme-dark .activityBiteSizePopout_c1d9fd .content_c1d9fd {
     max-height: 53px;
     display: flex;
     justify-content: flex-start;
