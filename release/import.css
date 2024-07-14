@@ -76,7 +76,7 @@
 .outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav_d576e9, .sidebar__68062, .theme-dark .container_d20375, .theme-dark .sidebar__68062, 
 .wrapper_cdfd51, .wrapper_fea3ef, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3,
 .scroller_a8b566, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_dba803, .scroller_a50853, .shopScroll_e77fa3, .pageWrapper_e77fa3,
-.container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc {
+.container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc, .pageBody_c2efea {
     background-color: transparent;
 }
 .artwork_d8215a .image_d02831.loaded_d02831[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -191,9 +191,9 @@ body {
 .previewListItem_aa7c25, .progressBarCurrent_a4e2c3, .channelList_fe51c5, .header_fe51c5, .channelRow_a33fd3, .channelCoverage_df2e1e, .channelCoverageDetails_df2e1e, 
 .container_a90bed, .pillContainer_a18ec1, .badExampleIcon_e88228, .actionItem_e88228, .resourceChannel_e88228, .addActionItem_e88228:hover, .addActionItem_e88228:active, 
 .onboardingStepContainer_a85c10, .theme-dark .headerArtPlaceholder_d32e26, .sidebarCardWrapper_e85cee, .chatHeaderBar_efb691,  .channelRow_f04d06:hover:not(.disabled_f04d06), 
-.upsellPreview_aa7c25, .divider-2bkesd, .changelog_abe1fa, .safetyChecklist_abe1fa, .simpleItemWrapper_e1b877, .theme-dark .container_f1fd9c, 
-.theme-dark .header_f1fd9c, .list_e0307d, .commandName_e0307d, .theme-dark .calendarPicker_be05cd .react-datepicker__day--disabled, 
-.theme-dark .calendarPicker_be05cd .react-datepicker__day--outside-month, .theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled, 
+.upsellPreview_aa7c25, .divider-2bkesd, .changelog_abe1fa, .safetyChecklist_abe1fa, .simpleItemWrapper_e1b877, .commandName_e0307d, 
+.theme-dark .calendarPicker_be05cd .react-datepicker__day--disabled, .theme-dark .calendarPicker_be05cd .react-datepicker__day--outside-month, 
+.theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled, 
 .theme-dark .calendarPicker_be05cd .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-dark .calendarPicker_be05cd .react-datepicker__header,
 .activityCard-3EABg3, .celebrateCardContainer-MAdnBa, .birthdayExplanationWrapper-c5wg5T, .flipCardOpened-hiYLHX, .guildContainer_e0d799, .wrapper_d4ec61,
 .container_b01337, .container_a2e886, .row_e677b7, .box_f70f48, .stepNumber_f70f48, .enableCard_c55991, .containerSidenav_d576e9 .themed_fc4f04,
@@ -208,7 +208,7 @@ body {
 .upsellOverlayContainer_eb49af, .mockInput_c5828f {
     background: var(--var-black1);
 }
-.shop_e77fa3 .theme-dark.themed_fc4f04 {
+.shop_e77fa3 .theme-dark.themed_fc4f04, .theme-dark .container_f1fd9c, .header_f1fd9c {
     background-color: var(--var-black1) !important;
 }
 .wave_e74e54 {
