@@ -82,7 +82,7 @@
 .artwork_d8215a .image_d02831.loaded_d02831[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
     display: none;
 }
-.modalHeader_a27f2f, .whatsNewSection__4186d, .option_b0286e:after {
+.modalHeader_a27f2f, .whatsNewSection__4186d, .option_b0286e:after, .theme-dark .popularPicksGradient_e77fa3 {
     background: transparent;
 }
 .zoomedCarouselModalRoot_b586d2, .page_d20375 {
