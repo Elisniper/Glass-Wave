@@ -95,13 +95,13 @@
 .message_d5deea:not(.groupStart_d5deea):before {
     background-color: transparent;
 }
-.embedFull_ad0b71 {
+.embedFull_b0068a {
     border-left: 4px solid var(--var-black2);
 }
-.embedFull_ad0b71 {
+.embedFull_b0068a {
     background: var(--var-black2) !important;
 }
-.attachment_a4623d {
+.attachment_b52bef {
     border-color: var(--var-black1) !important;
     background-color: var(--var-black1) !important;
 }
@@ -128,7 +128,7 @@
 .jumpToPresentBar_cf58b5 .barButtonMain_cf58b5 {
     display: none;
 }
-.textContainer_ad9cbd, .footer_ad9cbd, .modalTextContainer_ad9cbd {
+.textContainer_d8e2d0, .footer_d8e2d0, .modalTextContainer_d8e2d0 {
     background-color: var(--var-black1) !important;
     border: 1px solid var(--var-black1) !important;
 }
