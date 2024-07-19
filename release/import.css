@@ -208,7 +208,7 @@ body {
 .upsellOverlayContainer_eb49af, .mockInput_c5828f {
     background: var(--var-black1);
 }
-.content_a4d4d9 .shop_e77fa3 .theme-.headerBar_d8354cdark, .theme-dark .container_f1fd9c, .header_f1fd9c {
+.content_a4d4d9 .shop_e77fa3 .theme-dark.headerBar_d8354c, .theme-dark .container_f1fd9c, .header_f1fd9c {
     background-color: var(--var-black1) !important;
 }
 .wave_e74e54 {
@@ -269,7 +269,8 @@ body {
 .setCustomButton_a9414b, .buttonInner_b385c8, .addReactButton_b385c8, .darkCardBackground_c23530, .childButton_f45bfc, .container_acb8b3, .badgeList_b69b77, 
 .searchBox_a0cc0d .searchBar_ac8310, .item_d25d19, .userProfileOuterUnthemed_c69a7b .note_c2dcc6 textarea:focus, .stepContainer_a039eb, .previewForm_c1668f, .preview_a614a7, 
 .card_a298b8:not(.outline_a298b8), .theme-dark .giftCardButton_d8f41e, .circle_d7c696, .iconContainer_e677b7, .container_dc3fc4, .iconBackground_e5ee5b, .background_b42a48,
-.buttonContainer_f7ece4, .header_b56bbc .container_c18ec9, .categoryPill_f69601:hover:not(.selected_f69601) {
+.buttonContainer_f7ece4, .header_b56bbc .container_c18ec9, .categoryPill_f69601:hover:not(.selected_f69601), .decorationGridItem_b35b54, .decorationPreview_aba31b,
+.smallDecorationPreviewsContainer_aba31b {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_a27f2f {
@@ -761,8 +762,13 @@ body {
 .shopCard_c23530[style*="background-color: var(--background-floating);"] {
     background-color: var(--var-black2) !important;
 }
-.shop_e77fa3 .scrollerBase_c49869 {
+.content_a4d4d9 .shop_e77fa3 .scrollerBase_c49869 {
     margin-right: -10px;
+    margin-top: 50px;
+}
+.content_a4d4d9 .shop_e77fa3 .scrollerBase_c49869 .theme-dark.headerBar_d8354c {
+    position: fixed;
+    top: 22px;
 }
 /* Pannel changes */
 .theme-dark .children_fc4f04:after, .theme-dark .form_a7d72e:before, .theme-dark .form_a7d72e:before, .theme-dark .form_a7d72e:after {
@@ -1156,6 +1162,9 @@ body {
 .shyButton_a25714 {
     background: radial-gradient(ellipse at 120%200%,var(--mbd-notification) 10%,transparent 70%);
     background-clip: content-box;
+}
+.interactive_c91bad:has(.link_c91bad[href="/shop"]) {
+    transition: 150ms ease;
 }
 /* Number Badge */
 .container_b15955[aria-posinset="1"] .interactive_c91bad .numberBadge__40d6f {
