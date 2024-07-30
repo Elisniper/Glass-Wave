@@ -1198,6 +1198,10 @@ body {
     top: -8px;
     background-color: var(--var-popout-color);
 }
+.container_b15955[aria-posinset="2"] .interactive_c91bad .badgeContainer_b7316a {
+    left: -28px;
+    top: -5px;
+}
 /* Snowgiving button */
 .snowsgivingLink-1TZi3c {
     position: relative;
