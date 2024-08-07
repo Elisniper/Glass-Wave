@@ -20,7 +20,7 @@
 }
 .recentMentionsPopout_ddb5b4 .cozy_f9f2ca .contents_f9f2ca, 
 .messagesPopoutWrap_ac90a2 .cozy_f9f2ca .contents_f9f2ca,
-.sidebarContianer_d2194f .cozy_f9f2ca .contents_f9f2ca {
+.sidebarContainer_d2194f .cozy_f9f2ca .contents_f9f2ca {
     margin: 0;
     padding-left: 10px;
     padding-top: 5px;
@@ -135,21 +135,21 @@
 .mentioned_d5deea.message_d5deea.groupStart_d5deea, .mentioned_d5deea:before {
     background: transparent;
 }
-.button_ef319f {
+.button_f7e168 {
     height: 18px;
 }
-.button_ef319f.selected_ef319f {
+.button_f7e168.selected_f7e168 {
     color: #FFF;
     background-color: transparent;
 }
-.button_ef319f:active {
+.button_f7e168:active {
     color: #FFF;
     background-color: transparent;
 }
-.full-motion .wrapper_ef319f:hover, .wrapper_ef319f {
+.full-motion .wrapper_f7e168:hover, .wrapper_f7e168 {
     box-shadow: none;
 }
-.wrapper_ef319f {
+.wrapper_f7e168 {
     height: 26px;
 }
 .container_a3b500 {
@@ -165,7 +165,7 @@
 .jumpButton_ac3dc2 {
     background-color: var(--var-black1);
 }
-.button_ef319f:hover, .wrapper_ef319f {
+.button_f7e168:hover, .wrapper_f7e168 {
     background-color: var(--var-popout-color);
     border-radius: 0 5px 5px 5px;
 }
@@ -178,7 +178,7 @@
 .theme-dark .container_f2bfbb, .theme-dark .reactors_f2bfbb {
     background-color: var(--var-black1);
 }
-.button_ef319f.dangerous_ef319f {
+.button_f7e168.dangerous_f7e168 {
     color: var(--var-notification);
 }
 .reactions_f61c73 {
@@ -191,7 +191,7 @@
     background-color: var(--var-accent);
     border-color: var(--var-accent);
 }
-.spoilerMarkdownContent_a3d0f7 {
+.spoilerMarkdownContent_aa9639 {
     background-color: var(--var-black2);
 }
 .cozy_f9f2ca.hasThread_f9f2ca:after {
@@ -249,16 +249,16 @@
 }
 /* MOD view */
 
-.sidebarContianer_d2194f .innerContainer_f328ee li>div {
+.sidebarContainer_d2194f .innerContainer_f328ee li>div {
     background-color: transparent !important;
     box-shadow: none;
 }
-.sidebarContianer_d2194f .button_ddc613 {
+.sidebarContainer_d2194f .button_ddc613 {
     position: relative;
     top: 3px;
     right: 12px;
     margin-left: 0;
 }
-.sidebarContianer_d2194f .container_f51af4:not(:has(.header_f51af4[style*="background-color: rgba(43, 45, 49, 0.8);"])) .cozy_f9f2ca .contents_f9f2ca {
+.sidebarContainer_d2194f .container_f51af4:not(:has(.header_f51af4[style*="background-color: rgba(43, 45, 49, 0.8);"])) .cozy_f9f2ca .contents_f9f2ca {
     background-color: var(--var-hover100);
 }
