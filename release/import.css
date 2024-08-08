@@ -545,7 +545,7 @@ body {
     color: var(--var-notification);
     fill: var(--var-notification);
 }
-.numberBadge__40d6f {
+.numberBadge_df8943 {
     background-color: var(--var-notification) !important;
 }
 .headerContent_a1eac2, .headerSidebar_a1eac2, .separator_a1eac2 {
@@ -585,7 +585,7 @@ body {
 .modal_a60b1b {
     background-color: var(--var-popout-color) !important;
 }
-.friendRequestsButton_c0c071 .numberBadge__40d6f {
+.friendRequestsButton_c0c071 .numberBadge_df8943 {
     background-color: transparent !important;
 }
 .newPostsButton-UaBhcU {
@@ -1167,7 +1167,7 @@ body {
     transition: 150ms ease;
 }
 /* Number Badge */
-.container_d91ad9[aria-posinset="1"] .interactive_c91bad .numberBadge__40d6f {
+.container_d91ad9[aria-posinset="1"] .interactive_c91bad .numberBadge_df8943 {
     position: absolute;
     left: 82px;
     top: 33px;
@@ -1339,6 +1339,9 @@ body {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     transition: all 100ms ease;
+}
+.tutorialContainer_f9623d .wrapper_c5f96a foreignObject[mask*="url(#72217d41-d024-4dba-86d8-739d7b130af9)"] {
+    mask-image: none;
 }
 .tutorialContainer_f9623d .listItem_c96c45:first-child .childWrapper_f90abb {
     background-color: transparent;
