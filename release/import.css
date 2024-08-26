@@ -1546,6 +1546,12 @@ body {
 }
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .button_df39bd {
     border-radius: 0;
+    width: inherit;
+    padding-right: 8px;
+}
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .buttons_d0696b {
+    /* Move message typing input icons closer to app icon when member list is hidden */
+    margin-right: 2px;
 }
 /* Notice */
 .notice_be03aa {
