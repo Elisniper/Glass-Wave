@@ -974,7 +974,8 @@ body {
 }
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .chatContent_a7d72e:before, 
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelTextArea_a7d72e .themedBackground_d0696b,
-.content_a7d72e:not(:has(.container_cbd271)) .container_a6d69a:before {
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.container_cbd271)) .container_a6d69a:before,
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.searchResultsWrap_c2b47d)) .container_a6d69a:before {
     border-radius: 10px 0 0 10px;
 }
 .chat_a7d72e.threadSidebarOpen_a7d72e .container_a6d69a:before {
