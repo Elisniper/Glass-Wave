@@ -272,7 +272,7 @@ body {
 .card_a298b8:not(.outline_a298b8), .theme-dark .giftCardButton_d8f41e, .circle_d7c696, .iconContainer_e677b7, .container_dc3fc4, .iconBackground_e5ee5b, .background_b42a48,
 .buttonContainer_f7ece4, .header_b56bbc .container_c18ec9, .categoryPill_f69601:hover:not(.selected_f69601), .decorationGridItem_b35b54, .decorationPreview_aba31b,
 .smallDecorationPreviewsContainer_aba31b, .container_e5da8b, .clickable_b78bb6, .overviewContainerNoVideo_e80fe9, .command_f37ac2, .overviewContainerWithVideo_e80fe9,
-.reactionBtn_ec6b19.forceShowLook_ec6b19, .root_c3b890 {
+.reactionBtn_ec6b19.forceShowLook_ec6b19, .root_c3b890, .container_c64476 {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_a27f2f {
@@ -291,7 +291,7 @@ body {
 .interactive_f5eb4b:active, .wrapper_d8bfb3:active .link_d8bfb3m, .button_a39fe9:hover, .button_a24e84, .navButtonActive_af5dbb, .setCustomButton_a9414b:hover, 
 .iconWidget_a9414b:hover, .buttonInner_b385c8:hover, .addReactButton_b385c8:hover, .childButton_f45bfc:hover, .stepContainer_a039eb:hover, .container_dc3fc4:hover,
 .buttonContainer_f7ece4:hover, .avatarWrapper_b2ca13:hover, .container_e5da8b:hover, .clickable_b78bb6:hover, .command_f37ac2:hover, .reactionBtn_ec6b19.forceShowLook_ec6b19:hover,
-.option_c3b890:hover {
+.option_c3b890:hover, .container_c64476:hover {
     background-color: var(--var-hover25);
 }
 .optionButtonWrapper_bd5e1f {
@@ -310,7 +310,8 @@ body {
 .container_e664f3, .theme-dark .streamPreview_adbea6, .scroller_bc9592, .theme-dark .quickSelectPopout_abbf45, .container_eedf95, .theme-dark .autocomplete_bcc24e, 
 .body_bf926b, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .container_ae4f46, .wrapper_d880dc.minimum_d880dc, .innerWrapper_c511e4, .resultsList-2tyWrf, 
 .theme-dark.authBox_dc6abe, .callContainer_d880dc, .contentWrapper_eab878, .skuSelectModalHeader_f92df2, .skuSelectModalContent_f92df2, .modalHeader_cd3d24, 
-.scrollContainer_f09e45 .scroller_f09e45, .popout_d201be, .popout_a9414b, .content_cc6017, .bd-select .bd-select-options, .contentWrapper_f7506e {
+.scrollContainer_f09e45 .scroller_f09e45, .popout_d201be, .popout_a9414b, .content_cc6017, .bd-select .bd-select-options, .contentWrapper_f7506e, .popoutContentWrapper_a35965,
+.interactionsContainer_a35965, .interactionsContainerHeader_a35965 {
     background-color: var(--var-popout-color);
 }
 .theme-dark .contentWrapper_ed5743 {
