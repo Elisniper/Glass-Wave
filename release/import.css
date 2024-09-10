@@ -1715,8 +1715,10 @@ body {
     margin-right: 20px;
 }
 #channelTabs-settingsMenu {
-    top: 5px;
+    top: 4px;
     border-radius: 4px;
+    width: 24px;
+    height: 24px;
 }
 .channelTabs-tabIconWrapper {
     transform: scale(0.9);
@@ -1727,7 +1729,6 @@ body {
 .channelTabs-tab {
     margin-right: 4px;
     margin-bottom: 2px;
-    padding: 2px 0 2px 0;
 }
 .channelTabs-fav {
     margin-right: 4px;
