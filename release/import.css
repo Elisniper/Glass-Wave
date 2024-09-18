@@ -1479,6 +1479,7 @@ body {
     box-shadow: none;
 }
 .userProfileOuterUnthemed_c69a7b .statusBubble_d0a252,
+.userProfileOuterUnthemed_c69a7b .statusBubbleOuter_d0a252,
 .userProfileOuterUnthemed_c69a7b .statusBubbleOuter_d0a252:before,
 .userProfileOuterUnthemed_c69a7b .statusBubbleOuter_d0a252:after {
     background-color: var(--var-hover10);
