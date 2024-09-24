@@ -77,7 +77,7 @@
 .wrapper_cdfd51, .wrapper_fea3ef, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3,
 .scroller_a8b566, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_dba803, .scroller_a50853, .shopScroll_e77fa3, .pageWrapper_e77fa3,
 .container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc, .pageBody_c2efea, .theme-dark .sidebarContainer_a3a4ce, .container_ec8cd2, .commandContainer_f37ac2,
-.container_b56bbc {
+.container_b56bbc, .scroller_b91a2d, .headerBar_accde0:after, .backdrop_accde0, .rewardDescriptionContainer_c2d7e2 {
     background-color: transparent;
 }
 .artwork_d8215a .image_d42055.loaded_d42055[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -148,7 +148,8 @@ body {
 .checkboxCircle_aa7c25, .theme-dark .dim_c90023 .key_c90023, .theme-dark .calendarPicker_be05cd .react-datepicker, .selectedProgressBar_eccd5f,.activityCardTag-glB7qz,
 .childWrapper_a6ce15, .expandedFolderBackground_bc7085, .folder_bc7085.hover_bc7085, .folder_bc7085[aria-expanded=true], .userCardInner_c69a7b, .iconCircle_d29eee, .wrapper_ba23fe,
 .uploadInput_a15d29, .marker_f7ea1b .empty_f7ea1b, .premiumTrialAcknowledgedBadge_b089d3, .activityItem_d46b95:hover, .wrapper_c43059, .authorize_c5a065.inApp_c5a065,
-.selectGuildPseudoCta_ac4952, .buttonColor_cd74cc, .theme-dark .staticToolbar_de3e42, .botTagRegular_a9e77f, .categoryPill_f69601.selected_f69601, .wrapper_efd8e6 {
+.selectGuildPseudoCta_ac4952, .buttonColor_cd74cc, .theme-dark .staticToolbar_de3e42, .botTagRegular_a9e77f, .categoryPill_f69601.selected_f69601, .wrapper_efd8e6,
+.categoryItem_f75d68.selectedCategoryItem_f75d68 .itemInner_f75d68 {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper_de812f:focus-within, .wrapper_b877fa {
@@ -203,7 +204,7 @@ body {
 .card_c21997, .container_b385c8, .chatHeaderBar_e2f46e, .soundButtonSettingContainer_c801bb, .divider_af45f8, .list_f20a46, .line_f7ea1b, .benefitsContainer_f75168, 
 .container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_d25d19.selected_d25d19, .container_a039eb,
-.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2 {
+.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111 {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer_eb49af, .mockInput_c5828f {
@@ -1030,6 +1031,25 @@ body {
     margin: 0px 0px 0 10px;
     order: 1;
 }
+.headerBar_accde0 {
+    position: relative;
+    margin-top: 2px;
+    border-radius: 10px 0 0 10px;
+    background: var(--var-black1);
+}
+.container_b97772 {
+    border-radius: 10px;
+}
+.scroller_b91a2d {
+    border-radius: 10px;
+    top: 5px;
+}
+.headerBar_accde0 .top_a0 .brand_a0.selected_a0.item_a0 {
+    border-bottom-color: var(--var-hover100) !important;
+}
+.headerBar_accde0 .top_a0 .brand_a0.item_a0:hover {
+    border-bottom-color: var(--var-hover25);
+}
 /* Thread memeber list EMPTY STATE */
 .emptyState_b767ed {
     padding-left: 0px;
@@ -1091,7 +1111,7 @@ body {
 }
 .discoverHeader_b992d4 {
     background: var(--var-black1);
-    padding: 16px 0 16px 16px;
+    padding: 14px 0 16px 16px;
     margin: 2px 0px 10px 0px;
     border-radius: 10px;
 }
