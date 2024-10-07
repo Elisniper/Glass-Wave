@@ -74,7 +74,7 @@
 .theme-dark .notches_e5cdf3.gray_e5cdf3, .scroller-36O4Tg, .header-16U6Vf, .container_eff583, .theme-dark .emptyPage_c6b11b, .theme-dark .scrollerContainer_c6b11b, 
 .theme-dark .container_c2efea, .theme-dark .focusLock_f9a4c9 .carouselModal-1eUFoq,.topicFormItem_b229b0 .textInput_b229b0 ,.userProfileInner_c69a7b:before, .wrapper_d880dc,
 .outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav_d576e9, .sidebar__68062, .theme-dark .container_d20375, .theme-dark .sidebar__68062, 
-.wrapper_cdfd51, .wrapper_fea3ef, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3,
+.wrapper_cdfd51, .wrapper_fea3ef, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3, .shop_ebba41,
 .scroller_a8b566, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_dba803, .scroller_a50853, .shopScroll_e77fa3, .pageWrapper_e77fa3,
 .container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc, .pageBody_c2efea, .theme-dark .sidebarContainer_a3a4ce, .container_ec8cd2, .commandContainer_f37ac2,
 .container_b56bbc, .scroller_b91a2d, .headerBar_accde0:after, .backdrop_accde0, .rewardDescriptionContainer_c2d7e2, .container_e462a4 {
@@ -694,11 +694,11 @@ body {
 /* loading circle END*/
 
 /* Button changes */
-.lookFilled_dd4f85.colorBrand_dd4f85:hover, .lookFilled_dd4f85.colorPrimary_dd4f85:hover {
+.lookFilled_dd4f85.colorBrand_dd4f85:hover, .lookFilled_dd4f85.colorPrimary_dd4f85:hover, .shopAll_ebba41:hover {
     background-color: var(--var-accent);
     transform: translateY(-1px);
 }
-.lookFilled_dd4f85.colorBrand_dd4f85:active, .lookFilled_dd4f85.colorPrimary_dd4f85:active {
+.lookFilled_dd4f85.colorBrand_dd4f85:active, .lookFilled_dd4f85.colorPrimary_dd4f85:active, .shopAll_ebba41:active {
     background-color: var(--var-accent);
     transform: translateY(1px);
 }
@@ -764,16 +764,25 @@ body {
 .backButton_acb067:hover, .theme-dark .leftArrow_b9d4cd:hover, .theme-dark .rightArrow_b9d4cd:hover {
     background-color: var(--var-hover30);
 }
-.shopCard_c23530[style*="background-color: var(--background-floating);"] {
+.shopCardDark_c23530 {
     background-color: var(--var-black2) !important;
 }
 .content_a4d4d9 .shop_e77fa3 .scrollerBase_c49869 {
     margin-right: -10px;
     margin-top: 50px;
+    border-radius: 10px 0 0 10px;
 }
 .content_a4d4d9 .shop_e77fa3 .scrollerBase_c49869 .theme-dark.headerBar_d8354c {
     position: fixed;
     top: 22px;
+}
+.jumbleWrapper_abcfcd {
+    left: calc(var(--custom-guild-gutter) + var(--custom-channel-gutter) + 35px);
+}
+.shopAll_ebba41 {
+    background: var(--var-accent);
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px -2px black;
 }
 /* Pannel changes */
 .theme-dark .children_fc4f04:after, .theme-dark .form_a7d72e:before, .theme-dark .form_a7d72e:before, .theme-dark .form_a7d72e:after {
@@ -808,7 +817,7 @@ body {
     border-radius: 10px 10px 0px 0px;
     box-shadow: none;
 }
-.homeWrapperNormal_d175a8 .headerBar_d175a8 {
+.homeWrapperNormal_d175a8 .headerBar_d175a8, .shop_e77fa3 .headerBar_d8354c {
     border-radius: 10px 0 0 10px;
 }
 .tabBody_c2739c:before, .searchBar_f0963d, .headerBar_d175a8:before {
