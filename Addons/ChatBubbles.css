@@ -135,9 +135,6 @@
 .mentioned_d5deea.message_d5deea.groupStart_d5deea, .mentioned_d5deea:before {
     background: transparent;
 }
-.button_f7e168 {
-    height: 18px;
-}
 .button_f7e168.selected_f7e168 {
     color: #FFF;
     background-color: transparent;
@@ -148,9 +145,13 @@
 }
 .full-motion .wrapper_f7e168:hover, .wrapper_f7e168 {
     box-shadow: none;
+    border: none;
 }
 .wrapper_f7e168 {
-    height: 26px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 .container_a3b500 {
     padding: 0;
@@ -168,6 +169,10 @@
 .button_f7e168:hover, .wrapper_f7e168 {
     background-color: var(--var-popout-color);
     border-radius: 0 5px 5px 5px;
+    background-clip: content-box;
+}
+.hoverBarButton_e986d9:hover .icon_e986d9 {
+    transform: none;
 }
 .container_f1c3d9 .cozy_f9f2ca.wrapper_f9f2ca:not(.groupStart_d5deea).message_c06487:after {
     border-right-color: transparent;
