@@ -153,7 +153,7 @@
     margin: 0;
     border: none;
 }
-.container_a3b500 {
+.container_a3b500, .isHeader_a3b500:not(.isReply_a3b500) {
     padding: 0;
     top: 2px;
 }
