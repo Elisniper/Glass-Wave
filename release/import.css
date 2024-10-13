@@ -291,7 +291,7 @@ body {
 .interactive_f5eb4b:active, .wrapper_d8bfb3:active .link_d8bfb3m, .button_a39fe9:hover, .button_a24e84, .navButtonActive_af5dbb, .setCustomButton_a9414b:hover, 
 .iconWidget_a9414b:hover, .buttonInner_b385c8:hover, .addReactButton_b385c8:hover, .childButton_f45bfc:hover, .stepContainer_a039eb:hover, .container_dc3fc4:hover,
 .buttonContainer_f7ece4:hover, .avatarWrapper_b2ca13:hover, .container_e5da8b:hover, .clickable_b78bb6:hover, .command_f37ac2:hover, .reactionBtn_ec6b19.forceShowLook_ec6b19:hover,
-.option_c3b890:hover, .container_c64476:hover, .category_d70b79:hover, .selected_d70b79, .theme-dark .card_e32e6f:hover {
+.option_c3b890:hover, .container_c64476:hover, .category_d70b79:hover, .selected_d70b79, .theme-dark .card_e32e6f:hover, .wrapper_a18c91 {
     background-color: var(--var-hover25);
 }
 .optionButtonWrapper_bd5e1f {
