@@ -77,7 +77,8 @@
 .wrapper_cdfd51, .wrapper_fea3ef, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3, .shop_ebba41,
 .scroller_a8b566, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_dba803, .scroller_a50853, .shopScroll_e77fa3, .pageWrapper_e77fa3,
 .container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc, .pageBody_c2efea, .theme-dark .sidebarContainer_a3a4ce, .container_ec8cd2, .commandContainer_f37ac2,
-.container_b56bbc, .scroller_b91a2d, .headerBar_accde0:after, .backdrop_accde0, .rewardDescriptionContainer_c2d7e2, .container_e462a4, .container_b120dc {
+.container_b56bbc, .scroller_b91a2d, .headerBar_accde0:after, .backdrop_accde0, .rewardDescriptionContainer_c2d7e2, .container_e462a4, .container_b120dc, .stackedBars_bdf0de,
+.container_fb4810 {
     background-color: transparent;
 }
 .artwork_d8215a .image_d42055.loaded_d42055[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -204,7 +205,8 @@ body {
 .card_c21997, .container_b385c8, .chatHeaderBar_e2f46e, .soundButtonSettingContainer_c801bb, .divider_af45f8, .list_f20a46, .line_f7ea1b, .benefitsContainer_f75168, 
 .container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_d25d19.selected_d25d19, .container_a039eb,
-.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_aa1bff {
+.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_aa1bff,
+.container_e365d2, .container_a1531c {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer_eb49af, .mockInput_c5828f {
@@ -991,11 +993,12 @@ body {
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.searchResultsWrap_c2b47d)) .container_a6d69a:before {
     border-radius: 10px 0 0 10px;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.replyBar_b11c5e) .channelTextArea_a7d72e .themedBackground_bdf0de {
-    /* fix the border radious when replying */
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .channelTextArea_a7d72e .themedBackground_bdf0de {
+    /* fix the border radius when text area has stacked bar */
     border-radius: 0 0 0 10px;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.replyBar_b11c5e) .replyBar_b11c5e {
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .replyBar_b11c5e,
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .stackedBars_bdf0de .bar_f60904 {
     border-radius: 8px 0 0 0;
 }
 .chat_a7d72e.threadSidebarOpen_a7d72e .container_a6d69a:before {
@@ -1575,6 +1578,7 @@ body {
 }
 
 /* App/commands icon */
+
 .channelAppLauncher_df39bd {
     margin: 0px 5px;
 }
@@ -1585,15 +1589,19 @@ body {
 }
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelAppLauncher_df39bd {
     margin: 0px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .button_df39bd {
     border-radius: 0;
     width: inherit;
     padding-right: 8px;
+    background: transparent;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .buttons_bdf0de {
+.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelTextArea_a7d72e .buttons_bdf0de {
     /* Move message typing input icons closer to app icon when member list is hidden */
-    margin-right: 2px;
+    margin-right: 35px;
 }
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .attachedBars_bdf0de {
     position: relative;
@@ -1637,6 +1645,23 @@ body {
 .button_be03aa {
     top: 0;
 }
+/* Create Poll */
+.questionInput_f24a96 {
+    border: none;
+}
+.defaultTextInputWrapper_d274ca {
+    background-color: var(--var-black1);
+    border: 2px solid var(--var-black1);
+}
+.addAnswerButton_f24a96 {
+    background-color: var(--var-hover20);
+}
+.addAnswerButton_f24a96:hover {
+    background-color: var(--var-hover25);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* BD setting changes */
 .bd-setting-divider {
     border-bottom: none;
