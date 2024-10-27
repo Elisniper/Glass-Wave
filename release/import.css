@@ -1591,7 +1591,7 @@ body {
     margin: 0px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: auto;
 }
 .content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .button_df39bd {
     border-radius: 0;
