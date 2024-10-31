@@ -285,6 +285,10 @@
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Set gap betwen username and edit profile icon */
+.accountProfilePopoutWrapper_b2ca13 .body_ad5fac {
+    gap: 8px;
+}
 /* Remove status pucker menu items gap */
 .accountProfilePopoutWrapper_b2ca13 .menus_ad5fac {
     gap: 0;
