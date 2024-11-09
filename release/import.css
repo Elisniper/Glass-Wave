@@ -960,7 +960,7 @@ body {
 .form_a7d72e {
     padding: 0;
 }
-.membersWrap_cbd271:before, .content_a7d72e .userPanelOuter_c69a7b:before, .searchResultsWrap_c2b47d:before {
+.membersWrap_cbd271:before, .content_a7d72e .outer_c69a7b:before, .searchResultsWrap_c2b47d:before {
     content: "";
     position: absolute;
     top: -48px;
@@ -987,27 +987,28 @@ body {
     border-radius: 10px;
     background-color: var(--var-black1);
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .chatContent_a7d72e:before, 
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelTextArea_a7d72e .themedBackground_bdf0de,
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.container_cbd271)) .container_a6d69a:before,
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.searchResultsWrap_c2b47d)) .container_a6d69a:before {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .chatContent_a7d72e:before, 
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelTextArea_a7d72e .themedBackground_bdf0de,
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.container_cbd271)) .container_a6d69a:before,
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):not(:has(.searchResultsWrap_c2b47d)) .container_a6d69a:before {
     border-radius: 10px 0 0 10px;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .channelTextArea_a7d72e .themedBackground_bdf0de {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .channelTextArea_a7d72e .themedBackground_bdf0de {
     /* fix the border radius when text area has stacked bar */
     border-radius: 0 0 0 10px;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .replyBar_b11c5e,
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .stackedBars_bdf0de .bar_f60904 {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .replyBar_b11c5e,
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.hasStackedBar_bdf0de) .stackedBars_bdf0de .bar_f60904 {
     border-radius: 8px 0 0 0;
 }
 .chat_a7d72e.threadSidebarOpen_a7d72e .container_a6d69a:before {
     border-radius: 10px;
 }
-.content_a7d72e .userPanelOuter_c69a7b, .content_a7d72e .profilePanel_b433b4 {
+.content_a7d72e .outer_c69a7b, .content_a7d72e .profilePanel_b433b4, .content_a7d72e .inner_c69a7b.panel_c69a7b {
     width: 240px;
     height: 100%;
     background: transparent;
+    border-radius: 0 0 0 10px;
 }
 .container_cbd271 .membersWrap_cbd271, .member_cbd271, .members_cbd271, .membersWrap_cbd271 .members_cbd271 {
     background-color: transparent;
@@ -1589,23 +1590,23 @@ body {
     width: 52px;
     height: 52px;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelAppLauncher_df39bd {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelAppLauncher_df39bd {
     margin: 0px;
     position: absolute;
     right: 0;
     bottom: auto;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .button_df39bd {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .button_df39bd {
     border-radius: 0;
     width: inherit;
     padding-right: 8px;
     background: transparent;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelTextArea_a7d72e .buttons_bdf0de {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .channelTextArea_a7d72e .buttons_bdf0de {
     /* Move message typing input icons closer to app icon when member list is hidden */
     margin-right: 35px;
 }
-.content_a4d4d9:not(:has(.content_a7d72e .userPanelOuter_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .attachedBars_bdf0de {
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .attachedBars_bdf0de {
     position: relative;
     margin-right: -32px;
     z-index: 5;
