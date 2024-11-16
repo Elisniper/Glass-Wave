@@ -205,7 +205,7 @@ body {
 .card_c21997, .container_b385c8, .chatHeaderBar_e2f46e, .soundButtonSettingContainer_c801bb, .divider_af45f8, .list_f20a46, .line_f7ea1b, .benefitsContainer_f75168, 
 .container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_d25d19.selected_d25d19, .container_a039eb,
-.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_aa1bff,
+.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_f8ec41,
 .container_e365d2, .container_a1531c {
     background-color: var(--var-black1);
 }
@@ -1220,12 +1220,12 @@ body {
 /* Nitro Promotion/Trial badge */
 .container_d91ad9[aria-posinset="2"] .interactive_c91bad .premiumTrialBadge_b089d3 {
     position: relative;
-    height: 18px;
-    top: -7px;
-    left: -24px;
+    height: 26px;
+    top: -8px;
+    left: -25px;
     bottom: 3px;
-    padding-left: 15px;
-    padding-right: 12px;
+    padding-left: 33px;
+    padding-right: 38px;
     color: var(--header-secondary);
     border-radius: 3px 3px 0 0;
     transform: translateY(-28px);
@@ -1238,14 +1238,15 @@ body {
     transition: 150ms ease-out;
 }
 .container_d91ad9[aria-posinset="2"] .interactive_c91bad .premiumTrialAcknowledgedBadge_b089d3 {
-    padding-left: 6px;
-    padding-right: 7px;
     top: -8px;
     background-color: var(--var-popout-color);
 }
 .container_d91ad9[aria-posinset="2"] .interactive_c91bad .badgeContainer_b7316a {
     left: -28px;
     top: -5px;
+}
+.tabBackground_d44307 {
+    display: none;
 }
 /* Snowgiving button */
 .snowsgivingLink-1TZi3c {
