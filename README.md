@@ -8,7 +8,7 @@ I will try and provide Updates/Bug fixes as soon as possible when discord update
 
 # Glass Wave customisations: 
 
-Customise Glass Wave on [bdeditor.dev](https://bdeditor.dev/theme/glasswave{:target=”_blank”})
+Customise Glass Wave on [bdeditor.dev](https://bdeditor.dev/theme/glasswave)
 
 # Installation
 
