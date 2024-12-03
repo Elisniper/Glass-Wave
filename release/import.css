@@ -205,7 +205,7 @@ body {
 .card_c21997, .container_b385c8, .chatHeaderBar_e2f46e, .soundButtonSettingContainer_c801bb, .divider_af45f8, .list_f20a46, .line_f7ea1b, .benefitsContainer_f75168, 
 .container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_d25d19.selected_d25d19, .container_a039eb,
-.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_f8ec41,
+.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_d71945,
 .container_e365d2, .container_a1531c {
     background-color: var(--var-black1);
 }
@@ -274,7 +274,7 @@ body {
 .card_a298b8:not(.outline_a298b8), .theme-dark .giftCardButton_d8f41e, .circle_d7c696, .iconContainer_e677b7, .container_dc3fc4, .iconBackground_e5ee5b, .background_b42a48,
 .buttonContainer_f7ece4, .header_b56bbc .container_c18ec9, .categoryPill_f69601:hover:not(.selected_f69601), .decorationGridItem_b35b54, .decorationPreview_aba31b,
 .smallDecorationPreviewsContainer_aba31b, .container_e5da8b, .clickable_b78bb6, .overviewContainerNoVideo_e80fe9, .command_f37ac2, .overviewContainerWithVideo_e80fe9,
-.reactionBtn_ec6b19.forceShowLook_ec6b19, .root_c3b890, .container_c64476 {
+.reactionBtn_ec6b19.forceShowLook_ec6b19, .root_c3b890, .container_c64476, .choiceContainer_c5e09c {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_a27f2f {
@@ -293,7 +293,7 @@ body {
 .interactive_f5eb4b:active, .wrapper_d8bfb3:active .link_d8bfb3m, .button_a39fe9:hover, .button_a24e84, .navButtonActive_af5dbb, .setCustomButton_a9414b:hover, 
 .iconWidget_a9414b:hover, .buttonInner_b385c8:hover, .addReactButton_b385c8:hover, .childButton_f45bfc:hover, .stepContainer_a039eb:hover, .container_dc3fc4:hover,
 .buttonContainer_f7ece4:hover, .avatarWrapper_b2ca13:hover, .container_e5da8b:hover, .clickable_b78bb6:hover, .command_f37ac2:hover, .reactionBtn_ec6b19.forceShowLook_ec6b19:hover,
-.option_c3b890:hover, .container_c64476:hover, .category_d70b79:hover, .selected_d70b79, .theme-dark .card_e32e6f:hover, .wrapper_a18c91 {
+.option_c3b890:hover, .container_c64476:hover, .category_d70b79:hover, .selected_d70b79, .theme-dark .card_e32e6f:hover, .wrapper_a18c91, .choiceContainer_c5e09c:hover {
     background-color: var(--var-hover25);
 }
 .optionButtonWrapper_bd5e1f {
@@ -1514,10 +1514,10 @@ body {
     background: transparent;
     box-shadow: none;
 }
-.outer_c69a7b:not(.custom-profile-theme) .statusBubble_d0a252,
-.outer_c69a7b:not(.custom-profile-theme) .statusBubbleOuter_d0a252,
-.outer_c69a7b:not(.custom-profile-theme) .statusBubbleOuter_d0a252:before,
-.outer_c69a7b:not(.custom-profile-theme) .statusBubbleOuter_d0a252:after {
+.outer_c69a7b:not(.custom-profile-theme) .statusBubble_af9888,
+.outer_c69a7b:not(.custom-profile-theme) .statusBubbleOuter_af9888,
+.outer_c69a7b:not(.custom-profile-theme) .statusBubbleOuter_af9888:before,
+.outer_c69a7b:not(.custom-profile-theme) .statusBubbleOuter_af9888:after {
     background-color: var(--var-hover10);
 }
 /*user popout coloring for Themed/nitro accounts*/
