@@ -185,7 +185,7 @@ body {
 .groupCollapsedContainer_f573e6, .pointer_f573e6, .editCard_cd99d3, .actionContainer_b6e944, .editCard_cd99d3.toggled_cd99d3.active_ef2ec5, .richTag_effbe2,
 .keywordListContainer_f9f552, .collapseable_a3cc4a .keywordTextArea_a4df17, .theme-dark .headerClickable_eebd33, .theme-dark .headerDefault_eebd33, .theme-dark .headerExpanded_eebd33,
 .upsellContainer_d0de76, .upsellFooter_d0de76, .backgroundAccent_dd4615, .developerPortalCtaWrapper_cfaf72, .featureCard_b1a8d5, .checklistContainer-12xGp5, .checklistHeader-3liG7E,
-.header_bd2368, .container_bd2368, .exampleContainer_e803f7, .card_ea91d1, .howItWorksImageContainer_aa72d6, .creatorBenefitCard__1f0b1, .guildCard__81370, .ctaBar-Nhk8yY, 
+.header_bd2368, .container_bd2368, .howItWorksContainer_aa72d6, .card_ea91d1, .howItWorksImageContainer_aa72d6, .creatorBenefitCard__1f0b1, .guildCard__81370, .ctaBar-Nhk8yY, 
 .theme-dark .tierBody-3ju-rc, .theme-dark .barBackground-unEPDT, .tierMarkerLabelText-1wk8KK:not(.isAccomplished-2NcqRT):hover, .stageUpsell-hekoJb, .theme-dark .perk-19D_HN,
 .theme-dark .bd-server-card, .bd-pagination button:hover, .bd-pagination button:active, .role_d70de6, .theme-dark .notDetected_fd966d, 
 .theme-light .notDetected_fd966d, .tag_effbe2, .activityItem-1Z9CTr, .participantsButton_b83b18, .replyBar_b11c5e, .threadSuggestionBar_b11c5e, 
@@ -206,7 +206,7 @@ body {
 .container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_d25d19.selected_d25d19, .container_a039eb,
 .theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_d71945,
-.container_e365d2, .container_a1531c {
+.container_e365d2, .container_a1531c, .roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1, .circleButton_a930f1 {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer_eb49af, .mockInput_c5828f {
@@ -224,7 +224,8 @@ body {
 .theme-dark .iconMask_e90879:hover, .theme-dark .iconMask_e90879:hover .iconMask_e90879, .cardPrimary-3qRT__, .guildSubscriptionSlots__5823d, .monaco-editor, 
 .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-editor .margin, .option_b877fa:hover, .theme-dark .tierBody_da77bd, .actionContainer_cec7a5, 
 .theme-dark .tierHeaderLocked-3ItHYn, .activityItem-1Z9CTr:hover, .channelRow_a33fd3:hover:not(.disabled_a33fd3), .reviewHeader_addbba, 
-.itemFilled_eb92a8:active:not([aria-checked=true]):not(.disabled_eb92a8), .rsvpCount_a4ec62, .timestamp_f8f345, .total_a5bc92, .navButtons_cd377c {
+.itemFilled_eb92a8:active:not([aria-checked=true]):not(.disabled_eb92a8), .rsvpCount_a4ec62, .timestamp_f8f345, .total_a5bc92, .navButtons_cd377c, 
+.circleButton_a930f1:hover:not(.disabled_e258f5) {
     background-color: var(--var-black2);
 }
 /* Notification */
@@ -837,6 +838,7 @@ body {
 }
 .previewContainer_da1bd9 .theme-light .messageContainer_da1bd9 {
     background-color: var(--var-hover20);
+    padding-right: 10px;
 }
 .previewContainer_da1bd9 .theme-light .markup_f8f345 {
     color: rgb(193 198 201);
