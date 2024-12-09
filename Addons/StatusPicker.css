@@ -324,4 +324,8 @@
 }
 .card_ae1fa2 {
     background-color: var(--var-hover20) !important;
+    gap: 8px;
+    padding: 8px;
+    height: 84px;
+    justify-content: center;
 }

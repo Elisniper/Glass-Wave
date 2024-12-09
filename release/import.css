@@ -78,7 +78,7 @@
 .scroller_a8b566, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_dba803, .scroller_a50853, .shopScroll_e77fa3, .pageWrapper_e77fa3,
 .container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc, .pageBody_c2efea, .theme-dark .sidebarContainer_a3a4ce, .container_ec8cd2, .commandContainer_f37ac2,
 .container_b56bbc, .scroller_b91a2d, .headerBar_accde0:after, .backdrop_accde0, .rewardDescriptionContainer_c2d7e2, .container_e462a4, .container_b120dc, .stackedBars_bdf0de,
-.container_fb4810 {
+.container_fb4810, .layer_c9e2da .mediaModal_f5a23b {
     background-color: transparent;
 }
 .artwork_d8215a .image_d42055.loaded_d42055[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -275,7 +275,7 @@ body {
 .card_a298b8:not(.outline_a298b8), .theme-dark .giftCardButton_d8f41e, .circle_d7c696, .iconContainer_e677b7, .container_dc3fc4, .iconBackground_e5ee5b, .background_b42a48,
 .buttonContainer_f7ece4, .header_b56bbc .container_c18ec9, .categoryPill_f69601:hover:not(.selected_f69601), .decorationGridItem_b35b54, .decorationPreview_aba31b,
 .smallDecorationPreviewsContainer_aba31b, .container_e5da8b, .clickable_b78bb6, .overviewContainerNoVideo_e80fe9, .command_f37ac2, .overviewContainerWithVideo_e80fe9,
-.reactionBtn_ec6b19.forceShowLook_ec6b19, .root_c3b890, .container_c64476, .choiceContainer_c5e09c {
+.reactionBtn_ec6b19.forceShowLook_ec6b19, .root_c3b890, .container_c64476, .choiceContainer_c5e09c, .friends_d8cab0 {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_a27f2f {
@@ -1061,6 +1061,9 @@ body {
     border-bottom-width: 0px;
     border-bottom-style: none;
     border-bottom-color: transparent !important; 
+}
+.theme-dark .inset_ac5d22 {
+    border-radius: 8px;
 }
 /* Thread memeber list EMPTY STATE */
 .emptyState_b767ed {
