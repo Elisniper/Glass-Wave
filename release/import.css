@@ -1526,7 +1526,8 @@ body {
     background-color: var(--var-hover10);
 }
 /*user popout coloring for Themed/nitro accounts*/
-.custom-profile-theme .lookFilled_dd4f85.colorPrimary_dd4f85, .custom-profile-theme .lookFilled_dd4f85.colorBrand_dd4f85 {
+.custom-profile-theme .lookFilled_dd4f85.colorPrimary_dd4f85, .custom-profile-theme .lookFilled_dd4f85.colorBrand_dd4f85, 
+.custom-profile-theme .inner_c69a7b.panel_c69a7b {
     background-color: var(--profile-gradient-button-color);
 }
 
@@ -1617,6 +1618,47 @@ body {
     margin-right: -32px;
     z-index: 5;
 }
+/* commands button for BOT DM's */
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.entryPointButtonContainer_a7d72e .entryPointAppCommandButton_d1f06a) .channelTextArea_a7d72e .scrollableContainer_bdf0de {
+    /*Create space for the buttons*/
+    padding-right: 84px;
+}
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.entryPointButtonContainer_a7d72e .entryPointAppCommandButton_d1f06a) .channelAppLauncher_df39bd {
+    right: 84px;
+}
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)):has(.entryPointButtonContainer_a7d72e .entryPointAppCommandButton_d1f06a) .button_df39bd {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.entryPointButtonContainer_a7d72e {
+    margin-bottom: 0;
+}
+.entryPointButtonContainer_a7d72e .entryPointAppCommandButton_d1f06a {
+    height: 52px;
+    background: var(--var-black1);
+    margin-left: 0;
+    color: var(--interactive-normal);
+}
+.entryPointButtonContainer_a7d72e .entryPointAppCommandButton_d1f06a:hover {
+    background: var(--var-black1);
+    color: #FFF;
+    transform: none;
+}
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .entryPointButtonContainer_a7d72e {
+    margin: 0px;
+    position: absolute;
+    right: 0;
+    padding-right: 8px;
+    bottom: auto;
+    width: 68px;
+    align-content: center;
+}
+.content_a4d4d9:not(:has(.content_a7d72e .outer_c69a7b)):not(:has(.membersWrap_cbd271)):not(:has(.searchResultsWrap_c2b47d)):not(:has(.chat_fe669e)):not(:has(.sidebarContainer_d2194f)):not(:has(.container_d1c246)) .entryPointButtonContainer_a7d72e .entryPointAppCommandButton_d1f06a {
+    background: transparent;
+    padding: 0;
+    min-width: 68px;
+}
+
 /* Notice */
 .notice_be03aa {
     height: 48px;
