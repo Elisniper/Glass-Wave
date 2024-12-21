@@ -59,7 +59,7 @@
     display: none;
 }
 /* Transparent Backgrounds */
-.layer_d4b6c5 .wrapper_fea3ef, .layer_d4b6c5 .container_a4d4d9, .layer_d4b6c5, .layer_d4b6c5 .standardSidebarView_c25c6d, .appMount_ea7e65 .layers_a01fb1, .appMount_ea7e65 .layer_d4b6c5,
+.wrapper_fea3ef, .layer_d4b6c5 .container_a4d4d9, .layer_d4b6c5, .layer_d4b6c5 .standardSidebarView_c25c6d, .appMount_ea7e65 .layers_a01fb1, .appMount_ea7e65 .layer_d4b6c5,
 .app_a01fb1, .theme-dark .container_c2739c, .container_bf550a, .contentRegion_c25c6d .contentRegionScroller_c25c6d, .contentRegion_c25c6d .scroller_ff90b2,
 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d, .standardSidebarView_c25c6d .sidebarRegion_c25c6d, .nowPlayingColumn_c2739c, .contentRegion_c25c6d, .sidebar_a4d4d9, .chat_a7d72e
 .chatContent_a7d72e, .theme-dark .scroller_c47fa9, .chat_a7d72e, .resizeHandle_d1c246, .title_a7d72e .searchBar_a46bef, .member_cbd271, .channelTextArea_a7d72e,
@@ -74,7 +74,7 @@
 .theme-dark .notches_e5cdf3.gray_e5cdf3, .scroller-36O4Tg, .header-16U6Vf, .container_eff583, .theme-dark .emptyPage_c6b11b, .theme-dark .scrollerContainer_c6b11b, 
 .theme-dark .container_c2efea, .theme-dark .focusLock_f9a4c9 .carouselModal-1eUFoq,.topicFormItem_b229b0 .textInput_b229b0 , .inner_c69a7b:before, .wrapper_d880dc,
 .outerContainer-2qLQSo, .contentContainer-BWAau5, .containerSidenav_d576e9, .sidebar__68062, .theme-dark .container_d20375, .theme-dark .sidebar__68062, 
-.wrapper_cdfd51, .wrapper_fea3ef, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3, .shop_ebba41,
+.wrapper_cdfd51, .container_a6d69a, .wrapper_bfc2c6, .paymentNote_d791fd, .container_dccaf1 .container_f7ea1b, .marker_f7ea1b, .shop_e77fa3, .shop_ebba41,
 .scroller_a8b566, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_dba803, .scroller_a50853, .shopScroll_e77fa3, .pageWrapper_e77fa3,
 .container_ed4410, .wrapper_b75bb9, .spinner_b0f29a, .header_b56bbc, .pageBody_c2efea, .theme-dark .sidebarContainer_a3a4ce, .container_ec8cd2, .commandContainer_f37ac2,
 .container_b56bbc, .scroller_b91a2d, .headerBar_accde0:after, .backdrop_accde0, .rewardDescriptionContainer_c2d7e2, .container_e462a4, .container_b120dc, .stackedBars_bdf0de,
@@ -169,7 +169,7 @@ body {
 .theme-dark .appMount_ea7e65, .privateChannels_f0963d, .theme-dark .container_ee69e0, .container_adcaac, .theme-dark .panel_bf1a22, 
 .theme-dark .container_b2ca13, .container_d1c246, .container_c15230, .scrollableContainer_bdf0de, 
 .peopleListItem_d51464.active_d51464, .peopleListItem_d51464:hover, .peopleColumn_c2739c .searchBar_e0840f, .addFriendInputWrapper_de812f, .theme-dark .inset_ac5d22, 
-.theme-dark .scroller_fea3ef, .bd-addon-list .bd-addon-card, .bd-addon-list .bd-addon-header, .bd-search-wrapper, .bd-select:hover, .bd-select.menu-open, 
+.bd-addon-list .bd-addon-card, .bd-addon-list .bd-addon-header, .bd-search-wrapper, .bd-select:hover, .bd-select.menu-open, 
 .flexChild_dc333f .layout-1XOMLV, .itemFilled_eb92a8, .container_aef5fd:active, .theme-dark .card_e32e6f, .theme-dark .iconMask_e90879,
 .content_c2654d, .container_f11cbf, .customizationSection_b3a5c2 .input_f8bc55, .customizationSection_b3a5c2 .bioTextArea_ccf27d, .authedApp_f0135d, .connectContainer_e2a436,
 .connection_e2a436, .connectionHeader_e2a436, .accountButtonInner_e2a436, .theme-dark .feature-2IUcBI, .guildHeader__30707, .cardWrapper_f9902b, .detailsBlock_a206c7,
@@ -205,8 +205,8 @@ body {
 .card_c21997, .container_b385c8, .chatHeaderBar_e2f46e, .soundButtonSettingContainer_c801bb, .divider_af45f8, .list_f20a46, .line_f7ea1b, .benefitsContainer_f75168, 
 .container_f9d8eb, .copyInput_d7e343, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer_c5a065, .header_c258fa,
 .boostContainer_dba803, .theme-dark .outerContainer_d7df05l, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough_d25d19.selected_d25d19, .container_a039eb,
-.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4, .footer_d71945,
-.container_e365d2, .container_a1531c, .roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1, .circleButton_a930f1 {
+.theme-dark .outerContainer_d7df05, .container_d7c696, .container_c18ec9, .container_f7ece4, .searchBox_d83b4d, .container_effbe2, .container_a97111, .nav_e462a4,
+.container_e365d2, .container_a1531c, .roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1, .circleButton_a930f1, .theme-dark .scroller_fea3ef {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer_eb49af, .mockInput_c5828f {
@@ -797,6 +797,13 @@ body {
 }
 .messageGroupWrapper_ac90a2 {
     border: 0;
+}
+.activityPanel_a4d4d9 {
+    z-index: 0;
+}
+.footer_d71945 {
+    margin-top: 0;
+    background: var(--var-black1);
 }
 .jumpButton_ac90a2 {
     margin-right: -5px;
@@ -1530,7 +1537,9 @@ body {
 .custom-profile-theme .inner_c69a7b.panel_c69a7b {
     background-color: var(--profile-gradient-button-color);
 }
-
+.custom-profile-theme .wrapper_f7e168, .custom-profile-theme .button_f7e168:hover {
+    background-color: var(--background-primary);
+}
 /* Mod View */
 .sidebarContainer_d2194f .outer_c69a7b {
     background: var(--var-black1);
@@ -1580,10 +1589,12 @@ body {
     box-shadow: inset 0 -4px 0 var(--var-hover10)!important;
     background-color: var(--var-hover20);
 }
-.theme-dark .tooltipPrimary_b6c360, .theme-light .tooltipPrimary_b6c360 {
+.layerContainer_cd0de5:has(:not(.custom-profile-theme)).theme-dark .tooltipPrimary_b6c360, 
+.layerContainer_cd0de5:has(:not(.custom-profile-theme)).theme-light .tooltipPrimary_b6c360 {
     background-color: var(--var-popout-color);
 }
-.theme-dark .tooltipPrimary_b6c360 .tooltipPointer_b6c360, .theme-light .tooltipPrimary_b6c360 .tooltipPointer_b6c360 {
+.layerContainer_cd0de5:has(:not(.custom-profile-theme)).theme-dark .tooltipPrimary_b6c360 .tooltipPointer_b6c360, 
+.layerContainer_cd0de5:has(:not(.custom-profile-theme)).theme-light .tooltipPrimary_b6c360 .tooltipPointer_b6c360 {
     border-top-color: var(--var-popout-color);
 }
 
