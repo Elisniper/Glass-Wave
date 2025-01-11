@@ -707,6 +707,12 @@ body {
 /* Button changes END */
 
 /* Boost/Nitro unlocks Page */
+.applicationStore_cecc86, .applicationStore_cecc86 .scroller_a8b566 {
+    border-radius: 10px 0 0 10px;
+}
+.applicationStore_cecc86 .scroller_a8b566 {
+    margin-top: 2px;
+}
 .mainPageScroller_ed2e7b.auto_c49869.scrollerBase_c49869 {
     background: transparent;
     border-radius: 10px 0 0 10px;
