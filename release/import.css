@@ -1822,6 +1822,26 @@ body {
     color: #FFF;
 }
 
+/* BD Themes & Plugin store */
+.bd-store-card, .theme-dark .bd-addon-store-card {
+    background-color: var(--var-black1);
+}
+.bd-store-card-icon, .bd-paginator-bubble:where([data-selected=true],:hover), #app-mount :where(.bd-paginator-back,.bd-paginator-next):hover {
+    background: var(--var-hover25);
+}
+.bd-addon-store-card-tag {
+    background: var(--var-hover20);
+    border: 1px solid var(--var-black1);
+}
+.theme-dark .bd-addon-store-card:hover, .theme-dark .bd-addon-store-card:hover .bd-addon-store-card-author-mask {
+    background-color: var(--var-hover25);
+}
+.bd-install-modal-items {
+    background: var(--var-black1);
+}
+.bd-install-modal-guild, .bd-install-modal-item:hover .bd-install-modal-guild {
+    background-color: var(--var-hover25);
+}
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Spotify Controls Plugin Support */
