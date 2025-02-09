@@ -6,7 +6,7 @@
     position: relative;
     width: 240px;
     left: 22px;
-    bottom: -11px;
+    bottom: -4px;
     background: transparent;
     box-shadow: none;
 }
@@ -211,75 +211,75 @@
 /* Ajust height for user profile background and ajust button padding when spotify activity is active  */
 
 /* Outer Unthemed & has Active spotify activity */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .container__37e49::before {
     height: 493px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609) .container__37e49::before {
     height: 519px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiOnly_af9888) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiOnly_af9888) .container__37e49::before {
     height: 511px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiInline_af9888):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiInline_af9888):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888) .container__37e49::before {
     height: 520.250px !important;
 }
 
 
 
 /* Outer Unthemed, has Active spotify activity & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 568px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiOnly_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiOnly_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 560px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiInline_af9888):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.custom-profile-theme) .statusEmojiInline_af9888):has(.outer_c0bea0:not(.custom-profile-theme) .statusBubbleShape_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 569.250px !important;
 }
 
 /* Outer Unthemed, has Active spotify activity with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.custom-profile-theme) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 542px !important; 
 }
 
 
 /* Outer themed & has Active spotify activity */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .container__37e49::before {
     height: 519px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.custom-profile-theme .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.custom-profile-theme .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609) .container__37e49::before {
     height: 545px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.custom-profile-theme .statusEmojiOnly_af9888) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.custom-profile-theme .statusEmojiOnly_af9888) .container__37e49::before {
     height: 537px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.custom-profile-theme .statusEmojiInline_af9888):has(.custom-profile-theme .statusBubbleShape_af9888) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.custom-profile-theme .statusEmojiInline_af9888):has(.custom-profile-theme .statusBubbleShape_af9888) .container__37e49::before {
     height: 546.250px !important;
 }
 
 /* Outer themed, has Active spotify activity & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.custom-profile-theme .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.custom-profile-theme .statusBubbleShape_af9888 .content_ab8609 .statusText_ab8609):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 522px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.custom-profile-theme .statusEmojiOnly_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.custom-profile-theme .statusEmojiOnly_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 514px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.custom-profile-theme .statusEmojiInline_af9888):has(.custom-profile-theme .statusBubbleShape_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.custom-profile-theme .statusEmojiInline_af9888):has(.custom-profile-theme .statusBubbleShape_af9888):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 523.250px !important;
 }
 
 /* Outer themed, has Active playing game with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/3912b83ecf89f78097ab.svg")']):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.custom-profile-theme .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemInner_af7fb7 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 568px !important;
 }
 
