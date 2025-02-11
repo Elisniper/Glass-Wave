@@ -78,7 +78,7 @@
 .scroller_c880e8, .pageWrapperBackgroundPrimary__36469, .shopScrollBackgroundPrimary__28f1d, .appliedBoostContainer_ceb06a, .scroller__6fd0e, .shopScroll__6db1d, .pageWrapper__6db1d,
 .container__722ff, .wrapper_fc8177, .spinner_ca0af2, .header_fed6d3, .pageBody__41ed7, .theme-dark .sidebarContainer_a3a4ce, .container__7bdb0, .commandContainer_c94584,
 .container_fed6d3, .scroller__23746, .headerBar__8a7fc:after, .backdrop__8a7fc, .rewardDescriptionContainer__956c6, .container__551b0, .container_cbd375, .stackedBars__74017,
-.container_fb64c9, .layer_bc663c .mediaModal_a1cc72 {
+.container_fb64c9, .layer_bc663c .mediaModal_a1cc72, .contentContainer__4325e {
     background-color: transparent;
 }
 .artwork_c08b38 .image__5901e.loaded__5901e[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
@@ -150,7 +150,7 @@ body {
 .childWrapper_a6ce15, .expandedFolderBackground__48112, .folder__48112.hover__48112, .folder__48112[aria-expanded=true], .userCardInner_c69a7b, .iconCircle__183e8, .wrapper__4e6ce,
 .uploadInput__94439, .marker_d878e7 .empty_d878e7, .premiumTrialAcknowledgedBadge__4c1e4, .activityItem__18da2:hover, .wrapper__97f37, .authorize__3d3b0.inApp_c5a065,
 .selectGuildPseudoCta__39466, .buttonColor_f00225, .theme-dark .staticToolbar_bba883, .botTagRegular__82f07, .categoryPill_f69601.selected_f69601, .wrapper_b1e4f3,
-.categoryItem_f75d68.selectedCategoryItem_f75d68 .itemInner_f75d68 {
+.categoryItem_f75d68.selectedCategoryItem_f75d68 .itemInner_f75d68, .circleIconButton__5bc7e.selected__5bc7e, .childWrapperNoHoverBg__6e9f8 {
     background-color: var(--var-accent);
 }
 .addFriendInputWrapper__72ba7:focus-within, .wrapper_e03935 {
@@ -1735,7 +1735,14 @@ body {
 .addAnswerButton_d97f89:hover {
     background-color: var(--var-hover25);
 }
-
+/* Exiting poll */
+.clickable_da5e8d:hover {
+    background-color: var(--var-hover10);
+    transition: 150ms ease-in;
+}
+.clickable_da5e8d {
+    transition: 150ms ease-out;
+}
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* BD setting changes */
