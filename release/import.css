@@ -206,7 +206,8 @@ body {
 .container_f9d8eb, .copyInput_fffc15, .cardHeader__62148, .defaultPreviewButtonColor_cae7c6, .footer__3d3b0, .header__99020,
 .boostContainer_ceb06a, .theme-dark .outerContainer__2055al, .mainTableContainer_dd2627, .movedTable_dd2627, .passthrough__344e6.selected__344e6, .container_a68543,
 .theme-dark .outerContainer__2055a, .container__8cc9a, .container_a45028, .container__664ff, .searchBox_d727b3, .container_fea832, .container_cec934, .nav__551b0,
-.container_f69538, .container__0be77, .roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1, .circleButton_a930f1, .theme-dark .scroller_ef3116 {
+.container_f69538, .container__0be77, .roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) .circleButton_a930f1, .circleButton_a930f1, .theme-dark .scroller_ef3116,
+.errorContainer__03498, .contentContainer_c6b177, .contentContainer__8f46b, .appContainer__5a4b6 {
     background-color: var(--var-black1);
 }
 .upsellOverlayContainer__0f7dc, .mockInput_c50f62 {
@@ -275,7 +276,7 @@ body {
 .card__73069:not(.outline__73069), .theme-dark .giftCardButton_da4aee, .circle__8cc9a, .iconContainer__0624f, .container__6b38f, .iconBackground__0b34e, .background__506d9,
 .buttonContainer__664ff, .header_fed6d3 .container_a45028, .categoryPill_f69601:hover:not(.selected_f69601), .decorationGridItem_dfa67d, .decorationPreview__51743,
 .smallDecorationPreviewsContainer__51743, .container_cb32c7, .clickable__761e5, .overviewContainerNoVideo__95856, .command_c94584, .overviewContainerWithVideo__95856,
-.reactionBtn__23977.forceShowLook_ec6b19, .root__66e7e, .container__0f2e8, .choiceContainer_c28af8, .friends_b37a75 {
+.reactionBtn__23977.forceShowLook_ec6b19, .root__66e7e, .container__0f2e8, .choiceContainer_c28af8, .friends_b37a75, .iconButton__8a7fc {
     background-color: var(--var-hover20);
 }
 .modalHeaderCustomGift_b54a5b {
@@ -294,7 +295,8 @@ body {
 .interactive_bf202d:active, .wrapper__2ea32:active .link__2ea32m, .button__71c22:hover, .button_f563df, .navButtonActive__08434, .setCustomButton__669b5:hover, 
 .iconWidget__669b5:hover, .buttonInner__34c2c:hover, .addReactButton__34c2c:hover, .childButton__3ed08:hover, .stepContainer_a68543:hover, .container__6b38f:hover,
 .buttonContainer__664ff:hover, .avatarWrapper__37e49:hover, .container_cb32c7:hover, .clickable__761e5:hover, .command_c94584:hover, .reactionBtn__23977.forceShowLook_ec6b19:hover,
-.option__66e7e:hover, .container__0f2e8:hover, .category_fe77d6:hover, .selected_fe77d6, .theme-dark .card__84e3e:hover, .wrapper__960df, .choiceContainer_c28af8:hover {
+.option__66e7e:hover, .container__0f2e8:hover, .category_fe77d6:hover, .selected_fe77d6, .theme-dark .card__84e3e:hover, .wrapper__960df, .choiceContainer_c28af8:hover,
+.iconButton__8a7fc:hover {
     background-color: var(--var-hover25);
 }
 .optionButtonWrapper__270d7 {
