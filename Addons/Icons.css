@@ -833,10 +833,12 @@ background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcm
     background-position: 50% !important;
     background-size: 100% !important;
     background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     display: block;
     -webkit-mask-image: none;
+    left: -1px;
+    top: -1px;
 }
 /* Emote icon in message actions*/
 .wrapper_f7ecac .icon_a14cf7 {

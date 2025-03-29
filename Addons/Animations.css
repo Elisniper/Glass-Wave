@@ -58,14 +58,14 @@
 .panels_c48ade .activityPanel_c48ade {
     animation: activity-anim 400ms ease-in-out both;
 }
-.container_e131a9 {
+.wrapper_e131a9 {
     animation: activity-anim 200ms ease-in-out both;
 }
 
 /* User Profile and conrols animation */
 .container__37e49 .buttons__37e49 {
     display: flex;
-    width: 160px;
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     justify-content: space-evenly;
 }
 .container__37e49 .avatarWrapper__37e49 {
@@ -74,7 +74,6 @@
     transition: 200ms ease-in-out;
 }
 .container__37e49 .avatarWrapper__37e49:hover, .container__37e49 .avatarWrapper__37e49[aria-expanded="true"] {
-    max-width: 120px;
     min-width: 120px;
 }
 
