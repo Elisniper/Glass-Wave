@@ -988,7 +988,7 @@
 .sidebar_c48ade .panels_c48ade {
     margin-top: 10px;
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
-    left: 82px;
+    left: 90px;
     bottom: 0;
     background: transparent;
     max-width: 300px;
@@ -1543,7 +1543,7 @@
     margin: 0;
     margin-bottom: 5px;
     height: 48px;
-    width: 72px;
+    width: 80px;
     transform: translate(0%, -100%);
     border-radius: 10px 10px 0 0;
     background-color: var(--var-black1);
