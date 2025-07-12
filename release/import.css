@@ -862,12 +862,6 @@
 .visual-refresh .scroller__99e7c {
     margin-bottom: 0;
 }
-.density-compact .appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .nav__551b0 {
-    margin-bottom: 117px;
-}
-.density-cozy .appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .nav__551b0 {
-    margin-bottom: 123px;
-}
 .appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .container__2637a,
 .appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .privateChannels__35e86,
 .appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .nav__551b0 {
