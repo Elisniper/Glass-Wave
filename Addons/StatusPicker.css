@@ -416,3 +416,14 @@
 .animatorTop_faf9c0:has(.themeContainer_ce8328) .card__39ec2 .body__39ec2 {
     margin-top: -2px;
 }
+
+/* Ajust Status picker for Compact UI */
+.density-compact .animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
+    left: -6px;
+    bottom: -3px;
+}
+/* Ajust Status picker for Spacious UI */
+.density-cozy .animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
+    left: -10px;
+    bottom: -7px;
+}
