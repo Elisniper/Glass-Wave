@@ -4,7 +4,7 @@
 }
 .animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     position: relative;
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
+    width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     left: -8px;
     bottom: -5px;
     background: transparent;
@@ -14,7 +14,7 @@
 }
 .animatorTop_faf9c0:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     position: relative;
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
+    width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     left: -8px;
     bottom: -5px;
     box-shadow: none;
@@ -23,7 +23,7 @@
     padding: 0;
 }
 .animatorTop_faf9c0:has(.themeContainer_ce8328) .banner__68edb {
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
+    width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     max-width: 300px;
 }
 .outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .menuOverlay_ce8328 {
@@ -55,7 +55,7 @@
     position: absolute;
     bottom: 49px;
     left: 0;
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
+    width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     height: 381px;
     border-radius: 10px 10px 0 0;
     background: var(--var-popout-color);
@@ -325,7 +325,7 @@
     height: 523.250px !important;
 }
 
-/* Outer themed, has Active playing game with Developer mode activated */
+/* Outer themed, has Active spotify activity with Developer mode activated */
 .notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 568px !important;
 }
@@ -334,6 +334,14 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Set gap betwen username and edit profile icon */
 .animatorTop_faf9c0:has(.themeContainer_ce8328) .body_ce8328 {
+    gap: 12px;
+}
+/* Set gap betwen username and edit profile icon when game activity is active */
+.notAppAsidePanel_a3002d:has(.card__39ec2) .animatorTop_faf9c0:has(.themeContainer_ce8328) .body_ce8328 {
+    gap: 5px;
+}
+/* Set gap betwen username and edit profile icon when spotify activity is active */
+.notAppAsidePanel_a3002d:has(.platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .animatorTop_faf9c0:has(.themeContainer_ce8328) .body_ce8328 {
     gap: 5px;
 }
 /* Remove status pucker menu items gap */
