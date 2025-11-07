@@ -835,7 +835,7 @@
 .visual-refresh .bannerVisible_f37cb1 .headerEllipseForeground_f37cb1 {
     background: transparent;
 }
-.visual-refresh.theme-dark .container__2637a, .privateChannels_e6b769, .sidebar__5e434 .panels__5e434, .container__37e49, .content__37e49, .activityPanel_c48ade, 
+.visual-refresh.theme-dark .container__2637a, .privateChannels_e6b769, .sidebar__5e434 .panels__5e434, .container__37e49, .content__37e49, .activityPanel__5e434, 
 .wrapper_e131a9, .visual-refresh .selected_f37cb1 .header_f37cb1, 
 .contentWrapper__0d616, .content_ea12a7, .wrapper__0d616, .visual-refresh .shop__08415, .visual-refresh .containerQuestBarVisible__37e49 {
     border-radius: 10px 10px 10px 10px;
@@ -863,28 +863,28 @@
 .visual-refresh .scroller__99e7c {
     margin-bottom: 0;
 }
-.appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .container__2637a,
-.appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .privateChannels_e6b769,
-.appAsidePanelWrapper_a3002d:has(.activityPanel_c48ade) .nav__551b0 {
+.appAsidePanelWrapper_a3002d:has(.activityPanel__5e434) .container__2637a,
+.appAsidePanelWrapper_a3002d:has(.activityPanel__5e434) .privateChannels_e6b769,
+.appAsidePanelWrapper_a3002d:has(.activityPanel__5e434) .nav__551b0 {
     margin-bottom: 120px;
     padding-bottom: 0;
 }
-.appAsidePanelWrapper_a3002d:has(.container_e131a9):not(.activityPanel_c48ade) .container__2637a,
-.appAsidePanelWrapper_a3002d:has(.container_e131a9):not(.activityPanel_c48ade) .privateChannels_e6b769,
-.appAsidePanelWrapper_a3002d:has(.container_e131a9):not(.activityPanel_c48ade) .nav__551b0 {
+.appAsidePanelWrapper_a3002d:has(.container_e131a9):not(.activityPanel__5e434) .container__2637a,
+.appAsidePanelWrapper_a3002d:has(.container_e131a9):not(.activityPanel__5e434) .privateChannels_e6b769,
+.appAsidePanelWrapper_a3002d:has(.container_e131a9):not(.activityPanel__5e434) .nav__551b0 {
     margin-bottom: 163px;
     padding-bottom: 0;
 }
-.appAsidePanelWrapper_a3002d:has(.container_e131a9):has(.activityPanel_c48ade) .container__2637a,
-.appAsidePanelWrapper_a3002d:has(.container_e131a9):has(.activityPanel_c48ade) .privateChannels_e6b769,
-.appAsidePanelWrapper_a3002d:has(.container_e131a9):has(.activityPanel_c48ade) .nav__551b0 {
+.appAsidePanelWrapper_a3002d:has(.container_e131a9):has(.activityPanel__5e434) .container__2637a,
+.appAsidePanelWrapper_a3002d:has(.container_e131a9):has(.activityPanel__5e434) .privateChannels_e6b769,
+.appAsidePanelWrapper_a3002d:has(.container_e131a9):has(.activityPanel__5e434) .nav__551b0 {
     margin-bottom: 217px;
     padding-bottom: 0;
 }
 .visual-refresh .messageGroupWrapper__45690 {
     border: 0;
 }
-.activityPanel_c48ade {
+.activityPanel__5e434 {
     z-index: 0;
 }
 .footer__214dc {
