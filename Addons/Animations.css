@@ -42,38 +42,38 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Context Menu START*/
-.menu_c1e9c4#guild-context, .menu_c1e9c4#user-context, .menu_c1e9c4#channel-context, .menu_c1e9c4#message, .menu_c1e9c4#guild-browse-channels-context-menu, 
-.menu_c1e9c4#message-actions {
+.c1e9c47c23f12ca3-menu#guild-context, .c1e9c47c23f12ca3-menu#user-context, .c1e9c47c23f12ca3-menu#channel-context, .c1e9c47c23f12ca3-menu#message, .c1e9c47c23f12ca3-menu#guild-browse-channels-context-menu, 
+.c1e9c47c23f12ca3-menu#message-actions {
     animation: opacity 50ms ease, context-new 240ms cubic-bezier(0, 0, 0, 1);
     transform-origin: top;
 }
 
 /* Add friend Animation */
-.header__94b08 {
+._94b083577c5dbbb3-header {
     border-bottom: 0;
     animation: 150ms ease, add-friend 250ms cubic-bezier(0,0,0,1);
 }
 
 /* User controls activity animation */
-.panels__5e434 .activityPanel__5e434 {
+._5e434347c823b592-panels ._5e434347c823b592-activityPanel {
     animation: activity-anim 400ms ease-in-out both;
 }
-.wrapper_e131a9 {
+.e131a99484292a19-wrapper {
     animation: activity-anim 200ms ease-in-out both;
 }
 
 /* User Profile and conrols animation */
-.container__37e49 .buttons__37e49 {
+._37e49614b9f110a9-container ._37e49614b9f110a9-buttons {
     display: flex;
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     justify-content: space-evenly;
 }
-.container__37e49 .avatarWrapper__37e49 {
+._37e49614b9f110a9-container ._37e49614b9f110a9-avatarWrapper {
     width: 36px;
     min-width: 36px;
     transition: 200ms ease-in-out;
 }
-.container__37e49 .avatarWrapper__37e49:hover, .container__37e49 .avatarWrapper__37e49[aria-expanded="true"] {
+._37e49614b9f110a9-container ._37e49614b9f110a9-avatarWrapper:hover, ._37e49614b9f110a9-container ._37e49614b9f110a9-avatarWrapper[aria-expanded="true"] {
     min-width: 120px;
 }
 
@@ -81,6 +81,6 @@
 .theme-dark .directoryContainer_da3f59 {
     animation: fadein-anim 300ms ease-in-out both;
 }
-.app__160d8 {
+._160d8e55254637e5-app {
     animation: fadein-anim 400ms ease-in-out both;
 }
