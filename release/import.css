@@ -79,13 +79,15 @@
 ._722ffae0e1be2672-container, .visual-refresh .fc817765600a960a-wrapper, ._1d6c784c86e2687a-spinner, .visual-refresh .fed6d32841cc2da2-header, .visual-refresh ._8ef02eea17068b73-header , ._41ed70e52483df6d-pageBody, .visual-refresh.theme-dark .sidebarContainer_a3a4ce, ._7bdb06a4e863b838-container, .c94584907f9d5a22-commandContainer,
 .fed6d32841cc2da2-container, .visual-refresh ._23746ba3de9452d8-scroller, ._8a7fc664acf53af6-headerBar:after, ._8a7fc664acf53af6-backdrop, ._956c67492d3b967a-rewardDescriptionContainer, .visual-refresh ._551b0894962ff66f-container, .cbd375bef7ac11dc-container, ._740174f3d6a2c8fe-stackedBars,
 .visual-refresh .fb64c9a451c49797-container, .bc663cf6190ce9ad-layer .mediaModal_a1cc72, .contentContainer__4325e, .visual-refresh.theme-dark .content__37e49, .visual-refresh ._956c67492d3b967a-container, .visual-refresh ._133bf5eea8e33a34-tabBody,
-.visual-refresh .c8ffbb79449f399c-container, .f7ecaca5c80dbf3a-button:hover, ._535437b3d3b11fd1-scroller, .visual-refresh .cb9592ad77576717-channelChatWrapper, .visual-refresh ._0920e02cc8fc7b7b-homeWrapper {
+.visual-refresh .c8ffbb79449f399c-container, .f7ecaca5c80dbf3a-button:hover, ._535437b3d3b11fd1-scroller, .visual-refresh .cb9592ad77576717-channelChatWrapper, .visual-refresh ._0920e02cc8fc7b7b-homeWrapper, ._8946359d8adb1488-container, 
+._8946359d8adb1488-sidebarContainer {
     background-color: transparent;
 }
 .c08b38911b1dcc2f-artwork ._5901ec2222e46101-image._5901ec2222e46101-loaded[src*="https://cdn.discordapp.com/splashes/613425648685547541/8133658851ff2cabe7409446a14c8baf.jpg?size=2048"] {
     display: none;
 }
-.modalHeader_a27f2f, .whatsNewSection__4186d, ._56fec8e8b8048fe0-option:after, .visual-refresh.theme-dark .popularPicksGradient_e77fa3, .theme-dark ._9293f6b2fc12398a-themed, ._36d072eab2b2e737-chatGradient {
+.modalHeader_a27f2f, .whatsNewSection__4186d, ._56fec8e8b8048fe0-option:after, .visual-refresh.theme-dark .popularPicksGradient_e77fa3, .theme-dark ._9293f6b2fc12398a-themed, ._36d072eab2b2e737-chatGradient,
+.f48ee41a9dd2c078-scroller {
     background: transparent;
 }
 .zoomedCarouselModalRoot_f74404, .c791b281f2fedc32-page, ._6db1d32c47b6ad72-shop .visual-refresh.theme-dark._8067953d83f4b8a8-headerBar {
@@ -215,10 +217,11 @@
 ._034983878d72a85e-errorContainer, .c6b17748219aae56-contentContainer, ._8f46bfba259ff5e4-contentContainer, ._5a4b641eea77e793-appContainer, ._5cea9da4c2ca012f-header, ._5cea9da4c2ca012f-card, ._3ad28b0867fa3fad-stickerCategoryGenericSelected, .visual-refresh .e8b59c4b335dd2fc-header,
 .visual-refresh .f7ecaca5c80dbf3a-wrapper, ._84e3e626b96552ad-card .f7ecaca5c80dbf3a-wrapper:hover, ._1a4ef2934d882343-settingCard, ._4a3a59e40c76cd0d-iconWrapper, ._1a4ef2934d882343-settingCard._1a4ef2934d882343-active, ._1a4ef2934d882343-cardFolder, 
 .visual-refresh ._9a9f981d3524e20f-container, .dca174a2baed7ac1-container, ._959cbfbb20fb39e8-joinOptions, ._926775445e7c239a-rules, .visual-refresh ._43dab84f7529cb48-auditLog, .visual-refresh ._73000d97b1b29da5-upsellContainer, .dd30dca4d268da6e-howItWorksContainer,
-.dd30dca4d268da6e-howItWorksImageContainer, .fc2e20723675447f-card, ._9d98d3a9398a6f7d-groupContainer, ._9d98d3a9398a6f7d-groupCollapsedContainer {
+.dd30dca4d268da6e-howItWorksImageContainer, .fc2e20723675447f-card, ._9d98d3a9398a6f7d-groupContainer, ._9d98d3a9398a6f7d-groupCollapsedContainer, ._084152b107f71237-shopScroll, ._409aa1aeee28d5f7-sidebar,
+._8946359d8adb1488-contentContainer {
     background-color: var(--var-black1);
 }
-._0f7dce48ad846f17-upsellOverlayContainer, .c50f6267327b9a8c-mockInput, ._0b69f200eb3bf411-upsellContainer {
+._0f7dce48ad846f17-upsellOverlayContainer, .c50f6267327b9a8c-mockInput, ._0b69f200eb3bf411-upsellContainer, .f48ee41a9dd2c078-containerBackground {
     background: var(--var-black1);
 }
 ._5e434347c823b592-content ._6db1d32c47b6ad72-shop .visual-refresh.theme-dark._8067953d83f4b8a8-headerBar, .visual-refresh.theme-dark ._0b56311ebc6682e2-container, ._0b56311ebc6682e2-header {
@@ -285,7 +288,8 @@
 ._664ffc673b75c994-buttonContainer, .fed6d32841cc2da2-header .container_a45028, .categoryPill_f69601:hover:not(.selected_f69601), .dfa67d97f51bb0c5-decorationGridItem, ._51743c06a2d65fd0-decorationPreview,
 ._51743c06a2d65fd0-smallDecorationPreviewsContainer, .cb32c78a53f54371-container, ._761e57435cf1c50a-clickable, ._958562d63bb1e99d-overviewContainerNoVideo, .c94584907f9d5a22-command, ._958562d63bb1e99d-overviewContainerWithVideo,
 ._23977d5b7cef7361-reactionBtn.forceShowLook_ec6b19, ._66e7e7f9b4da60b0-root, .visual-refresh ._0f2e83213c878a13-container, .c28af8664f7b2fe8-choiceContainer, .b37a7512dc73c48c-friends, ._8a7fc664acf53af6-iconButton, ._1499287dd19d7558-button, ._5cea9da4c2ca012f-iconContainer,
-.visual-refresh .bd818628221af7aa-searchFilter, .f369dba7416c67f0-loadingCard, ._959cbfbb20fb39e8-joinOptionContent._959cbfbb20fb39e8-uninteractive, .f7c056e91c6f825a-pill, ._02e4c53e15067b10-avatarCard, ._0d0f9ddd12a3ace3-progressContainer  {
+.visual-refresh .bd818628221af7aa-searchFilter, .f369dba7416c67f0-loadingCard, ._959cbfbb20fb39e8-joinOptionContent._959cbfbb20fb39e8-uninteractive, .f7c056e91c6f825a-pill, ._02e4c53e15067b10-avatarCard, ._0d0f9ddd12a3ace3-progressContainer,
+._5573a546299c96e8-container  {
     background-color: var(--var-hover20);
 }
 .b54a5b2f01b57ad8-modalHeaderCustomGift {
@@ -305,7 +309,7 @@
 .iconWidget__669b5:hover, .buttonInner__34c2c:hover, ._34c2c51cfce1632e-addReactButton:hover, ._3ed08791a7f98bd7-childButton:hover, .a685436e98c0d8fa-stepContainer:hover, ._6b38f2a3ad7aaedf-container:hover,
 ._664ffc673b75c994-buttonContainer:hover, ._37e49614b9f110a9-avatarWrapper:hover, .cb32c78a53f54371-container:hover, ._761e57435cf1c50a-clickable:hover, .c94584907f9d5a22-command:hover, ._23977d5b7cef7361-reactionBtn.forceShowLook_ec6b19:hover,
 ._66e7e7f9b4da60b0-option:hover, ._0f2e83213c878a13-container:hover, .fe77d6263995d6eb-category:hover, .fe77d6263995d6eb-selected, .visual-refresh.theme-dark ._84e3e626b96552ad-card:hover, ._11054c9baccea7a2-wrapper, .c28af8664f7b2fe8-choiceContainer:hover,
-._8a7fc664acf53af6-iconButton:hover, .visual-refresh ._6764bd76e0340219-container:hover, ._33d66b8603f565e5-pill:hover {
+._8a7fc664acf53af6-iconButton:hover, .visual-refresh ._6764bd76e0340219-container:hover, ._33d66b8603f565e5-pill:hover, .e9e3ed8b8badfe05-contentHeader, ._5573a546299c96e8-parentContainer:hover ._5573a546299c96e8-container {
     background-color: var(--var-hover25);
 }
 ._270d7a28db32b312-optionButtonWrapper {
@@ -325,11 +329,18 @@
 .visual-refresh.theme-dark ._13533e3c5791980f-autocomplete, .c6f1a49abaa9f1d6-body, .wrapper-wOVKdL, .premiumSkuSelect-2K_31N, .visual-refresh ._5808f3d86030cee1-container, .cb9592ad77576717-wrapper.cb9592ad77576717-minimum, ._70f7f6541f6f031e-innerWrapper, .resultsList-2tyWrf, 
 .visual-refresh.theme-dark.authBox_dc6abe, .cb9592ad77576717-callContainer, .contentWrapper_eab878, .e50a4da433dc80b9-skuSelectModalHeader, .e50a4da433dc80b9-skuSelectModalContent, .modalHeader__52f07, 
 .scrollContainer__35455 .scroller__35455, .popout__7fe3a, .popout__669b5, .a8c622117370c730-content, .bd-select .bd-select-options, ._9c62c6ed231468c4-contentWrapper, .af3b89684c536957-popoutContentWrapper,
-.af3b89684c536957-interactionsContainer, .interactionsContainerHeader_af3b89, ._50387b5c048bc9e1-container, .c50f6267327b9a8c-collectibleInfoContainer {
+.af3b89684c536957-interactionsContainer, .interactionsContainerHeader_af3b89, ._50387b5c048bc9e1-container, .c50f6267327b9a8c-collectibleInfoContainer, ._8a031a135bfcb9ba-container,
+.e9e3ed8b8badfe05-content {
     background-color: var(--var-popout-color);
 }
 .visual-refresh.theme-dark ._9b0f44488203477c-contentWrapper {
     background: var(--var-popout-color);
+}
+._8a031a135bfcb9ba-bodyControls:after {
+    background: linear-gradient(to bottom, var(--var-popout-color) 0, transparent 100%);
+}
+._409aa1aeee28d5f7-fixedContent:after {
+    background: linear-gradient(to bottom, var(--var-black1) 0, transparent 100%);
 }
 ._803f2f55621144fb-legacySession ._803f2f55621144fb-sessionIcon, .ceb06aa49ba836f9-mainSeparator {
     background-color: var(--var-hover50);
@@ -462,7 +473,7 @@
 ._36dee59b8fa89219-selectionCircle {
     box-shadow: inset 0 0 4px 3px #0e6682, inset 0 0 4px 4px #0e6682;
 }
-._908e20001ad67812-divider {
+._908e20001ad67812-divider, ._8946359d8adb1488-toolbar {
     border-top: none;
 }
 .f8896c4f6be18f59-reaction.f8896c4f6be18f59-reactionMe {
@@ -631,7 +642,7 @@
 .visual-refresh .f75fb00fb7356cbe-chat[data-has-border=true] {
     border-top: 1px solid transparent;
 }
-.f75fb00fb7356cbe-chat .c791b281f2fedc32-header {
+.f75fb00fb7356cbe-chat .c791b281f2fedc32-header, ._8946359d8adb1488-contentContainer {
     border-radius: 10px 0 0 10px;
 }
 .visual-refresh .f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen {
@@ -805,7 +816,7 @@
 ._5e434347c823b592-content ._6db1d32c47b6ad72-shop .d125d22cdfd32cfe-scrollerBase {
     border-radius: 10px 0 0 10px;
 }
-._5e434347c823b592-content ._6db1d32c47b6ad72-shop ._8067953d83f4b8a8-headerBar::before {
+._5e434347c823b592-content ._6db1d32c47b6ad72-shop ._8067953d83f4b8a8-headerBar::before, ._1a9cebfbd0c9d0f6-headerBar::before {
     content: "";
     position: fixed;
     width: 100%;
@@ -813,7 +824,10 @@
     background-color: var(--var-black1);
     border-radius: 10px 0 0 10px;
 }
-.visual-refresh ._6db1d32c47b6ad72-shop {
+._8067953d83f4b8a8-headerBarInner, ._1a9cebfbd0c9d0f6-headerBarInner {
+    padding: 0 var(--space-16);
+}
+.visual-refresh ._6db1d32c47b6ad72-shop, ._955a392354a35c6e-container, ._0920e02cc8fc7b7b-homeWrapper, ._133bf5eea8e33a34-container {
     border: none;
 }
 ._014dfb5e4b75f828-jumbleWrapper {
@@ -1114,6 +1128,15 @@
     border-radius: 10px;
     background-color: var(--var-black1);
 }
+._8946359d8adb1488-contentContainer:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 48px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--var-black1);
+}
 ._5e434347c823b592-content:not(:has(.f75fb00fb7356cbe-content .c0bea05627c5dc35-outer)):not(:has(.c8ffbb79449f399c-membersWrap)):not(:has(.a9e7064fdee8e9b0-searchResultsWrap)):not(:has(.a44415a3320e67de-chat)):not(:has(._656be05658eed04d-sidebarContainer)):not(:has(._01ae244280823725-container)) .f75fb00fb7356cbe-chatContent:before, 
 ._5e434347c823b592-content:not(:has(.f75fb00fb7356cbe-content .c0bea05627c5dc35-outer)):not(:has(.c8ffbb79449f399c-membersWrap)):not(:has(.a9e7064fdee8e9b0-searchResultsWrap)):not(:has(.a44415a3320e67de-chat)):not(:has(._656be05658eed04d-sidebarContainer)):not(:has(._01ae244280823725-container)) .f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-themedBackground,
 ._5e434347c823b592-content:not(:has(.f75fb00fb7356cbe-content .c0bea05627c5dc35-outer)):not(:has(.c8ffbb79449f399c-membersWrap)):not(:has(.a9e7064fdee8e9b0-searchResultsWrap)):not(:has(.a44415a3320e67de-chat)):not(:has(._656be05658eed04d-sidebarContainer)):not(:has(._01ae244280823725-container)):not(:has(.c8ffbb79449f399c-container)) .f369dba7416c67f0-container:before,
@@ -1192,6 +1215,9 @@
 }
 .visual-refresh.theme-dark .bf1984a18b3ec6f0-inset {
     border-radius: 8px;
+}
+._5ec2fb8b5de26b21-searchBar {
+    border-radius: 10px;
 }
 /* Thread memeber list EMPTY STATE */
 ._7641b507c6cdbb10-emptyState {
