@@ -1113,6 +1113,13 @@
     border-radius: 10px 0 0 0;
     background-color: var(--var-black1);
 }
+.aside_f58343 {
+    padding: 0;
+    border-radius: 0 0 0 10px;
+}
+.aside_f58343 .outer_c0bea0 .inner_c0bea0 {
+    border-radius: 0 0 0 10px;
+}
 .outerContainer-2qLQSo:before {
     content: "";
     position: absolute;
@@ -1175,6 +1182,7 @@
 .content_f75fb0 .outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) {
     background: var(--var-black1);
     border-radius: 0 0 0 10px;
+    padding: 0;
 }
 .content_f75fb0 .outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .menuOverlay_ce8328 {
     background-color: var(--var-hover25);
@@ -1596,6 +1604,7 @@
 .wrapper_ef3116 .scroller_ef3116 {
     padding-top: 0;
     margin-top: 48px;
+    height: 100%;
 }
 .unreadMentionsIndicatorTop_ef3116 {
     top: 42px;
