@@ -150,13 +150,13 @@
     padding: 0;
     top: 2px;
 }
-.messageContainer__1ccd1:has(.repliedMessage_c19a55) .jumpButton_ed0c8c {
+.messageContainer__1ccd1:has(.repliedMessage_c19a55) .jumpButton_ade175 {
     top: 33px;
 }
-.messagesPopout_e8b59c .jumpButton_ed0c8c {
+.messagesPopout_e8b59c .jumpButton_ade175 {
     margin-right: 2px;
 }
-.jumpButton_ed0c8c {
+.jumpButton_ade175 {
     background-color: var(--var-black1);
 }
 .button_f7ecac:hover, .visual-refresh .wrapper_f7ecac {

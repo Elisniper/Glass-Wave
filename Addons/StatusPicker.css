@@ -333,6 +333,14 @@
 /* Set gap betwen username and edit profile icon */
 .animatorTop_faf9c0:has(.themeContainer_ce8328) .body_ce8328 {
     gap: 12px;
+    padding: 4px 16px 0px;
+}
+/* Set padding for profile buttons*/
+.menuOverlay_ce8328 {
+    padding: 0px 8px;
+}
+.menuItem_ce8328:after {
+    margin: 7px 4px;
 }
 /* Set gap betwen username and edit profile icon when game activity is active */
 .notAppAsidePanel_a3002d:has(.card__39ec2) .animatorTop_faf9c0:has(.themeContainer_ce8328) .body_ce8328 {
