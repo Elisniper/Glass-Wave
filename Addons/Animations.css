@@ -68,12 +68,12 @@
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     justify-content: space-evenly;
 }
-.container__37e49 .avatarWrapper__69074 {
+.container__37e49 .accountPopoutButtonWrapper__37e49 {
     width: 36px;
     min-width: 36px;
     transition: 200ms ease-in-out;
 }
-.container__37e49 .avatarWrapper__69074:hover, .container__37e49 .avatarWrapper__69074[aria-expanded="true"] {
+.container__37e49 .accountPopoutButtonWrapper__37e49:hover, .container__37e49 .accountPopoutButtonWrapper__37e49:has(.accountPopoutButton__37e49[aria-expanded=true]) {
     min-width: 120px;
 }
 

@@ -2,7 +2,7 @@
     background: transparent;
     box-shadow: none !important;
 }
-.animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
+.animatorTop_faf9c0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     position: relative;
     width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     bottom: -5px;
@@ -11,7 +11,7 @@
     max-width: 300px;
     padding: 0;
 }
-.animatorTop_faf9c0:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
+.animatorTop_faf9c0:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     position: relative;
     width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     bottom: -5px;
@@ -24,10 +24,10 @@
     width: calc(-1px + var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     max-width: 300px;
 }
-.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .menuOverlay_ce8328 {
+.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .menuOverlay_ce8328 {
     background-color: var(--var-hover20);
 }
-.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .menus_ce8328 .menuOverlay_ce8328 {
+.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .menus_ce8328 .menuOverlay_ce8328 {
     background-color: transparent;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -63,40 +63,40 @@
 }
 
 /* Outer Unthemed & Custom status (No emoji only short text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
     height: 375px !important;
 }
 /* Outer Unthemed & Custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
     height: 393px !important;
 }
 /* Outer Unthemed & Custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
     height: 385px !important;
 }
 /* Outer Unthemed & Custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])) .container__37e49::before {
     height: 391px !important;
 }
 /* Outer Unthemed & Custom status (With emoji and short text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
     height: 375px !important;
 }
 
 /* Outer Unthemed & Custom status (No emoji only short text) & Developer mode activated*/
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 403px !important;
 }
 /* Outer Unthemed Custom status (No emoji only long text) & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 442px !important;
 }
 /* Outer Unthemed, Custom status (Only emoji) & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 444px !important;
 }
 /* Outer Unthemed, Custom status (With emoji and long text) & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 450.703px !important;
 }
 
@@ -107,41 +107,41 @@
 
 
 /* Outer themed */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]) .container__37e49::before {
     height: 432px !important;
 }
 /* Outer themed & Custom status (No emoji only short text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
     height: 407px !important;
 }
 /* Outer themed & Custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
     height: 415px !important;
 }
 /* Outer themed & Custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
     height: 407px !important;
 }
 /* Outer themed & Custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])) .container__37e49::before {
     height: 392px !important;
 }
 
 /* Outer themed, Custom status (No emoji only long text) & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 464px !important;
 }
 /* Outer themed, Custom status (Only emoji) & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before { 
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before { 
     height: 466px !important;
 }
 /* Outer themed, Custom status (With emoji and long text) & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before { 
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before { 
     height: 467.609px !important;
 }
 
 /* Outer themed & Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 462px !important;
 }
 
@@ -160,84 +160,84 @@
 /* Ajust height for user profile background when game activity is active*/
 
 /* Outer Unthemed & has Active playing game */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2) .container__37e49::before {
     height: 493px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (No emoji only short text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
     height: 487px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
     height: 505px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2) .container__37e49::before {
     height: 497px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2) .container__37e49::before {
     height: 503px !important;
 }
 
 /* Outer Unthemed, has Active playing game & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.content_ab8609[style*="max-height: 36px;"]):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.content_ab8609[style*="max-height: 36px;"]):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 554px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 546px !important;
 }
 /* Outer Unthemed, has Active playing game & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.content_ab8609[style*="max-height: 34px;"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.content_ab8609[style*="max-height: 34px;"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 552px !important;
 }
 /* Outer Unthemed, has Active playing game with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 542px !important;
 }
 
 
 /* Outer themed & has Active playing game */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2) .container__37e49::before {
     height: 519px !important;
 } 
 /* Outer themed, has Active playing game & active custom status (No emoji only short text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
     height: 458px !important;
 }
 /* Outer themed, has Active playing game & active custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
     height: 535px !important;
 }
 /* Outer themed, has Active playing game & active custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2) .container__37e49::before {
     height: 541px !important;
 }
 /* Outer themed, has Active playing game & active custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2) .container__37e49::before {
     height: 529px !important;
 }
 
 /* Outer themed, has Active playing game & active custom status (No emoji only short text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609[style='max-height: 18px;']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609[style='max-height: 18px;']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 458px !important;
 }
 /* Outer themed, has Active playing game & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 580px !important;
 }
 /* Outer themed, has Active playing game & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 572px !important;
 }
 /* Outer themed, has Active playing game & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 578px !important;
 }
 
 /* Outer themed, has Active playing game with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .card__39ec2):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 568px !important;
 }
 
@@ -248,83 +248,83 @@
 /* Ajust height for user profile background and ajust button padding when spotify activity is active  */
 
 /* Outer Unthemed & has Active spotify activity */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .container__37e49::before {
     height: 493px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (No emoji only short text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']) .container__37e49::before {
     height: 487px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)) .container__37e49::before {
     height: 505px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
     height: 497px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])) .container__37e49::before {
     height: 503px !important;
 }
 
 
 
 /* Outer Unthemed, has Active spotify activity & active custom status (No emoji only short text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .card__39ec2):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609[style='max-height: 18px;']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 536px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"])):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 554px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 560px !important;
 }
 /* Outer Unthemed, has Active spotify activity & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusText_ab8609):has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .content_ab8609 .statusEmoji_ab8609):has(.inner_ab8609:not(.content_ab8609[style*="max-height: 18px;"])):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 552px !important;
 }
 
 /* Outer Unthemed, has Active spotify activity with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.outer_c0bea0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 542px !important; 
 }
 
 
 /* Outer themed & has Active spotify activity */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']) .container__37e49::before {
     height: 519px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (No emoji only long text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.content_ab8609[style*="max-height: 36px;"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.content_ab8609[style*="max-height: 36px;"]) .container__37e49::before {
     height: 531px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (Only emoji) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)) .container__37e49::before {
     height: 523px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (With emoji and long text) */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.content_ab8609[style*="max-height: 34px;"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.content_ab8609[style*="max-height: 34px;"]) .container__37e49::before {
     height: 529px !important;
 }
 
 /* Outer themed, has Active spotify activity & active custom status (No emoji only long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.content_ab8609[style*="max-height: 36px;"]):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609:not(.statusEmoji_ab8609)):has(.content_ab8609[style*="max-height: 36px;"]):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 557px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (Only emoji) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609:not(.statusText_ab8609)):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 514px !important;
 }
 /* Outer themed, has Active spotify activity & active custom status (With emoji and long text) with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_edefb8[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.content_ab8609[style*="max-height: 34px;"]):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusText_ab8609):has(.anchor_b6b013[href="https://discord.com/settings/premium"] .content_ab8609 .statusEmoji_ab8609):has(.content_ab8609[style*="max-height: 34px;"]):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 523.250px !important;
 }
 
 /* Outer themed, has Active spotify activity with Developer mode activated */
-.notAppAsidePanel_a3002d:has(.anchor_edefb8[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
+.notAppAsidePanel_a3002d:has(.anchor_b6b013[href="https://discord.com/settings/premium"] .platformIcon__39ec2[style*='mask-image: url("/assets/f6833ce4dd20c1fb.svg")']):has(.menuItemIcon_ce8328 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"]) .container__37e49::before {
     height: 568px !important;
 }
 
@@ -355,10 +355,10 @@
     gap: 0;
 }
 /* Set custom status bg color */
-.animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .outer_ab8609 {
+.animatorTop_faf9c0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .outer_ab8609 {
     background-color: var(--var-hover25);
 }
-.animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]) .inner_ab8609 {
+.animatorTop_faf9c0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]) .inner_ab8609 {
     background-color: var(--var-popout-color);
 }
 /* Set custom status display max width */
@@ -424,12 +424,12 @@
 }
 
 /* Ajust Status picker for Compact UI */
-.density-compact .animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
+.density-compact .animatorTop_faf9c0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     left: -6px;
     bottom: -3px;
 }
 /* Ajust Status picker for Spacious UI */
-.density-cozy .animatorTop_faf9c0:not(.anchor_edefb8[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
+.density-cozy .animatorTop_faf9c0:not(.anchor_b6b013[href="https://discord.com/settings/premium"]):has(.themeContainer_ce8328) .outer_c0bea0 {
     left: -10px;
     bottom: -7px;
 }
