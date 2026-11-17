@@ -42,38 +42,38 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Context Menu START*/
-.menu_c1e9c4#guild-context, .menu_c1e9c4#user-context, .menu_c1e9c4#channel-context, .menu_c1e9c4#message, .menu_c1e9c4#guild-browse-channels-context-menu, 
-.menu_c1e9c4#message-actions {
+.menu_M3qk4j#guild-context, .menu_M3qk4j#user-context, .menu_M3qk4j#channel-context, .menu_M3qk4j#message, .menu_M3qk4j#guild-browse-channels-context-menu, 
+.menu_M3qk4j#message-actions {
     animation: opacity 50ms ease, context-new 240ms cubic-bezier(0, 0, 0, 1);
     transform-origin: top;
 }
 
 /* Add friend Animation */
-.header__94b08 {
+.header_zRLjtn {
     border-bottom: 0;
     animation: 150ms ease, add-friend 250ms cubic-bezier(0,0,0,1);
 }
 
 /* User controls activity animation */
-.panels__5e434 .activityPanel__5e434 {
+.panels_pog62O .activityPanel_pog62O {
     animation: activity-anim 400ms ease-in-out both;
 }
-.wrapper_e131a9 {
+.wrapper_9U6LUN {
     animation: activity-anim 200ms ease-in-out both;
 }
 
 /* User Profile and conrols animation */
-.container__37e49 .buttons__37e49 {
+.container_g6VwXp .buttons_g6VwXp {
     display: flex;
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width));
     justify-content: space-evenly;
 }
-.container__37e49 .accountPopoutButtonWrapper__37e49 {
+.container_g6VwXp .accountPopoutButtonWrapper_g6VwXp {
     width: 36px;
     min-width: 36px;
     transition: 200ms ease-in-out;
 }
-.container__37e49 .accountPopoutButtonWrapper__37e49:hover, .container__37e49 .accountPopoutButtonWrapper__37e49:has(.accountPopoutButton__37e49[aria-expanded=true]) {
+.container_g6VwXp .accountPopoutButtonWrapper_g6VwXp:hover, .container_g6VwXp .accountPopoutButtonWrapper_g6VwXp:has(.accountPopoutButton_g6VwXp[aria-expanded=true]) {
     min-width: 120px;
 }
 
@@ -81,6 +81,6 @@
 .theme-dark .directoryContainer_da3f59 {
     animation: fadein-anim 300ms ease-in-out both;
 }
-.app__160d8 {
+.app_QbT-Jy {
     animation: fadein-anim 400ms ease-in-out both;
 }
